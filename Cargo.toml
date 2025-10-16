@@ -1,0 +1,3 @@
+[workspace]
+resolve = "3"
+members = ["virt_clone", "virt_install", "virt_manager_rs", "virt_xml"]
