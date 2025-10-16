@@ -1,0 +1,13 @@
+<pool type="iscsi">
+  <name>pool-iscsi</name>
+  <source>
+    <host name="some.random.hostname"/>
+    <device path="/some/source/path"/>
+    <initiator>
+      <iqn name="foo.bar.baz.iqn"/>
+    </initiator>
+  </source>
+  <target>
+    <path>/dev/disk/by-path</path>
+  </target>
+</pool>

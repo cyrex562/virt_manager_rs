@@ -1,0 +1,92 @@
+<domain type="test">
+  <name>win2k3</name>
+  <uuid>00000000-1111-2222-3333-444444444444</uuid>
+  <metadata>
+    <libosinfo:libosinfo xmlns:libosinfo="http://libosinfo.org/xmlns/libvirt/domain/1.0">
+      <libosinfo:os id="http://microsoft.com/win/2k3"/>
+    </libosinfo:libosinfo>
+  </metadata>
+  <memory>65536</memory>
+  <currentMemory>65536</currentMemory>
+  <vcpu>4</vcpu>
+  <os>
+    <type arch="i686">hvm</type>
+    <boot dev="cdrom"/>
+    <boot dev="hd"/>
+  </os>
+  <features>
+    <pae/>
+  </features>
+  <cpu>
+    <topology sockets="1" dies="1" cores="4" threads="1"/>
+  </cpu>
+  <clock offset="localtime"/>
+  <pm>
+    <suspend-to-mem enabled="no"/>
+    <suspend-to-disk enabled="no"/>
+  </pm>
+  <devices>
+    <emulator>/usr/bin/test-hv</emulator>
+    <disk type="file" device="disk">
+      <source file="/pool-dir/testvol1.img"/>
+      <target dev="hda" bus="ide"/>
+    </disk>
+    <disk type="file" device="cdrom">
+      <source file="/pool-dir/testvol2.img"/>
+      <target dev="hdb" bus="ide"/>
+      <readonly/>
+    </disk>
+    <controller type="usb" model="none"/>
+    <interface type="user">
+      <mac address="00:11:22:33:44:55"/>
+      <model type="e1000"/>
+    </interface>
+    <console type="pty"/>
+  </devices>
+  <on_reboot>destroy</on_reboot>
+</domain>
+<domain type="test">
+  <name>win2k3</name>
+  <uuid>00000000-1111-2222-3333-444444444444</uuid>
+  <metadata>
+    <libosinfo:libosinfo xmlns:libosinfo="http://libosinfo.org/xmlns/libvirt/domain/1.0">
+      <libosinfo:os id="http://microsoft.com/win/2k3"/>
+    </libosinfo:libosinfo>
+  </metadata>
+  <memory>65536</memory>
+  <currentMemory>65536</currentMemory>
+  <vcpu>4</vcpu>
+  <os>
+    <type arch="i686">hvm</type>
+    <boot dev="hd"/>
+  </os>
+  <features>
+    <pae/>
+  </features>
+  <cpu>
+    <topology sockets="1" dies="1" cores="4" threads="1"/>
+  </cpu>
+  <clock offset="localtime"/>
+  <pm>
+    <suspend-to-mem enabled="no"/>
+    <suspend-to-disk enabled="no"/>
+  </pm>
+  <devices>
+    <emulator>/usr/bin/test-hv</emulator>
+    <disk type="file" device="disk">
+      <source file="/pool-dir/testvol1.img"/>
+      <target dev="hda" bus="ide"/>
+    </disk>
+    <disk type="file" device="cdrom">
+      <source file="/pool-dir/testvol2.img"/>
+      <target dev="hdb" bus="ide"/>
+      <readonly/>
+    </disk>
+    <controller type="usb" model="none"/>
+    <interface type="user">
+      <mac address="00:11:22:33:44:55"/>
+      <model type="e1000"/>
+    </interface>
+    <console type="pty"/>
+  </devices>
+</domain>

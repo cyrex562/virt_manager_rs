@@ -1,0 +1,32 @@
+       <vapic state="on"/>
+       <spinlocks state="on" retries="12287"/>
+     </hyperv>
++    <vmport state="off"/>
+   </features>
+   <cpu mode="custom" match="exact">
+     <model fallback="allow">core2duo</model>
+@@
+         <device path="/dev/tzz"/>
+       </backend>
+     </tpm>
+-    <graphics type="vnc" port="-1" autoport="yes">
+-      <listen type="address"/>
++    <graphics type="spice">
++      <gl enable="yes"/>
++      <listen type="none"/>
+     </graphics>
+     <sound model="sb16"/>
+     <sound model="es1370"/>
+@@
+     <vsock model="virtio">
+       <cid auto="no" address="5"/>
+     </vsock>
++    <channel type="spicevmc">
++      <target type="virtio" name="com.redhat.spice.0"/>
++    </channel>
+   </devices>
+   <seclabel type="dynamic" model="selinux" relabel="yes"/>
+   <keywrap>
+
+Domain 'test-for-virtxml' defined successfully.
+Changes will take effect after the domain is fully powered off.

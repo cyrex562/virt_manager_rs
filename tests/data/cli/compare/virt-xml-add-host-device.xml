@@ -1,0 +1,15 @@
+     <vsock model="virtio">
+       <cid auto="no" address="5"/>
+     </vsock>
++    <hostdev mode="subsystem" type="usb" managed="yes">
++      <source>
++        <vendor id="0x0483"/>
++        <product id="0x2016"/>
++      </source>
++    </hostdev>
+   </devices>
+   <seclabel type="dynamic" model="selinux" relabel="yes"/>
+   <keywrap>
+
+Domain 'test-for-virtxml' defined successfully.
+Changes will take effect after the domain is fully powered off.

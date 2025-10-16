@@ -1,0 +1,11 @@
+     <dhCert>AQAAAAAOAAAAQAAAAAOAAAAQAAAAAOAAAAQAAAAAOAAAAQAAAAAOAAA</dhCert>
+     <session>IHAVENOIDEABUTJUSTPROVIDINGASTRING</session>
+   </launchSecurity>
++  <qemu:commandline xmlns:qemu="http://libvirt.org/schemas/domain/qemu/1.0">
++    <qemu:arg value="-foo"/>
++    <qemu:arg value="bar,baz=wib wob"/>
++  </qemu:commandline>
+ </domain>
+
+Domain 'test-for-virtxml' defined successfully.
+Changes will take effect after the domain is fully powered off.

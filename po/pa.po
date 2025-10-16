@@ -1,0 +1,7240 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Amandeep Singh Saini <asaini@redhat.com>, 2013
+# A S Alam <apreet.alam@gmail.com>, 2011,2014
+# Cole Robinson <crobinso@redhat.com>, 2011
+# Jaswinder Singh <jsingh@redhat.com>, 2011-2012
+# Cole Robinson <crobinso@redhat.com>, 2015. #zanata
+# A S Alam <aalam@fedoraproject.org>, 2017. #zanata
+# Cole Robinson <crobinso@redhat.com>, 2017. #zanata
+# A S Alam <aalam@fedoraproject.org>, 2018. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: virt-manager\n"
+"Report-Msgid-Bugs-To: https://github.com/virt-manager/virt-manager/issues\n"
+"POT-Creation-Date: 2025-08-25 23:23+0200\n"
+"PO-Revision-Date: 2022-03-09 18:00+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Punjabi <https://translate.fedoraproject.org/projects/virt-"
+"manager/virt-manager/pa/>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 4.11.2\n"
+
+#: data/virt-manager.appdata.xml.in:6 data/virt-manager.desktop.in:2
+#: ui/manager.ui:7 virtManager/systray.py:148
+msgid "Virtual Machine Manager"
+msgstr "ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਮੈਨੇਜਰ"
+
+#: data/virt-manager.appdata.xml.in:7
+msgid "Graphically manage KVM, Xen, or LXC via libvirt"
+msgstr ""
+
+#: data/virt-manager.appdata.xml.in:9
+msgid ""
+"Virtual Machine Manager provides a graphical tool for administering virtual "
+"machines for KVM, Xen, and LXC. Start, stop, add or remove virtual devices, "
+"connect to a graphical or serial console, and see resource usage statistics "
+"for existing VMs on local or remote machines. Uses libvirt as the backend "
+"management API."
+msgstr ""
+
+#: data/virt-manager.appdata.xml.in:20
+msgid "Main manager window"
+msgstr ""
+
+#: data/virt-manager.appdata.xml.in:24
+msgid "Virtual machine configuration screen"
+msgstr ""
+
+#: data/virt-manager.appdata.xml.in:28
+msgid "Graphical console connection for a virtual machine"
+msgstr ""
+
+#: data/virt-manager.appdata.xml.in:36
+#, fuzzy
+#| msgid "virtualization type '%s'"
+msgid "virtualization"
+msgstr "ਵਰਚੁਅਲਾਈਜ਼ੇਸ਼ਨ ਕਿਸਮ '%s'"
+
+#: data/virt-manager.appdata.xml.in:37
+msgid "libvirt"
+msgstr ""
+
+#: data/virt-manager.appdata.xml.in:38
+msgid "qemu"
+msgstr ""
+
+#: data/virt-manager.appdata.xml.in:39
+msgid "kvm"
+msgstr ""
+
+#: data/virt-manager.desktop.in:3
+#, fuzzy
+#| msgid "Virtual Machine Manager"
+msgid "Virtual machine viewer/manager"
+msgstr "ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਮੈਨੇਜਰ"
+
+#: data/virt-manager.desktop.in:4
+msgid "Manage virtual machines"
+msgstr ""
+
+#: data/virt-manager.desktop.in:10
+#, fuzzy
+#| msgid "virtualization type '%s'"
+msgid "virtualization;libvirt;vm;vmm;qemu;xen;lxc;kvm;"
+msgstr "ਵਰਚੁਅਲਾਈਜ਼ੇਸ਼ਨ ਕਿਸਮ '%s'"
+
+#: ui/about.ui:10
+msgid "Copyright (C) 2006-2020 Red Hat Inc."
+msgstr ""
+
+#: ui/about.ui:11
+msgid "Powered by libvirt"
+msgstr "libvirt ਦੀ ਵਰਤੋਂ ਨਾਲ"
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: ui/about.ui:18
+msgid "translator-credits"
+msgstr ""
+"ਜਸਵਿੰਦਰ ਸਿੰਘ <jsingh@redhat.com> 2006-2011\n"
+"ਅ ਸ ਆਲਮ <aalam@users.sf.net> 2006-2010"
+
+#: ui/addhardware.ui:24
+msgid "Add New Virtual Hardware"
+msgstr "ਨਵਾਂ ਵਰਚੁਅਲ ਹਾਰਡਵੇਅਰ ਸ਼ਾਮਿਲ"
+
+#: ui/addhardware.ui:153
+msgid "_Device type:"
+msgstr "ਜੰਤਰ ਕਿਸਮ(_D):"
+
+#: ui/addhardware.ui:184
+msgid "_Bus type:"
+msgstr ""
+
+#: ui/addhardware.ui:261 ui/addhardware.ui:532 ui/addhardware.ui:1214
+#: ui/createpool.ui:355 ui/fsdetails.ui:87 ui/gfxdetails.ui:107
+#: ui/tpmdetails.ui:49
+msgid "_Type:"
+msgstr "ਕਿਸਮ(_T):"
+
+#: ui/addhardware.ui:275 ui/addhardware.ui:613 ui/addhardware.ui:999
+#: ui/addhardware.ui:1067 ui/addhardware.ui:1344 ui/tpmdetails.ui:99
+msgid "_Model:"
+msgstr "ਮਾਡਲ(_M):"
+
+#: ui/addhardware.ui:345
+msgid "ctrl"
+msgstr ""
+
+#: ui/addhardware.ui:397
+msgid "aa:bb:cc:dd:ee:ff"
+msgstr "aa:bb:cc:dd:ee:ff"
+
+#: ui/addhardware.ui:421 ui/details.ui:2978
+msgid "_MAC address:"
+msgstr "_MAC ਐਡਰੈੱਸ:"
+
+#: ui/addhardware.ui:436 ui/details.ui:2964
+msgid "Device mode_l:"
+msgstr ""
+
+#: ui/addhardware.ui:673 ui/addhardware.ui:1291
+msgid "Host _Device:"
+msgstr "ਹੋਸਟ ਜੰਤਰ(_D):"
+
+#: ui/addhardware.ui:715 ui/details.ui:3844
+#, fuzzy
+#| msgid "Start Pool"
+msgid "Startup Policy:"
+msgstr "ਪੂਲ ਚਲਾਓ"
+
+#: ui/addhardware.ui:785
+msgid "_Path:"
+msgstr "ਮਾਰਗ(_P):"
+
+#: ui/addhardware.ui:799
+msgid "Device _Type:"
+msgstr "ਜੰਤਰ ਕਿਸਮ(_T):"
+
+#: ui/addhardware.ui:825
+msgid "T_ype:"
+msgstr "ਕਿਸਮ(_y):"
+
+#: ui/addhardware.ui:839 ui/clone.ui:480 ui/createnet.ui:213
+#: ui/createpool.ui:330 ui/createvm.ui:2152 ui/createvol.ui:185
+#: ui/details.ui:218 ui/host.ui:169 ui/snapshotsnew.ui:103
+msgid "_Name:"
+msgstr "ਨਾਂ(_N):"
+
+#: ui/addhardware.ui:876
+msgid "_Auto socket:"
+msgstr ""
+
+#: ui/addhardware.ui:904
+msgid "_Channel:"
+msgstr ""
+
+#: ui/addhardware.ui:944
+msgid "_Share Clipboard:"
+msgstr ""
+
+#: ui/addhardware.ui:1080 ui/details.ui:4054
+msgid "Ac_tion:"
+msgstr "ਕਾਰਵਾਈ(_t):"
+
+#: ui/addhardware.ui:1172 ui/createnet.ui:139
+msgid "_Mode:"
+msgstr "ਮੋਡ(_M):"
+
+#: ui/addhardware.ui:1325 ui/details.ui:4742
+msgid "rng"
+msgstr "rng"
+
+#: ui/addhardware.ui:1383 ui/details.ui:4824
+msgid "panic"
+msgstr ""
+
+#: ui/addhardware.ui:1489 ui/asyncjob.ui:146 ui/clone.ui:26 ui/clone.ui:690
+#: ui/connectauth.ui:22 ui/createconn.ui:25 ui/createnet.ui:798
+#: ui/createpool.ui:478 ui/createvm.ui:2400 ui/createvol.ui:462
+#: ui/delete.ui:181 ui/details.ui:4920 ui/hoststorage.ui:154 ui/migrate.ui:638
+#: ui/snapshotsnew.ui:343
+msgid "_Cancel"
+msgstr ""
+
+#: ui/addhardware.ui:1504 ui/createnet.ui:813 ui/createpool.ui:493
+#: ui/createvm.ui:2446 ui/createvol.ui:477 ui/snapshotsnew.ui:358
+msgid "_Finish"
+msgstr "ਮੁਕੰਮਲ(_F)"
+
+#: ui/addstorage.ui:33
+msgid "C_reate a disk image for the virtual machine"
+msgstr ""
+
+#: ui/addstorage.ui:62
+msgid "0.0"
+msgstr ""
+
+#: ui/addstorage.ui:77
+msgid "_GiB"
+msgstr ""
+
+#: ui/addstorage.ui:156
+msgid "_Select or create custom storage"
+msgstr ""
+
+#: ui/addstorage.ui:185
+msgid "_Manage..."
+msgstr ""
+
+#: ui/addstorage.ui:254
+msgid "Cac_he mode:"
+msgstr "ਕੈਸ਼ ਮੋਡ(_h):"
+
+#: ui/addstorage.ui:285
+msgid "Discard mod_e:"
+msgstr ""
+
+#: ui/addstorage.ui:316
+msgid "R_eadonly:"
+msgstr "ਪੜ੍ਹਨ ਲਈ(_e):"
+
+#: ui/addstorage.ui:330
+msgid "Sharea_ble:"
+msgstr "ਸ਼ੇਅਰ-ਯੋਗ(_b):"
+
+#: ui/addstorage.ui:371
+msgid "Removab_le:"
+msgstr ""
+
+#: ui/addstorage.ui:399
+msgid "Seria_l:"
+msgstr ""
+
+#: ui/addstorage.ui:425
+msgid "Advanced _options"
+msgstr "ਤਕਨੀਕੀ ਚੋਣਾਂ(_o)"
+
+#: ui/asyncjob.ui:8
+msgid "Operation in progress"
+msgstr "ਕਾਰਵਾਈ ਜਾਰੀ ਹੈ"
+
+#: ui/asyncjob.ui:51
+msgid "Please wait a few moments..."
+msgstr "ਕੁਝ ਪਲ ਉਡੀਕੋ ਜੀ..."
+
+#: ui/asyncjob.ui:118 virtManager/asyncjob.py:305 virtManager/asyncjob.py:312
+msgid "Processing..."
+msgstr "ਕਾਰਵਾਈ ਜਾਰੀ ਹੈ..."
+
+#: ui/asyncjob.ui:188 ui/vmwindow.ui:132 ui/xmleditor.ui:26
+#: virtManager/manager.py:295
+msgid "_Details"
+msgstr "ਵੇਰਵਾ(_D)"
+
+#: ui/clone.ui:8
+msgid "Change storage path"
+msgstr "ਸਰੋਤ ਟਿਕਾਣਾ ਬਦਲੋ"
+
+#: ui/clone.ui:41 ui/connectauth.ui:37
+msgid "_OK"
+msgstr ""
+
+#: ui/clone.ui:128 ui/hoststorage.ui:417
+msgid "Size:"
+msgstr ""
+
+#: ui/clone.ui:144
+msgid "Target:"
+msgstr ""
+
+#: ui/clone.ui:161
+msgid "Path:"
+msgstr "ਰਾਹ:"
+
+#: ui/clone.ui:183
+msgid "Existing disk"
+msgstr "ਮੌਜੂਦਾ ਡਿਸਕ"
+
+#: ui/clone.ui:222
+msgid "Create a new disk (c_lone) for the virtual machine"
+msgstr "ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਲਈ ਇੱਕ ਨਵੀਂ ਡਿਸਕ (c_lone) ਬਣਾਓ"
+
+#: ui/clone.ui:256 ui/createvol.ui:404 ui/fsdetails.ui:63
+msgid "_Browse..."
+msgstr "ਝਲਕ(_B)..."
+
+#: ui/clone.ui:273
+msgid "New _Path:"
+msgstr ""
+
+#: ui/clone.ui:306
+msgid "Clone Virtual Machine"
+msgstr "ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਕਲੋਨ"
+
+#: ui/clone.ui:347
+msgid "<span size='large'>Clone virtual machine</span>"
+msgstr ""
+
+#: ui/clone.ui:422
+msgid "Original VM:"
+msgstr ""
+
+#: ui/clone.ui:434
+#, fuzzy
+#| msgid "C_onnection:"
+msgid "Connection:"
+msgstr "ਕੁਨੈਕਸ਼ਨ(_o):"
+
+#: ui/clone.ui:566 ui/createvm.ui:2234
+msgid "Storage:"
+msgstr ""
+
+#: ui/clone.ui:582
+#, fuzzy
+#| msgid "Details..."
+msgid "_Details..."
+msgstr "ਵੇਰਵਾ..."
+
+#: ui/clone.ui:651
+msgid ""
+"<span size='small'>Cloning does <u>not</u> alter the guest OS contents. If "
+"you need to do things\n"
+"like change passwords or static IPs, please see the virt-sysprep(1) tool.</"
+"span>"
+msgstr ""
+
+#: ui/clone.ui:706
+msgid "C_lone"
+msgstr "ਕਲੋਨ(_l)"
+
+#: ui/console.ui:17 ui/console.ui:233
+msgid "<b>The console is currently unavailable</b>"
+msgstr "<b>ਕੰਸੋਲ ਇਸ ਸਮੇਂ ਉਪਲੱਬਧ ਨਹੀਂ ਹੈ</b>"
+
+#: ui/console.ui:57 virtManager/addhardware.py:252
+msgid "Serial"
+msgstr ""
+
+#: ui/console.ui:125
+msgid "_Password:"
+msgstr "ਪਾਸਵਰਡ(_P):"
+
+#: ui/console.ui:139 ui/createconn.ui:200
+msgid "_Username:"
+msgstr "ਯੂਜ਼ਰ-ਨਾਂ(_U):"
+
+#: ui/console.ui:174
+msgid "_Login"
+msgstr "ਲਾਗਇਨ(_L)"
+
+#: ui/console.ui:188
+msgid "_Save this password in your keyring"
+msgstr "ਇਹ ਪਾਸਵਰਡ ਆਪਣੇ ਕੀ-ਰਿੰਗ ਵਿੱਚ ਸੰਭਾਲੋ(_S)"
+
+#: ui/console.ui:192
+msgid "Check to save password, uncheck to forget password."
+msgstr ""
+
+#: ui/console.ui:274
+#, fuzzy
+#| msgid "TCP net console"
+msgid "_Connect to console"
+msgstr "TCP ਨੈੱਟ ਕੰਸੋਲ"
+
+#: ui/console.ui:291
+#, fuzzy
+#| msgid "Co_nnect"
+msgid "Connect"
+msgstr "ਕੁਨੈਕਟ ਕਰੋ(_n)"
+
+#: ui/createconn.ui:8
+msgid "Add Connection"
+msgstr "ਕੁਨੈਕਸ਼ਨ ਸ਼ਾਮਲ"
+
+#: ui/createconn.ui:41
+msgid "Co_nnect"
+msgstr "ਕੁਨੈਕਟ ਕਰੋ(_n)"
+
+#: ui/createconn.ui:92
+msgid "_Hypervisor:"
+msgstr "ਹਾਈਪਰਵਾਈਸਰ(_H):"
+
+#: ui/createconn.ui:114
+msgid "Connect to _remote host over SSH"
+msgstr ""
+
+#: ui/createconn.ui:133
+msgid "_Autoconnect:"
+msgstr "ਆਟੋ-ਕੁਨੈਕਟ(_A):"
+
+#: ui/createconn.ui:183
+msgid "H_ostname:"
+msgstr "ਹੋਸਟ-ਨਾਂ(_o):"
+
+#: ui/createconn.ui:234
+msgid ""
+"<small>QEMU usermode session is not the virt-manager\n"
+"default. It is likely that any pre-existing QEMU/KVM\n"
+"guests will not be available. Networking options\n"
+"are very limited. </small>"
+msgstr ""
+
+#: ui/createconn.ui:259
+msgid "Cu_stom URI:"
+msgstr ""
+
+#: ui/createconn.ui:308
+msgid "Generated URI:"
+msgstr "ਤਿਆਰ ਕੀਤਾ URI:"
+
+#: ui/createnet.ui:9
+msgid "Create a new virtual network"
+msgstr "ਇੱਕ ਨਵਾਂ ਵਰਚੁਅਲ ਨੈੱਟਵਰਕ ਬਣਾਓ"
+
+#: ui/createnet.ui:55
+msgid "<span size='large'>Create virtual network</span>"
+msgstr ""
+
+#: ui/createnet.ui:152
+msgid "Fo_rward to:"
+msgstr ""
+
+#: ui/createnet.ui:166
+msgid "Device _List:"
+msgstr ""
+
+#: ui/createnet.ui:244
+msgid "De_vice:"
+msgstr ""
+
+#: ui/createnet.ui:287
+msgid "_Enable IPv4"
+msgstr ""
+
+#: ui/createnet.ui:326 ui/createnet.ui:537
+msgid "_Network:"
+msgstr "ਨੈੱਟਵਰਕ(_N):"
+
+#: ui/createnet.ui:417 ui/createnet.ui:628
+msgid "Start:"
+msgstr "ਸ਼ੁਰੂਆਤ:"
+
+#: ui/createnet.ui:429 ui/createnet.ui:640
+msgid "End:"
+msgstr "ਅੰਤ:"
+
+#: ui/createnet.ui:438
+msgid "Enable DHCPv4"
+msgstr "DHCPv4 ਯੋਗ ਕਰੋ"
+
+#: ui/createnet.ui:473 ui/hostnets.ui:348
+msgid "<b>IPv_4 configuration</b>"
+msgstr ""
+
+#: ui/createnet.ui:498
+msgid "_Enable IPv6"
+msgstr ""
+
+#: ui/createnet.ui:649
+msgid "Enable DHCPv6"
+msgstr "DHCPv6 ਯੋਗ ਕਰੋ"
+
+#: ui/createnet.ui:684 ui/hostnets.ui:452
+msgid "<b>IPv_6 configuration</b>"
+msgstr ""
+
+#: ui/createnet.ui:728
+msgid "Use net_work name"
+msgstr ""
+
+#: ui/createnet.ui:746
+msgid "Cust_om"
+msgstr ""
+
+#: ui/createnet.ui:765
+msgid "<b>DNS domain name</b>"
+msgstr ""
+
+#: ui/createpool.ui:9
+msgid "Add a New Storage Pool"
+msgstr "ਨਵਾਂ ਸਟੋਰੇਜ਼ ਪੂਲ ਜੋੜੋ"
+
+#: ui/createpool.ui:50
+msgid "<span size='large'>Create storage pool</span>"
+msgstr ""
+
+#: ui/createpool.ui:149
+msgid "Tar_get Path:"
+msgstr ""
+
+#: ui/createpool.ui:162 ui/createvol.ui:199
+msgid "F_ormat:"
+msgstr "ਫਾਰਮੈਟ(_o):"
+
+#: ui/createpool.ui:176
+msgid "Host Na_me:"
+msgstr "ਹੋਸਟ ਨਾਂ(_m):"
+
+#: ui/createpool.ui:204
+msgid "Initiator _IQN:"
+msgstr ""
+
+#: ui/createpool.ui:215
+msgid "B_rowse"
+msgstr "ਝਲਕ(_r)"
+
+#: ui/createpool.ui:235
+msgid "Bro_wse"
+msgstr "ਝਲਕ(_w)"
+
+#: ui/createvm.ui:19
+msgid "New VM"
+msgstr "ਨਵਾਂ VM"
+
+#: ui/createvm.ui:66
+msgid "<span size='large'>Create a new virtual machine</span>"
+msgstr ""
+
+#: ui/createvm.ui:168
+msgid "Choose virtualization type"
+msgstr ""
+
+#: ui/createvm.ui:185
+msgid "_Virtual machine"
+msgstr ""
+
+#: ui/createvm.ui:203
+msgid "_Container"
+msgstr ""
+
+#: ui/createvm.ui:244
+msgid "Choose how you would like to install the operating system"
+msgstr "ਚੁਣੋ ਕਿ ਤੁਸੀਂ ਕਿਵੇਂ ਓਪਰੇਟਿੰਗ ਸਿਸਟਮ ਇੰਸਟਾਲ ਕਰਨਾ ਪਸੰਦ ਕਰੋਗੇ"
+
+#: ui/createvm.ui:261
+msgid "_Local install media (ISO image or CDROM)"
+msgstr "ਲੋਕਲ ਇੰਸਟਾਲ ਮੀਡੀਆ (ISO ਈਮੇਜ਼ ਜਾਂ CDROM)(_L)"
+
+#: ui/createvm.ui:279
+msgid "Network _Install (HTTP, HTTPS, or FTP)"
+msgstr ""
+
+#: ui/createvm.ui:297
+msgid "Import _existing disk image"
+msgstr "ਮੌਜੂਦਾ ਡਿਸਕ ਈਮੇਜ਼ ਇੰਪੋਰਟ ਕਰੋ(_e)"
+
+#: ui/createvm.ui:315
+msgid "Ma_nual install"
+msgstr ""
+
+#: ui/createvm.ui:355
+msgid "Choose the container type"
+msgstr "ਕੰਟੇਨਰ ਕਿਸਮ ਚੁਣੋ"
+
+#: ui/createvm.ui:372
+msgid "_Application container"
+msgstr ""
+
+#: ui/createvm.ui:390
+msgid "O_perating system container"
+msgstr ""
+
+#: ui/createvm.ui:438
+msgid "C_onnection:"
+msgstr "ਕੁਨੈਕਸ਼ਨ(_o):"
+
+#: ui/createvm.ui:648
+msgid "_Xen Type:"
+msgstr ""
+
+#: ui/createvm.ui:662
+msgid "_Architecture:"
+msgstr "ਢਾਂਚਾ(_A):"
+
+#: ui/createvm.ui:676
+msgid "_Machine Type:"
+msgstr ""
+
+#: ui/createvm.ui:701
+msgid "_Virt Type:"
+msgstr "_Virt ਕਿਸਮ:"
+
+#: ui/createvm.ui:727
+msgid "Architecture options"
+msgstr ""
+
+#: ui/createvm.ui:748 virtManager/details/details.py:682
+#: virtManager/manager.py:321 virtManager/oslist.py:70
+msgid "Name"
+msgstr "ਨਾਂ"
+
+#: ui/createvm.ui:776
+msgid "Choose _ISO or CDROM install media:"
+msgstr ""
+
+#: ui/createvm.ui:806
+msgid "Bro_wse..."
+msgstr "ਬਰਾਊਜ਼(_w)..."
+
+#: ui/createvm.ui:837
+msgid "ISO"
+msgstr "ISO"
+
+#: ui/createvm.ui:854
+msgid "Provide the operating system install U_RL:"
+msgstr ""
+
+#: ui/createvm.ui:918
+msgid "Kerne_l options:"
+msgstr ""
+
+#: ui/createvm.ui:951
+msgid "URL _Options"
+msgstr ""
+
+#: ui/createvm.ui:982
+msgid "URL"
+msgstr "URL"
+
+#: ui/createvm.ui:1014
+msgid "PXE"
+msgstr "PXE"
+
+#: ui/createvm.ui:1038
+msgid "Provide the existing stora_ge path:"
+msgstr ""
+
+#: ui/createvm.ui:1072 ui/createvm.ui:1200 ui/createvm.ui:1287
+msgid "B_rowse..."
+msgstr "ਬਰਾਊਜ਼(_r)..."
+
+#: ui/createvm.ui:1126
+msgid ""
+"<small>Kernel/initrd settings can be configured with 'Customize before "
+"install' on the final page.</small>"
+msgstr ""
+
+#: ui/createvm.ui:1171
+msgid "Provide the _application path:"
+msgstr "ਐਪਲੀਕੇਸ਼ਨ ਟਿਕਾਣਾ ਦਿਓ(_a):"
+
+#: ui/createvm.ui:1252
+msgid "Provide the existing OS root _directory:"
+msgstr "ਮੌਜੂਦਾ OS root _directory ਦਿਓ:"
+
+#: ui/createvm.ui:1334
+msgid ""
+"<small>The OS directory tree must already exist. To enable OS directory tree "
+"creation,\n"
+"please install <a href=\"https://github.com/virt-manager/virt-"
+"bootstrap\">virt-bootstrap</a></small>"
+msgstr ""
+
+#: ui/createvm.ui:1373
+msgid ""
+"<small>The OS directory tree must already exist. Creating an OS directory "
+"tree for remote\n"
+"connections is not yet supported.</small>"
+msgstr ""
+
+#: ui/createvm.ui:1392
+msgid "Create OS directory tree from container image"
+msgstr ""
+
+#: ui/createvm.ui:1424
+msgid "Source URI:"
+msgstr ""
+
+#: ui/createvm.ui:1440
+msgid ""
+"Possible URL formats:\n"
+" * file:///path/to/rootfs.tar\n"
+" * docker://registry:port/image:tag\n"
+" * virt-builder://template\n"
+msgstr ""
+
+#: ui/createvm.ui:1467
+msgid "Do not verify TLS certificates of registry"
+msgstr ""
+
+#: ui/createvm.ui:1495
+msgid "Username:"
+msgstr ""
+
+#: ui/createvm.ui:1506
+msgid "Password:"
+msgstr ""
+
+#: ui/createvm.ui:1567
+msgid "Credentials for accessing the source registry"
+msgstr ""
+
+#: ui/createvm.ui:1594
+msgid "Root password:"
+msgstr ""
+
+#: ui/createvm.ui:1661
+msgid "Select _container template:"
+msgstr ""
+
+#: ui/createvm.ui:1704
+msgid "VZ templates"
+msgstr ""
+
+#: ui/createvm.ui:1729
+msgid "C_hoose the operating system you are installing:"
+msgstr ""
+
+#: ui/createvm.ui:1758
+msgid "A_utomatically detect from the installation media / source"
+msgstr ""
+
+#: ui/createvm.ui:1807
+msgid "Install"
+msgstr "ਇੰਸਟਾਲ"
+
+#: ui/createvm.ui:1831
+msgid "Choose Memory and CPU settings:"
+msgstr ""
+
+#: ui/createvm.ui:1853
+msgid "_Memory:"
+msgstr ""
+
+#: ui/createvm.ui:1868
+msgid "C_PUs:"
+msgstr "C_PU:"
+
+#: ui/createvm.ui:1903
+msgid "(Insert host mem)"
+msgstr "(ਹੋਸਟ ਮੈਮੋਰੀ ਜੋੜੋ)"
+
+#: ui/createvm.ui:1987 virtManager/details/details.py:2342
+msgid "Memory"
+msgstr "ਮੈਮੋਰੀ"
+
+#: ui/createvm.ui:2002
+msgid "_Enable storage for this virtual machine"
+msgstr "ਇਸ ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਲਈ ਸਟੋਰੇਜ਼ ਯੋਗ ਕਰੋ(_E)"
+
+#: ui/createvm.ui:2040 virtManager/addhardware.py:228
+#: virtManager/addhardware.py:1006 virtManager/clone.py:279
+msgid "Storage"
+msgstr "ਸਟੋਰੇਜ਼"
+
+#: ui/createvm.ui:2064
+#, fuzzy
+msgid "Ready to begin the installation"
+msgstr "ਇੰਸਟਾਲ ਸ਼ੁਰੂ"
+
+#: ui/createvm.ui:2119
+msgid "C_ustomize configuration before install"
+msgstr "ਇੰਸਟਾਲ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਸੰਰਚਨਾ ਸੋਧੋ(_U)"
+
+#: ui/createvm.ui:2183
+msgid "Install:"
+msgstr ""
+
+#: ui/createvm.ui:2200
+msgid "Memory:"
+msgstr "ਮੈਮੋਰੀ:"
+
+#: ui/createvm.ui:2217
+msgid "CPUs:"
+msgstr ""
+
+#: ui/createvm.ui:2251
+msgid "OS:"
+msgstr ""
+
+#: ui/createvm.ui:2351
+msgid "N_etwork selection"
+msgstr ""
+
+#: ui/createvm.ui:2371
+msgid "Finish"
+msgstr "ਮੁਕੰਮਲ"
+
+#: ui/createvm.ui:2415
+#, fuzzy
+#| msgid "_Backend:"
+msgid "_Back"
+msgstr "ਬੈਕਐਂਡ (_B):"
+
+#: ui/createvm.ui:2431
+#, fuzzy
+#| msgid "Forwarding:"
+msgid "_Forward"
+msgstr "ਫਾਰਵਰਡ ਕਰ ਰਿਹਾ:"
+
+#: ui/createvol.ui:24
+msgid "Add a Storage Volume"
+msgstr "ਇੱਕ ਸਟੋਰੇਜ਼ ਵਾਲੀਅਮ ਜੋੜੋ"
+
+#: ui/createvol.ui:66
+msgid "<span size='large'>Create storage volume</span>"
+msgstr ""
+
+#: ui/createvol.ui:121
+msgid "Create a storage unit to be used directly by a virtual machine."
+msgstr "ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਦੁਆਰਾ ਵਰਤੀ ਜਾਣ ਵਾਲੀ ਭੰਡਾਰਣ ਇਕਾਈ ਬਣਾਓ।"
+
+#: ui/createvol.ui:249
+msgid "<b>Storage Volume Quota</b>"
+msgstr "<b>ਭੰਡਾਰਣ ਆਇਤਨ ਕੋਟਾ</b>"
+
+#: ui/createvol.ui:292
+msgid "1.0"
+msgstr "1.0"
+
+#: ui/createvol.ui:308
+msgid "GiB"
+msgstr ""
+
+#: ui/createvol.ui:320
+#, fuzzy
+#| msgid "Max Ca_pacity:"
+msgid "Ca_pacity:"
+msgstr "ਵੱਧੋ-ਵੱਧ ਸਮਰੱਥਾ(_p):"
+
+#: ui/createvol.ui:331
+#, fuzzy
+#| msgid "Locate directory volume"
+msgid "_Allocate entire volume now"
+msgstr "ਡਾਇਰੈਕਟਰੀ ਵਾਲੀਅਮ ਲੱਭੋ"
+
+#: ui/createvol.ui:377
+msgid "Pa_th:"
+msgstr ""
+
+#: ui/createvol.ui:423
+#, fuzzy
+#| msgid "Backing store"
+msgid "_Backing store"
+msgstr "ਬੈਕਿੰਗ ਸਟੋਰ"
+
+#: ui/delete.ui:9 virtManager/delete.py:294
+msgid "Delete Virtual Machine"
+msgstr "ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਹਟਾਓ"
+
+#: ui/delete.ui:107
+msgid ""
+"<small>This VM is currently running and will be forced off before being "
+"deleted</small>"
+msgstr ""
+"<small>ਇਹ VM ਮੌਜੂਦਾ ਸਮੇਂ ਚੱਲ ਰਹੀ ਹੈ ਅਤੇ ਮਿਟਾਈ ਜਾਣ ਤੋਂ ਪਹਿਲਾਂ ਧੱਕੇ ਨਾਲ ਬੰਦ ਕੀਤੀ ਜਾਵੇਗੀ</"
+"small>"
+
+#: ui/delete.ui:124
+msgid "Delete _associated storage files"
+msgstr "ਸੰਬੰਧਿਤ ਸਟੋਰੇਜ਼ ਫਾਇਲਾਂ ਹਟਾਓ(_a)"
+
+#: ui/delete.ui:196 ui/manager.ui:110 virtManager/vmmenu.py:97
+msgid "_Delete"
+msgstr "ਹਟਾਓ(_D)"
+
+#: ui/details.ui:122
+msgid "A_dd Hardware"
+msgstr "ਹਾਰਡਵੇਅਰ ਸ਼ਾਮਲ(_d)"
+
+#: ui/details.ui:194 ui/snapshotsnew.ui:164
+msgid "Status:"
+msgstr "ਹਾਲਤ:"
+
+#: ui/details.ui:206
+msgid "UUID:"
+msgstr "UUID:"
+
+#: ui/details.ui:257
+msgid "T_itle:"
+msgstr ""
+
+#: ui/details.ui:288
+msgid "Shut down"
+msgstr "ਬੰਦ ਕਰੋ"
+
+#: ui/details.ui:320
+msgid "D_escription:"
+msgstr ""
+
+#: ui/details.ui:364
+msgid "<b>Basic Details</b>"
+msgstr "<b>ਮੁੱਢਲਾ ਵੇਰਵਾ</b>"
+
+#: ui/details.ui:400
+msgid "Hypervisor:"
+msgstr "ਹਾਈਪਰਵਾਈਸਰ:"
+
+#: ui/details.ui:412
+msgid "Architecture:"
+msgstr "ਢਾਂਚਾ:"
+
+#: ui/details.ui:463
+msgid "Emulator:"
+msgstr "ਇਮੂਲੇਟਰ:"
+
+#: ui/details.ui:475
+msgid "Machine _Type: "
+msgstr "ਮਸ਼ੀਨ ਕਿਸਮ( _T): "
+
+#: ui/details.ui:488
+msgid "Chipse_t:"
+msgstr ""
+
+#: ui/details.ui:503
+msgid "Firm_ware:"
+msgstr ""
+
+#: ui/details.ui:663
+msgid "<b>Hypervisor Details</b>"
+msgstr "<b>ਹਾਈਪਰਵਾਈਜ਼ਰ ਵੇਰਵਾ</b>"
+
+#: ui/details.ui:767
+msgid "<b>Operating Sys_tem</b>"
+msgstr ""
+
+#: ui/details.ui:824
+msgid "<b>Applications</b>"
+msgstr "<b>ਐਪਲੀਕੇਸ਼ਨਾਂ</b>"
+
+#: ui/details.ui:887
+msgid "Refresh"
+msgstr ""
+
+#: ui/details.ui:998 ui/host.ui:263
+msgid "<b>CPU usage</b>"
+msgstr "<b>CPU ਵਰਤੋਂ</b>"
+
+#: ui/details.ui:1067 ui/host.ui:321
+msgid "<b>Memory usage</b>"
+msgstr "<b>ਮੈਮੋਰੀ ਵਰਤੋਂ</b>"
+
+#: ui/details.ui:1115
+msgid "0 KiBytes/s 0 KiBytes/s"
+msgstr ""
+
+#: ui/details.ui:1137
+msgid "<b>Disk I/O</b>"
+msgstr "<b>ਡਿਸਕ I/O</b>"
+
+#: ui/details.ui:1207
+msgid "<b>Network I/O</b>"
+msgstr "<b>ਨੈੱਟਵਰਕ I/O</b>"
+
+#: ui/details.ui:1299
+msgid "Logical host CPUs:"
+msgstr "ਲਾਜ਼ੀਕਲ ਹੋਸਟ CPU:"
+
+#: ui/details.ui:1312
+#, fuzzy
+#| msgid "_Allocation:"
+msgid "vCPU a_llocation:"
+msgstr "ਜਾਰੀ(_A):"
+
+#: ui/details.ui:1329
+msgid "2"
+msgstr ""
+
+#: ui/details.ui:1370
+msgid "<small>Overcommitting vCPUs can hurt performance</small>"
+msgstr "<small>ਵੱਧ vCPUs ਦੇਣ ਨਾਲ ਕਾਰਗੁਜ਼ਾਰੀ ਪ੍ਰਭਾਵਿਤ ਹੋ ਸਕਦੀ ਹੈ</small>"
+
+#: ui/details.ui:1406
+msgid "<b>CPUs</b>"
+msgstr "<b>CPU</b>"
+
+#: ui/details.ui:1443 ui/details.ui:3422 ui/details.ui:3933 ui/details.ui:4069
+#: ui/details.ui:4228
+msgid "M_odel:"
+msgstr "ਮਾਡਲ(_o):"
+
+#: ui/details.ui:1454 virtManager/details/details.py:1894
+msgid "Copy host CP_U configuration"
+msgstr ""
+
+#: ui/details.ui:1495
+msgid "Enable available CPU security flaw mitigations"
+msgstr ""
+
+#: ui/details.ui:1521
+msgid "<b>Configu_ration</b>"
+msgstr ""
+
+#: ui/details.ui:1551
+msgid "Manuall_y set CPU topology"
+msgstr ""
+
+#: ui/details.ui:1579
+msgid "Thread_s:"
+msgstr ""
+
+#: ui/details.ui:1593
+msgid "Cor_es:"
+msgstr ""
+
+#: ui/details.ui:1607
+msgid "Socke_ts:"
+msgstr ""
+
+#: ui/details.ui:1623 ui/details.ui:1641 ui/details.ui:1659
+msgid "1"
+msgstr ""
+
+#: ui/details.ui:1698
+msgid "<b>To_pology</b>"
+msgstr ""
+
+#: ui/details.ui:1763
+#, fuzzy
+#| msgid "_Allocation:"
+msgid "Current a_llocation:"
+msgstr "ਜਾਰੀ(_A):"
+
+#: ui/details.ui:1778
+#, fuzzy
+#| msgid "_Allocation:"
+msgid "Ma_ximum allocation:"
+msgstr "ਜਾਰੀ(_A):"
+
+#: ui/details.ui:1793
+msgid "Total host memory:"
+msgstr "ਕੁੱਲ ਹੋਸਟ ਮੈਮੋਰੀ:"
+
+#: ui/details.ui:1826 ui/details.ui:1875
+msgid "50"
+msgstr ""
+
+#: ui/details.ui:1850 ui/details.ui:1899 ui/fsdetails.ui:177
+msgid "MiB"
+msgstr ""
+
+#: ui/details.ui:1915
+#, fuzzy
+#| msgid "External disk and memory"
+msgid "Enable shared _memory"
+msgstr "ਬਾਹਰੀ ਡਿਸਕ ਅਤੇ ਮੈਮੋਰੀ"
+
+#: ui/details.ui:1945
+msgid "<b>Memory</b>"
+msgstr "<b>ਮੈਮੋਰੀ</b>"
+
+#: ui/details.ui:1997
+msgid "Start virt_ual machine on host boot up"
+msgstr "ਹੋਸਟ ਚਾਲੂ ਹੋਣ ਤੇ ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਚਲਾਓ(_u)"
+
+#: ui/details.ui:2018
+msgid "<b>Autostart</b>"
+msgstr "<b>ਸਵੈ-ਚਾਲੂ</b>"
+
+#: ui/details.ui:2065
+msgid "Init _path:"
+msgstr ""
+
+#: ui/details.ui:2079
+msgid "Init ar_gs:"
+msgstr ""
+
+#: ui/details.ui:2113
+msgid "<b>Container init</b>"
+msgstr "<b>ਕੰਟੇਨਰ init</b>"
+
+#: ui/details.ui:2143
+msgid "Ena_ble direct kernel boot"
+msgstr ""
+
+#: ui/details.ui:2176
+msgid "Ke_rnel path:"
+msgstr ""
+
+#: ui/details.ui:2192
+msgid "_Initrd path:"
+msgstr ""
+
+#: ui/details.ui:2223 ui/details.ui:2268 ui/details.ui:2359
+msgid "Browse"
+msgstr "ਬਰਾਊਜ਼"
+
+#: ui/details.ui:2298
+msgid "Kernel ar_gs:"
+msgstr ""
+
+#: ui/details.ui:2328
+msgid "D_TB path:"
+msgstr ""
+
+#: ui/details.ui:2421
+msgid "<b>Dir_ect kernel boot</b>"
+msgstr ""
+
+#: ui/details.ui:2452
+msgid "Enable boot me_nu"
+msgstr "ਬੂਟ ਮੇਨੂ ਚਾਲੂ(_n):"
+
+#: ui/details.ui:2589
+msgid "<b>Boot device order</b>"
+msgstr "<b>ਬੂਟ ਜੰਤਰ ਕ੍ਰਮ</b>"
+
+#: ui/details.ui:2657
+msgid "Storage size:"
+msgstr "ਸਟੋਰੇਜ਼ ਅਕਾਰ:"
+
+#: ui/details.ui:2681
+msgid "Source _path:"
+msgstr ""
+
+#: ui/details.ui:2749
+msgid "_Browse"
+msgstr ""
+
+#: ui/details.ui:2780 ui/details.ui:3523
+msgid "Device type:"
+msgstr "ਜੰਤਰ ਕਿਸਮ:"
+
+#: ui/details.ui:2793
+msgid "Disk b_us:"
+msgstr "ਡਿਸਕ ਬੱਸ(_u):"
+
+#: ui/details.ui:2830
+msgid "disk-bus-label"
+msgstr ""
+
+#: ui/details.ui:2878
+msgid "<b>Virtual Disk</b>"
+msgstr "<b>ਵਰਚੁਅਲ ਡਿਸਕ</b>"
+
+#: ui/details.ui:3082
+msgid "Link _state:"
+msgstr ""
+
+#: ui/details.ui:3093
+msgid "active"
+msgstr ""
+
+#: ui/details.ui:3115 ui/hoststorage.ui:429 ui/snapshots.ui:216
+msgid "label"
+msgstr "ਲੇਬਲ"
+
+#: ui/details.ui:3157
+msgid "I_P address:"
+msgstr ""
+
+#: ui/details.ui:3179
+msgid "<b>Virtual Network Interface</b>"
+msgstr "<b>ਵਰਚੁਅਲ ਨੈੱਟਵਰਕ ਇੰਟਰਫੇਸ</b>"
+
+#: ui/details.ui:3242 ui/details.ui:4181 ui/details.ui:4503 ui/details.ui:4679
+msgid "Type:"
+msgstr "ਕਿਸਮ:"
+
+#: ui/details.ui:3255
+msgid "Mode:"
+msgstr "ਮੋਡ:"
+
+#: ui/details.ui:3301
+msgid "<b>Virtual Input Device</b>"
+msgstr ""
+
+#: ui/details.ui:3461
+msgid "<b>Sound Device</b>"
+msgstr "<b>ਸਾਊਂਡ ਜੰਤਰ</b>"
+
+#: ui/details.ui:3535
+#, fuzzy
+#| msgid "label"
+msgid "label506"
+msgstr "ਲੇਬਲ"
+
+#: ui/details.ui:3548 ui/details.ui:3586
+#, fuzzy
+#| msgid "label"
+msgid "label508"
+msgstr "ਲੇਬਲ"
+
+#: ui/details.ui:3599 ui/details.ui:3612
+#, fuzzy
+#| msgid "label"
+msgid "label507"
+msgstr "ਲੇਬਲ"
+
+#: ui/details.ui:3637
+msgid "Source host:"
+msgstr "ਸਰੋਤ ਹੋਸਟ:"
+
+#: ui/details.ui:3649
+msgid "Bind host:"
+msgstr "ਬਾਈਂਡ ਹੋਸਟ:"
+
+#: ui/details.ui:3661
+msgid "Target type:"
+msgstr "ਟਾਰਗਿਟ ਕਿਸਮ:"
+
+#: ui/details.ui:3673
+msgid "Target name:"
+msgstr "ਟਾਰਗਿਟ ਨਾਂ:"
+
+#: ui/details.ui:3685 ui/hostnets.ui:175 ui/hoststorage.ui:391
+msgid "State:"
+msgstr "ਹਾਲਤ:"
+
+#: ui/details.ui:3697
+msgid "Clipboard:"
+msgstr ""
+
+#: ui/details.ui:3709
+msgid "Source path:"
+msgstr "ਸਰੋਤ ਮਾਰਗ:"
+
+#: ui/details.ui:3729
+msgid "<b>insert type</b>"
+msgstr "<b>ਕਿਸਮ ਦਿਓ</b>"
+
+#: ui/details.ui:3790 ui/hostnets.ui:163
+msgid "Device:"
+msgstr "ਜੰਤਰ:"
+
+#: ui/details.ui:3816
+msgid "ROM _BAR:"
+msgstr ""
+
+#: ui/details.ui:3964
+msgid "_3D acceleration:"
+msgstr ""
+
+#: ui/details.ui:3992
+msgid "<b>Video</b>"
+msgstr "<b>ਵਿਡੀਓ</b>"
+
+#: ui/details.ui:4244
+msgid "Devices:"
+msgstr ""
+
+#: ui/details.ui:4300
+msgid "<b>Controller</b>"
+msgstr "<b>ਕੰਟਰੋਲਰ</b>"
+
+#: ui/details.ui:4346
+msgid "<b>Filesystem</b>"
+msgstr "<b>ਫਾਇਲ ਸਿਸਟਮ</b>"
+
+#: ui/details.ui:4401 ui/migrate.ui:390
+msgid "M_ode:"
+msgstr "ਮੋਡ(_o):"
+
+#: ui/details.ui:4446
+msgid "<b>Smartcard Device</b>"
+msgstr "<b>ਸਮਾਰਟਕਾਰਡ ਜੰਤਰ</b>"
+
+#: ui/details.ui:4515
+msgid "Address:"
+msgstr "ਐਡਰੈੱਸ:"
+
+#: ui/details.ui:4527
+msgid "foo:12"
+msgstr "foo:12"
+
+#: ui/details.ui:4559
+msgid "<b>Redirected device</b>"
+msgstr "<b>ਰੀਡਾਇਰੈਕਟਡ ਜੰਤਰ</b>"
+
+#: ui/details.ui:4611
+msgid "<b>TPM Device</b>"
+msgstr "<b>TPM ਯੰਤਰ</b>"
+
+#: ui/details.ui:4704
+msgid "Host Device:"
+msgstr ""
+
+#: ui/details.ui:4724
+msgid "<b>Random Number Generator</b>"
+msgstr "<b>ਬੇਤਰਤੀਬ ਅੰਕ ਪੈਦਾ ਕਰਨ ਵਾਲਾ</b>"
+
+#: ui/details.ui:4774
+msgid "Model:"
+msgstr ""
+
+#: ui/details.ui:4786
+msgid "panic-model"
+msgstr ""
+
+#: ui/details.ui:4806
+msgid "<b>Panic Notifier</b>"
+msgstr ""
+
+#: ui/details.ui:4899
+#, fuzzy
+#| msgid "Removable"
+msgid "_Remove"
+msgstr "ਹਟਾਉਣਯੋਗ"
+
+#: ui/details.ui:4940 ui/hostnets.ui:652 ui/hoststorage.ui:186
+#: ui/snapshots.ui:499
+msgid "_Apply"
+msgstr ""
+
+#: ui/fsdetails.ui:30
+msgid "E_xport filesystem as readonly mount"
+msgstr "ਫਾਇਲਸਿਸਟਮ ਨੂੰ ਸਿਰਫ-ਪੜ੍ਹਨ ਮਾਊਂਟ ਲਈ ਐਕਸਪੋਰਟ ਕਰੋ(_x)"
+
+#: ui/fsdetails.ui:101
+msgid "_Driver:"
+msgstr "ਡਰਾਈਵਰ(_D):"
+
+#: ui/fsdetails.ui:129
+msgid "Ta_rget path:"
+msgstr "ਟਾਰਗਿਟ ਟਿਕਾਣਾ(_r):"
+
+#: ui/fsdetails.ui:196
+msgid "_Format:"
+msgstr "ਫਾਰਮੈਟ(_F):"
+
+#: ui/fsdetails.ui:280
+msgid "blah foo warning message"
+msgstr ""
+
+#: ui/gfxdetails.ui:75
+msgid "Show passwor_d"
+msgstr ""
+
+#: ui/gfxdetails.ui:121
+msgid "Addr_ess:"
+msgstr ""
+
+#: ui/gfxdetails.ui:137
+msgid "Pa_ssword:"
+msgstr "ਪਾਸਵਰਡ(_s):"
+
+#: ui/gfxdetails.ui:151 ui/migrate.ui:247
+msgid "_Port:"
+msgstr "ਪੋਰਟ(_P):"
+
+#: ui/gfxdetails.ui:168 ui/vsockdetails.ui:39
+#: virtManager/device/gfxdetails.py:204
+msgid "A_uto"
+msgstr ""
+
+#: ui/gfxdetails.ui:193 ui/vsockdetails.ui:64
+msgid "5900"
+msgstr ""
+
+#: ui/gfxdetails.ui:261
+#, fuzzy
+#| msgid "_Open"
+msgid "Open_GL:"
+msgstr "ਖੋਲ੍ਹੋ(_O)"
+
+#: ui/gfxdetails.ui:275
+msgid "L_isten type:"
+msgstr ""
+
+#: ui/gfxdetails.ui:365
+msgid "OpenGL only works with 'virtio' graphics with '3D acceleration' enabled"
+msgstr ""
+
+#: ui/gfxdetails.ui:381
+msgid "OpenGL only works with 'Listen type' value 'none'"
+msgstr ""
+
+#: ui/host.ui:27 ui/manager.ui:26 ui/vmwindow.ui:25
+msgid "_File"
+msgstr "ਫਾਇਲ(_F)"
+
+#: ui/host.ui:36 ui/vmwindow.ui:34
+msgid "_View Manager"
+msgstr "ਮੈਨੇਜਰ ਵੇਖੋ(_V)"
+
+#: ui/host.ui:116
+msgid "Libvirt URI:"
+msgstr ""
+
+#: ui/host.ui:184
+msgid "A_utoconnect:"
+msgstr "ਆਟੋ-ਕੁਨੈਕਟ(_u):"
+
+#: ui/host.ui:199
+msgid "<b>Basic details</b>"
+msgstr "<b>ਮੁੱਢਲਾ ਵੇਰਵਾ</b>"
+
+#: ui/host.ui:352
+msgid "_Overview"
+msgstr ""
+
+#: ui/host.ui:375
+msgid "_Virtual Networks"
+msgstr ""
+
+#: ui/host.ui:399
+msgid "_Storage"
+msgstr ""
+
+#: ui/hostnets.ui:187 ui/hoststorage.ui:403
+msgid "A_utostart:"
+msgstr "ਸਵੈ-ਚਾਲੂ(_u):"
+
+#: ui/hostnets.ui:201
+msgid "Domain:"
+msgstr "ਡੋਮੇਨ:"
+
+#: ui/hostnets.ui:214 ui/hoststorage.ui:367
+msgid "Name:"
+msgstr "ਨਾਂ:"
+
+#: ui/hostnets.ui:287 ui/hostnets.ui:403
+msgid "Network:"
+msgstr "ਨੈੱਟਵਰਕ:"
+
+#: ui/hostnets.ui:299 ui/hostnets.ui:415
+msgid "DHCP range:"
+msgstr "DHCP ਹੱਦ:"
+
+#: ui/hostnets.ui:311 ui/hostnets.ui:427
+msgid "Forwarding:"
+msgstr "ਫਾਰਵਰਡ ਕਰ ਰਿਹਾ:"
+
+#: ui/hostnets.ui:328
+msgid "NAT to any device"
+msgstr "ਕਿਸੇ ਵੀ ਯੰਤਰ ਦਾ NAT"
+
+#: ui/hostnets.ui:439 virtManager/createnet.py:108
+msgid "Routed"
+msgstr "ਰੂਟ ਕੀਤਾ"
+
+#: ui/hostnets.ui:537
+msgid "Add Network"
+msgstr "ਨੈੱਟਵਰਕ ਸ਼ਾਮਲ"
+
+#: ui/hostnets.ui:564
+msgid "Start Network"
+msgstr "ਨੈੱਟਵਰਕ ਚਾਲੂ ਕਰੋ"
+
+#: ui/hostnets.ui:591
+msgid "Stop Network"
+msgstr "ਨੈੱਟਵਰਕ ਰੋਕੋ"
+
+#: ui/hostnets.ui:618
+msgid "Delete Network"
+msgstr "ਨੈੱਟਵਰਕ ਹਟਾਓ"
+
+#: ui/hoststorage.ui:25
+msgid "Add Pool"
+msgstr "ਪੂਲ ਸ਼ਾਮਲ"
+
+#: ui/hoststorage.ui:51
+msgid "Start Pool"
+msgstr "ਪੂਲ ਚਲਾਓ"
+
+#: ui/hoststorage.ui:77
+msgid "Stop Pool"
+msgstr "ਪੂਲ ਰੋਕੋ"
+
+#: ui/hoststorage.ui:103
+msgid "Delete Pool"
+msgstr "ਪੂਲ ਹਟਾਓ"
+
+#: ui/hoststorage.ui:138
+msgid "_Browse Local"
+msgstr "ਲੋਕਲ ਝਲਕ(_B)"
+
+#: ui/hoststorage.ui:142
+msgid "Browse local filesystem"
+msgstr ""
+
+#: ui/hoststorage.ui:158
+msgid "Cancel and close dialog"
+msgstr ""
+
+#: ui/hoststorage.ui:170
+#, fuzzy
+#| msgid "Choose Storage Volume"
+msgid "Ch_oose Volume"
+msgstr "ਸਟੋਰੇਜ਼ ਵਾਲੀਅਮ ਚੁਣੋ"
+
+#: ui/hoststorage.ui:174
+msgid "Choose the selected volume"
+msgstr ""
+
+#: ui/hoststorage.ui:190
+msgid "Apply pool changes"
+msgstr ""
+
+#: ui/hoststorage.ui:293 virtManager/connection.py:491
+#: virtManager/object/libvirtobject.py:213
+msgid "Active"
+msgstr "ਸਰਗਰਮ"
+
+#: ui/hoststorage.ui:379
+msgid "Location:"
+msgstr "ਟਿਕਾਣਾ:"
+
+#: ui/hoststorage.ui:459
+msgid "<b>Volumes</b>"
+msgstr "<b>ਵਾਲੀਅਮ</b>"
+
+#: ui/hoststorage.ui:504
+msgid "Refresh volume list"
+msgstr "ਵਾਲੀਅਮ ਲਿਸਟ ਤਾਜ਼ਾ ਕਰੋ"
+
+#: ui/hoststorage.ui:530
+msgid "Delete volume"
+msgstr ""
+
+#: ui/manager.ui:35
+msgid "_Add Connection..."
+msgstr "ਕੁਨੈਕਸ਼ਨ ਸ਼ਾਮਲ(_A)..."
+
+#: ui/manager.ui:44
+msgid "_New Virtual Machine"
+msgstr ""
+
+#: ui/manager.ui:59 ui/preferences.ui:1013 ui/vmwindow.ui:49
+msgid "_Close"
+msgstr ""
+
+#: ui/manager.ui:69 ui/vmwindow.ui:59
+msgid "_Quit"
+msgstr ""
+
+#: ui/manager.ui:83
+msgid "_Edit"
+msgstr "ਸੋਧ(_E)"
+
+#: ui/manager.ui:92
+msgid "_Connection Details"
+msgstr "ਕੁਨੈਕਸ਼ਨ ਵੇਰਵਾ(_C)"
+
+#: ui/manager.ui:101
+msgid "_Virtual Machine Details"
+msgstr "ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਵੇਰਵਾ(_V)"
+
+#: ui/manager.ui:125
+#, fuzzy
+#| msgid "Preferences"
+msgid "_Preferences"
+msgstr "ਮੇਰੀ ਪਸੰਦ"
+
+#: ui/manager.ui:138 ui/vmwindow.ui:112
+msgid "_View"
+msgstr "ਝਲਕ(_V)"
+
+#: ui/manager.ui:147
+msgid "_Graph"
+msgstr "ਗਰਾਫ(_G)"
+
+#: ui/manager.ui:157
+msgid "_Guest CPU Usage"
+msgstr "ਗਿਸਟ CPU ਵਰਤੋਂ(_G)"
+
+#: ui/manager.ui:167
+msgid "_Host CPU Usage"
+msgstr "ਹਸੋਟ  CPU ਵਰਤੋਂ(_H)"
+
+#: ui/manager.ui:176
+msgid "_Memory Usage"
+msgstr ""
+
+#: ui/manager.ui:185
+msgid "_Disk I/O"
+msgstr "ਡਿਸਕ I/O(_D)"
+
+#: ui/manager.ui:195
+msgid "_Network I/O"
+msgstr "ਨੈੱਟਵਰਕ I/O(_N)"
+
+#: ui/manager.ui:213
+msgid "_Help"
+msgstr "ਮੱਦਦ(_H)"
+
+#: ui/manager.ui:222
+msgid "_About"
+msgstr ""
+
+#: ui/manager.ui:253
+msgid "Create a new virtual machine"
+msgstr "ਇੱਕ ਨਵੀਂ ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਬਣਾਓ"
+
+#: ui/manager.ui:254
+msgid "New"
+msgstr "ਨਵਾਂ"
+
+#: ui/manager.ui:279
+msgid "Show the virtual machine console and details"
+msgstr "ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਕੰਸੋਲ ਅਤੇ ਵੇਰਵਾ ਦਿਓ"
+
+#: ui/manager.ui:281 virtManager/storagebrowse.py:32 virtManager/vmmenu.py:101
+msgid "_Open"
+msgstr "ਖੋਲ੍ਹੋ(_O)"
+
+#: ui/manager.ui:296 ui/vmwindow.ui:339
+msgid "Power on the virtual machine"
+msgstr "ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਚਾਲੂ ਕਰੋ"
+
+#: ui/manager.ui:297 virtManager/manager.py:752 virtManager/vmmenu.py:88
+#: virtManager/vmwindow.py:370
+msgid "_Run"
+msgstr "ਚਲਾਓ(_R)"
+
+#: ui/manager.ui:312 ui/vmwindow.ui:354 virtManager/manager.py:789
+#: virtManager/vmwindow.py:410
+msgid "Pause the virtual machine"
+msgstr "ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਪੌਜ਼ ਕਰੋ"
+
+#: ui/manager.ui:313 virtManager/vmmenu.py:89
+msgid "_Pause"
+msgstr "ਵਿਰਾਮ(_P)"
+
+#: ui/manager.ui:328 ui/vmwindow.ui:369
+msgid "Shut down the virtual machine"
+msgstr ""
+
+#: ui/manager.ui:329 ui/vmwindow.ui:370 virtManager/vmmenu.py:58
+#: virtManager/vmmenu.py:91
+msgid "_Shut Down"
+msgstr "ਬੰਦ ਕਰੋ(_S)"
+
+#: ui/migrate.ui:14
+msgid "Migrate the virtual machine"
+msgstr "ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਮਾਈਗਰੇਟ ਕਰੋ"
+
+#: ui/migrate.ui:108
+msgid "Migrating VM:"
+msgstr ""
+
+#: ui/migrate.ui:124
+msgid "Original host:"
+msgstr ""
+
+#: ui/migrate.ui:140
+msgid "New _host:"
+msgstr ""
+
+#: ui/migrate.ui:233
+msgid "_Address:"
+msgstr "ਐਡਰੈੱਸ(_A):"
+
+#: ui/migrate.ui:303
+msgid "0"
+msgstr ""
+
+#: ui/migrate.ui:317 ui/migrate.ui:357
+msgid "Let libvirt decide"
+msgstr ""
+
+#: ui/migrate.ui:386
+msgid ""
+"Tunnel migration through the libvirtd connection channel, rather than having "
+"the hypervisor open a separate network connection to the destination. The "
+"source libvirt instance connects directly to the destination libvirt "
+"instance.\n"
+"\n"
+"This can simplify setup since no additional firewall ports need to be open, "
+"and will encrypt migration traffic if your libvirt connection is encrypted. "
+"But it can be difficult to make this work with SSH transport."
+msgstr ""
+
+#: ui/migrate.ui:474
+msgid "_URI:"
+msgstr ""
+
+#: ui/migrate.ui:509
+msgid "<b>Connectivity</b>"
+msgstr "<b>ਕੁਨੈਕਟੀਵਿਟੀ</b>"
+
+#: ui/migrate.ui:537
+msgid ""
+"By default libvirt will refuse to migrate a VM for certain configurations "
+"that could lead to malfunctioning guests, like if a disk's cache mode is not "
+"'none'.\n"
+"\n"
+"Enabling this option tells libvirt to skip those checks."
+msgstr ""
+
+#: ui/migrate.ui:541
+msgid "A_llow unsafe:"
+msgstr ""
+
+#: ui/migrate.ui:567
+msgid ""
+"By default, the migrated VM config is removed from the source host, and "
+"saved persistently on the destination host. The destination host is "
+"considered the new home of the VM.\n"
+"\n"
+"If 'temporary' is selected, the migration is considered only a temporary "
+"move: the source host maintains a copy of the VM config, and the running "
+"copy moved to the destination is only transient, and will disappear when it "
+"is shutdown."
+msgstr ""
+
+#: ui/migrate.ui:571
+msgid "_Temporary move:"
+msgstr ""
+
+#: ui/migrate.ui:599
+msgid "Advanced options"
+msgstr "ਤਕਨੀਕੀ ਚੋਣਾਂ"
+
+#: ui/migrate.ui:653
+msgid "_Migrate"
+msgstr "ਮਾਈਗਰੇਟ(_M)"
+
+#: ui/netlist.ui:17
+msgid "De_vice name:"
+msgstr ""
+
+#: ui/netlist.ui:63
+msgid ""
+"<small>In most configurations, macvtap does not work for host to guest "
+"network communication.</small>"
+msgstr ""
+
+#: ui/netlist.ui:122
+msgid "<small>Failed to find a suitable default network.</small>"
+msgstr ""
+
+#: ui/netlist.ui:146
+#, fuzzy
+#| msgid "_Port:"
+msgid "_Portgroup:"
+msgstr "ਪੋਰਟ(_P):"
+
+#: ui/netlist.ui:182
+msgid "_Network source:"
+msgstr ""
+
+#: ui/oslist.ui:56
+msgid ""
+"Can't find the operating system you are looking for?\n"
+"Try selecting a similar distro or version, or use one of the 'Generic' "
+"options."
+msgstr ""
+
+#: ui/oslist.ui:109
+msgid "Include end of life operating systems"
+msgstr ""
+
+#: ui/preferences.ui:14
+msgid "Preferences"
+msgstr "ਮੇਰੀ ਪਸੰਦ"
+
+#: ui/preferences.ui:45
+msgid "Enable _system tray icon"
+msgstr "ਸਿਸਟਮ ਟਰੇ ਆਈਕਾਨ ਵੇਖੋ(_s)"
+
+#: ui/preferences.ui:67
+msgid "Enable libgues_tfs VM introspection"
+msgstr ""
+
+#: ui/preferences.ui:124
+msgid "Enable _XML editing"
+msgstr ""
+
+#: ui/preferences.ui:178
+msgid "<b>General</b>"
+msgstr "<b>ਆਮ</b>"
+
+#: ui/preferences.ui:193
+msgid "_General"
+msgstr ""
+
+#: ui/preferences.ui:222
+msgid "Poll _Disk I/O"
+msgstr "Poll _Disk I/O"
+
+#: ui/preferences.ui:250
+msgid "Poll _Network I/O"
+msgstr "Poll _Network I/O"
+
+#: ui/preferences.ui:278
+msgid "Poll _Memory stats"
+msgstr ""
+
+#: ui/preferences.ui:306
+msgid "_Update status every"
+msgstr "ਹਾਲਤ ਅੱਪਡੇਟ ਕਰੋ ਹਰੇਕ(_U)"
+
+#: ui/preferences.ui:343
+msgid "seconds"
+msgstr "ਸਕਿੰਟ"
+
+#: ui/preferences.ui:362
+msgid "Poll C_PU usage"
+msgstr ""
+
+#: ui/preferences.ui:391
+msgid "<b>Stats Options</b>"
+msgstr "<b>ਹਾਲਤ ਚੋਣ</b>"
+
+#: ui/preferences.ui:409
+msgid "P_olling"
+msgstr ""
+
+#: ui/preferences.ui:443
+msgid "Gra_phics type:"
+msgstr ""
+
+#: ui/preferences.ui:456 ui/preferences.ui:482
+msgid "Default storage format for new disk images."
+msgstr "ਨਵੇਂ ਡਿਸਕ ਈਮੇਜ਼ਾਂ ਲਈ ਮੂਲ ਸਟੋਰੇਜ਼ ਫਾਰਮੈਟ।"
+
+#: ui/preferences.ui:458
+msgid "_Storage format:"
+msgstr ""
+
+#: ui/preferences.ui:494
+msgid ""
+"Default CPU setting for new VMs. This is typically a tradeoff between "
+"performance\n"
+"and migration compatibility: if using the 'copy host' option, your servers "
+"will need\n"
+"identical CPUs in order to migrate the VM."
+msgstr ""
+
+#: ui/preferences.ui:498
+msgid "CPU _default:"
+msgstr ""
+
+#: ui/preferences.ui:522
+msgid "Default Firmware for new VMs. Boot using either BIOS or UEFI."
+msgstr ""
+
+#: ui/preferences.ui:524
+msgid "x86 _Firmware:"
+msgstr ""
+
+#: ui/preferences.ui:550
+msgid "<b>New VM Defaults</b>"
+msgstr ""
+
+#: ui/preferences.ui:575
+msgid "N_ew VM"
+msgstr ""
+
+#: ui/preferences.ui:603
+msgid "Graphical console _scaling:"
+msgstr "ਗਰਾਫੀਕਲ ਕੰਸੋਲ ਸਕੇਲਿੰਗ(_s):"
+
+#: ui/preferences.ui:621
+msgid "Gr_ab keys:"
+msgstr ""
+
+#: ui/preferences.ui:636
+msgid "Not supported"
+msgstr "ਸਹਾਇਕ ਨਹੀਂ"
+
+#: ui/preferences.ui:664
+msgid "Change..."
+msgstr "ਬਦਲੋ..."
+
+#: ui/preferences.ui:681
+msgid ""
+"Change guest resolution when the guest window size is changed. Only works "
+"with properly configured guest using spice and the desktop agent."
+msgstr ""
+
+#: ui/preferences.ui:683
+msgid "_Resize guest with window:"
+msgstr ""
+
+#: ui/preferences.ui:709
+msgid "SPICE _USB Redirection:"
+msgstr ""
+
+#: ui/preferences.ui:733
+msgid ""
+"If disabled, the VM window will not automatically connect to the running VM "
+"graphical console."
+msgstr ""
+
+#: ui/preferences.ui:735
+#, fuzzy
+#| msgid "_Autoconnect:"
+msgid "Console autoconnec_t:"
+msgstr "ਆਟੋ-ਕੁਨੈਕਟ(_A):"
+
+#: ui/preferences.ui:763
+msgid "<b>Graphical Consoles</b>"
+msgstr "<b>ਗਰਾਫਿਕਲ ਕੰਸੋਲ</b>"
+
+#: ui/preferences.ui:781
+msgid "Conso_le"
+msgstr ""
+
+#: ui/preferences.ui:809
+msgid "_Force Poweroff:"
+msgstr "ਧੱਕੇ ਨਾਲ ਬੰਦ ਕਰੋ(_F):"
+
+#: ui/preferences.ui:836
+msgid "Poweroff/_Reboot/Save:"
+msgstr "ਬੰਦ/ਮੁੜ-ਚਾਲੂ/ਸੰਭਾਲੋ(_R):"
+
+#: ui/preferences.ui:850
+msgid "_Pause:"
+msgstr "ਵਿਰਾਮ(_P):"
+
+#: ui/preferences.ui:903
+msgid "Device re_moval:"
+msgstr "ਜੰਤਰ ਹਟਾਉਣਾ(_m):"
+
+#: ui/preferences.ui:917
+msgid "_Unapplied changes:"
+msgstr ""
+
+#: ui/preferences.ui:944
+msgid "_Deleting storage:"
+msgstr ""
+
+#: ui/preferences.ui:973
+msgid "<b>Confirmations</b>"
+msgstr "<b>ਪੁਸ਼ਟੀ</b>"
+
+#: ui/preferences.ui:991
+msgid "Feed_back"
+msgstr ""
+
+#: ui/snapshots.ui:80
+msgid "Description:"
+msgstr "ਵੇਰਵਾ:"
+
+#: ui/snapshots.ui:118
+msgid "VM State:"
+msgstr ""
+
+#: ui/snapshots.ui:166
+msgid "Timestamp:"
+msgstr "ਸਮਾਂ-ਮੋਹਰ:"
+
+#: ui/snapshots.ui:204
+msgid "Snapshot Mode:"
+msgstr "ਸਨੈਪਸ਼ਾਟ ਮੋਡ:"
+
+#: ui/snapshots.ui:229
+msgid "Screenshot:"
+msgstr "ਸਕਰੀਨਸ਼ਾਟ:"
+
+#: ui/snapshots.ui:256
+msgid "No screenshot available"
+msgstr ""
+
+#: ui/snapshots.ui:293
+msgid "<small><i>This was the most recently applied snapshot.</i></small>"
+msgstr ""
+
+#: ui/snapshots.ui:382 ui/snapshots.ui:383
+msgid "Create new snapshot"
+msgstr "ਨਵਾਂ ਸਨੈਪਸ਼ਾਟ ਬਣਾਓ"
+
+#: ui/snapshots.ui:409
+msgid "Run selected snapshot"
+msgstr ""
+
+#: ui/snapshots.ui:435
+#, fuzzy
+msgid "Refresh snapshot list"
+msgstr "ਸਨੈਪਸ਼ਾਟ ਸੂਚੀ ਸੱਜਰੀ ਕਰਨ ਵੇਲੇ ਗਲਤੀ: %s"
+
+#: ui/snapshots.ui:462 ui/snapshots.ui:463
+msgid "Delete selected snapshot"
+msgstr "ਚੁਣੇ ਹੋਏ ਸਨੈਪਸ਼ਾਟ ਨੂੰ ਮਿਟਾਓ"
+
+#: ui/snapshots.ui:504 ui/snapshots.ui:505
+msgid "Save updated snapshot metadata"
+msgstr "ਅੱਪਡੇਟ ਕੀਤਾ ਹੋਇਆ ਮੈਟਾਡਾਟਾ ਸੰਭਾਲੋ"
+
+#: ui/snapshotsnew.ui:7
+msgid "Create snapshot"
+msgstr "ਸਨੈਪਸ਼ਾਟ ਬਣਾਓ"
+
+#: ui/snapshotsnew.ui:49
+msgid "<span size='large'>Create snapshot</span>"
+msgstr ""
+
+#: ui/snapshotsnew.ui:131
+msgid "_Description:"
+msgstr "ਵੇਰਵਾ (_D):"
+
+#: ui/snapshotsnew.ui:211
+#, fuzzy
+#| msgid "Snapshot Mode:"
+msgid "Snapshot _Mode:"
+msgstr "ਸਨੈਪਸ਼ਾਟ ਮੋਡ:"
+
+#: ui/snapshotsnew.ui:226
+#, fuzzy
+#| msgid "External"
+msgid "_external"
+msgstr "ਬਾਹਰੀ"
+
+#: ui/snapshotsnew.ui:243
+#, fuzzy
+#| msgid "External"
+msgid "_internal"
+msgstr "ਬਾਹਰੀ"
+
+#: ui/snapshotsnew.ui:269
+#, fuzzy
+#| msgid "Memory:"
+msgid "Memory _State:"
+msgstr "ਮੈਮੋਰੀ:"
+
+#: ui/snapshotsnew.ui:283
+msgid "_auto"
+msgstr ""
+
+#: ui/tpmdetails.ui:22
+msgid "Device _Path:"
+msgstr ""
+
+#: ui/tpmdetails.ui:130
+msgid "_Version:"
+msgstr "ਵਰਜਨ(_V):"
+
+#: ui/tpmdetails.ui:162
+#, fuzzy
+#| msgid "Advanced options"
+msgid "Adva_nced options"
+msgstr "ਤਕਨੀਕੀ ਚੋਣਾਂ"
+
+#: ui/vmwindow.ui:7
+msgid "Virtual Machine"
+msgstr "ਵਰਚੁਅਲ ਮਸ਼ੀਨ"
+
+#: ui/vmwindow.ui:73
+msgid "Virtual _Machine"
+msgstr "ਵਰਚੁਅਲ ਮਸ਼ੀਨ(_M)"
+
+#: ui/vmwindow.ui:89
+msgid "_Take Screenshot"
+msgstr "ਸਕਰੀਨ-ਸ਼ਾਟ ਲਵੋ(_T)"
+
+#: ui/vmwindow.ui:98
+msgid "Redirect host USB device to virtual machine with SPICE graphics."
+msgstr ""
+
+#: ui/vmwindow.ui:99
+msgid "_Redirect USB device"
+msgstr "USB ਯੰਤਰ ਮੁੜ-ਨਿਰਦੇਸ਼ਿਤ ਕਰੋ (_R)"
+
+#: ui/vmwindow.ui:121
+msgid "_Console"
+msgstr "ਕੰਸੋਲ(_C)"
+
+#: ui/vmwindow.ui:143
+msgid "Sna_pshots"
+msgstr "ਸਨੈਪਸ਼ਾਟ (_p)"
+
+#: ui/vmwindow.ui:160
+msgid "_Fullscreen"
+msgstr "ਪੂਰੀ ਸਕਰੀਨ(_F)"
+
+#: ui/vmwindow.ui:169
+msgid "_Resize to VM"
+msgstr "VM ਮੁੜ-ਅਕਾਰ(_R)"
+
+#: ui/vmwindow.ui:178
+msgid "_Scale Display"
+msgstr "ਡਿਸਪਲੇਅ ਸਕੇਲ ਕਰੋ(_S)"
+
+#: ui/vmwindow.ui:188
+msgid "_Always"
+msgstr "ਹਮੇਸ਼ਾ(_A)"
+
+#: ui/vmwindow.ui:198
+msgid "_Only when Fullscreen"
+msgstr "ਸਿਰਫ ਪੂਰੀ ਸਕਰੀਨ 'ਤੇ(_O)"
+
+#: ui/vmwindow.ui:209
+msgid "_Never"
+msgstr "ਕਦੇ ਨਹੀਂ(_N)"
+
+#: ui/vmwindow.ui:226
+msgid "Auto _resize VM with window"
+msgstr ""
+
+#: ui/vmwindow.ui:239
+#, fuzzy
+#| msgid "Console"
+msgid "Co_nsoles"
+msgstr "ਕਨਸੋਲ"
+
+#: ui/vmwindow.ui:247
+#, fuzzy
+#| msgid "_Autoconnect:"
+msgid "_Autoconnect"
+msgstr "ਆਟੋ-ਕੁਨੈਕਟ(_A):"
+
+#: ui/vmwindow.ui:262
+msgid "T_oolbar"
+msgstr "ਟੂਲਬਾਰ(_o)"
+
+#: ui/vmwindow.ui:276
+msgid "Send _Key"
+msgstr "ਸਵਿੱਚ ਭੇਜੋ(_K)"
+
+#: ui/vmwindow.ui:299
+msgid "Show the graphical console"
+msgstr "ਗਰਾਫੀਕਲ ਕੰਸੋਲ ਵੇਖੋ"
+
+#: ui/vmwindow.ui:300 virtManager/addhardware.py:267
+msgid "Console"
+msgstr "ਕਨਸੋਲ"
+
+#: ui/vmwindow.ui:314
+msgid "Show virtual hardware details"
+msgstr "ਵਰਚੁਅਲ ਹਾਰਡਵੇਅਰ ਵੇਰਵਾ ਵੇਖੋ"
+
+#: ui/vmwindow.ui:315 virtManager/error.py:326
+msgid "Details"
+msgstr "ਵੇਰਵਾ"
+
+#: ui/vmwindow.ui:340
+msgid "Run"
+msgstr "ਚਲਾਓ"
+
+#: ui/vmwindow.ui:355
+msgid "Pause"
+msgstr "ਵਿਰਾਮ"
+
+#: ui/vmwindow.ui:393
+msgid "Snapshots"
+msgstr "ਸਨੈਪਸ਼ਾਟ"
+
+#: ui/vmwindow.ui:407
+msgid "Switch to fullscreen view"
+msgstr "ਪੂਰੀ ਸਕਰੀਨ ਝਲਕ ਤੇ ਜਾਓ"
+
+#: ui/vmwindow.ui:432
+msgid "Begin Installation"
+msgstr "ਇੰਸਟਾਲ ਸ਼ੁਰੂ"
+
+#: ui/vmwindow.ui:434
+msgid "_Begin Installation"
+msgstr "ਇੰਸਟਾਲੇਸ਼ਨ ਸ਼ੁਰੂ(_B)"
+
+#: ui/vmwindow.ui:448
+#, fuzzy
+msgid "_Cancel Installation"
+msgstr "ਇੰਸਟਾਲੇਸ਼ਨ ਸ਼ੁਰੂ(_B)"
+
+#: ui/vsockdetails.ui:23
+msgid "Guest C_ID:"
+msgstr ""
+
+#: ui/xmleditor.ui:96
+msgid ""
+"<small>XML editing is disabled in 'Preferences'. Only enable it if you know "
+"what you are doing.</small>"
+msgstr ""
+
+#: ui/xmleditor.ui:122
+msgid "_XML"
+msgstr ""
+
+#: virtManager/about.py:20
+#, python-format
+msgid "Error launching 'About' dialog: %s"
+msgstr "'About' ਡਾਇਲਾਗ ਚਲਾਉਣ ਤੇ ਗਲਤੀ: %s"
+
+#: virtManager/addhardware.py:174 virtManager/details/details.py:556
+msgid "Hardware"
+msgstr ""
+
+#: virtManager/addhardware.py:217 virtManager/createvm.py:506
+#: virtManager/device/addstorage.py:184
+msgid "Connection does not support storage management."
+msgstr "ਸਟੋਰੇਜ਼ ਇੰਤਜ਼ਾਮ ਨੂੰ ਕਨੈਕਸ਼ਨ ਸਮਰਥਨ ਨਹੀਂ ਦਿੰਦਾ।"
+
+#: virtManager/addhardware.py:234 virtManager/addhardware.py:1008
+msgid "Controller"
+msgstr ""
+
+#: virtManager/addhardware.py:235 virtManager/addhardware.py:1010
+#: virtManager/createnet.py:332
+msgid "Network"
+msgstr "ਨੈੱਟਵਰਕ"
+
+#: virtManager/addhardware.py:237 virtManager/addhardware.py:1012
+#: virtManager/details/details.py:191
+msgid "Input"
+msgstr "ਇੰਪੁੱਟ"
+
+#: virtManager/addhardware.py:241 virtManager/addhardware.py:249
+#: virtManager/addhardware.py:256 virtManager/addhardware.py:264
+#: virtManager/addhardware.py:273 virtManager/addhardware.py:314
+msgid "Not supported for this guest type."
+msgstr "ਇਸ ਗੈੱਸਟ ਕਿਸਮ ਲਈ ਸਮਰਥਿਤ ਨਹੀਂ ਹੈ।"
+
+#: virtManager/addhardware.py:243 virtManager/addhardware.py:1014
+msgid "Graphics"
+msgstr "ਗਰਾਫਿਕਸ"
+
+#: virtManager/addhardware.py:245 virtManager/addhardware.py:1016
+msgid "Sound"
+msgstr "ਸਾਊਂਡ"
+
+#: virtManager/addhardware.py:260
+msgid "Parallel"
+msgstr ""
+
+#: virtManager/addhardware.py:269
+msgid "Channel"
+msgstr ""
+
+#: virtManager/addhardware.py:277
+msgid "USB Host Device"
+msgstr ""
+
+#: virtManager/addhardware.py:281 virtManager/addhardware.py:286
+#: virtManager/addhardware.py:299
+msgid "Connection does not support host device enumeration"
+msgstr "ਮੇਜਬਾਨ ਯੰਤਰ ਸੂਚੀ ਨੂੰ ਕੁਨੈਕਸ਼ਨ ਸਮਰਥਨ ਨਹੀਂ ਦਿੰਦਾ"
+
+#: virtManager/addhardware.py:289
+msgid "Not supported for containers"
+msgstr ""
+
+#: virtManager/addhardware.py:291
+msgid "PCI Host Device"
+msgstr ""
+
+#: virtManager/addhardware.py:295
+#, fuzzy
+#| msgid "Host _Device:"
+msgid "MDEV Host Device"
+msgstr "ਹੋਸਟ ਜੰਤਰ(_D):"
+
+#: virtManager/addhardware.py:303
+msgid "Video"
+msgstr ""
+
+#: virtManager/addhardware.py:307
+msgid "Libvirt version does not support video devices."
+msgstr "Libvirt ਵਰਜਨ ਵਿਡੀਓ ਯੰਤਰਾਂ ਨੂੰ ਸਹਿਯੋਗ ਨਹੀਂ ਦਿੰਦਾ।"
+
+#: virtManager/addhardware.py:310 virtManager/details/details.py:253
+#: virtManager/lib/libvirtenummap.py:107
+msgid "Watchdog"
+msgstr "ਵਾਚਡੌਗ"
+
+#: virtManager/addhardware.py:316
+msgid "Filesystem"
+msgstr ""
+
+#: virtManager/addhardware.py:317 virtManager/addhardware.py:1024
+#: virtManager/details/details.py:251
+msgid "Smartcard"
+msgstr "ਸਮਾਰਟ-ਕਾਰਡ"
+
+#: virtManager/addhardware.py:318 virtManager/addhardware.py:1026
+msgid "USB Redirection"
+msgstr "USB ਰੀਡਾਇਰੈਕਸ਼ਨ ਗਲਤੀ"
+
+#: virtManager/addhardware.py:319 virtManager/addhardware.py:1028
+msgid "TPM"
+msgstr "TPM"
+
+#: virtManager/addhardware.py:320 virtManager/details/details.py:243
+msgid "RNG"
+msgstr "RNG"
+
+#: virtManager/addhardware.py:321 virtManager/addhardware.py:1032
+#: virtManager/details/details.py:250
+msgid "Panic Notifier"
+msgstr ""
+
+#: virtManager/addhardware.py:323 virtManager/details/details.py:252
+msgid "VirtIO VSOCK"
+msgstr ""
+
+#: virtManager/addhardware.py:327
+msgid "Not supported for this hypervisor/libvirt/arch combination."
+msgstr ""
+
+#: virtManager/addhardware.py:392
+#, python-format
+msgid "Error changing VM configuration: %s"
+msgstr "VM ਸੰਰਚਨਾ ਤਬਦੀਲ ਕਰਨ ਵਿੱਚ ਗਲਤੀ: %s"
+
+#: virtManager/addhardware.py:416
+msgid "These changes will take effect after the next guest shutdown."
+msgstr "ਇਹ ਤਬਦੀਲੀਆਂ ਅਗਲੀ ਵਾਰ ਗੈਸਟ ਦੇ ਮੁੜ-ਚਾਲੂ ਕਰਨ ਤੇ ਲਾਗੂ ਹੋਣਗੀਆਂ।"
+
+#: virtManager/addhardware.py:460
+msgid "Pseudo TTY"
+msgstr "ਸੂਡੋ TTY"
+
+#: virtManager/addhardware.py:461
+msgid "Output to a file"
+msgstr "ਫਾਈਲ ਨੂੰ ਆਊਟਪੁੱਟ"
+
+#: virtManager/addhardware.py:462
+msgid "TCP net console"
+msgstr "TCP ਨੈੱਟ ਕੰਸੋਲ"
+
+#: virtManager/addhardware.py:463
+msgid "UDP net console"
+msgstr "UDP ਨੈੱਟ ਕੰਸੋਲ"
+
+#: virtManager/addhardware.py:464
+#, fuzzy
+#| msgid "Unix socket"
+msgid "UNIX socket"
+msgstr "ਯੂਨਿਕਸ ਸਾਕੇਟ"
+
+#: virtManager/addhardware.py:465
+msgid "Spice agent"
+msgstr "ਸਪਾਈਸ ਏਜੰਟ"
+
+#: virtManager/addhardware.py:466
+msgid "Spice port"
+msgstr ""
+
+#: virtManager/addhardware.py:467
+msgid "QEMU vdagent"
+msgstr ""
+
+#: virtManager/addhardware.py:483 virtManager/addhardware.py:544
+msgid "IDE"
+msgstr ""
+
+#: virtManager/addhardware.py:484 virtManager/details/details.py:2277
+msgid "Floppy"
+msgstr ""
+
+#: virtManager/addhardware.py:485 virtManager/addhardware.py:546
+msgid "SCSI"
+msgstr ""
+
+#: virtManager/addhardware.py:486 virtManager/addhardware.py:545
+msgid "SATA"
+msgstr ""
+
+#: virtManager/addhardware.py:487
+msgid "VirtIO Serial"
+msgstr ""
+
+#: virtManager/addhardware.py:488 virtManager/addhardware.py:548
+#: virtManager/addhardware.py:599
+msgid "USB"
+msgstr ""
+
+#: virtManager/addhardware.py:489
+msgid "PCI"
+msgstr ""
+
+#: virtManager/addhardware.py:490
+msgid "CCID"
+msgstr ""
+
+#: virtManager/addhardware.py:491
+msgid "xenbus"
+msgstr ""
+
+#: virtManager/addhardware.py:499 virtManager/addhardware.py:922
+msgid "VirtIO SCSI"
+msgstr ""
+
+#: virtManager/addhardware.py:502
+msgid "PCIe"
+msgstr ""
+
+#: virtManager/addhardware.py:547
+msgid "SD"
+msgstr ""
+
+#: virtManager/addhardware.py:549 virtManager/addhardware.py:600
+msgid "VirtIO"
+msgstr ""
+
+#: virtManager/addhardware.py:550 virtManager/addhardware.py:601
+msgid "Xen"
+msgstr ""
+
+#: virtManager/addhardware.py:557
+msgid "Random"
+msgstr "ਬੇਤਰਤੀਬ"
+
+#: virtManager/addhardware.py:558
+msgid "Entropy Gathering Daemon"
+msgstr "ਐਂਟਰੌਪੀ ਡੈਮਨ ਇਕੱਠੇ ਕਰ ਰਹੀ ਹੈ"
+
+#: virtManager/addhardware.py:559
+msgid "Builtin RNG"
+msgstr ""
+
+#: virtManager/addhardware.py:577
+msgid "Forcefully reset the guest"
+msgstr "ਪ੍ਰਾਹੁਣੇ ਨੂੰ ਧੱਕੇ ਨਾਲ ਰੀ-ਸੈੱਟ ਕਰੋ"
+
+#: virtManager/addhardware.py:578
+msgid "Gracefully shutdown the guest"
+msgstr "ਪ੍ਰਾਹੁਣੇ ਨੂੰ ਸੁਹਜ ਨਾਲ ਬੰਦ ਕਰੋ"
+
+#: virtManager/addhardware.py:579
+msgid "Forcefully power off the guest"
+msgstr "ਪ੍ਰਾਹੁਣੇ ਨੂੰ ਧੱਕੇ ਨਾਲ ਬੰਦ ਕਰੋ"
+
+#: virtManager/addhardware.py:580
+msgid "Pause the guest"
+msgstr "ਪ੍ਰਾਹੁਣੇ ਤੇ ਵਿਰਾਮ ਲਾਓ"
+
+#: virtManager/addhardware.py:581
+msgid "No action"
+msgstr "ਕੋਈ ਕਾਰਵਾਈ ਨਹੀਂ"
+
+#: virtManager/addhardware.py:582
+msgid "Dump guest memory core"
+msgstr ""
+
+#: virtManager/addhardware.py:589
+msgid "EvTouch USB Graphics Tablet"
+msgstr "EvTouch USB ਗਰਾਫਿਕਸ ਟੈਬਲੈੱਟ"
+
+#: virtManager/addhardware.py:592 virtManager/details/details.py:190
+msgid "Keyboard"
+msgstr ""
+
+#: virtManager/addhardware.py:593 virtManager/details/details.py:188
+msgid "Mouse"
+msgstr "ਮਾਊਸ"
+
+#: virtManager/addhardware.py:594 virtManager/details/details.py:186
+msgid "Tablet"
+msgstr "ਟੈਬਲੇਟ"
+
+#: virtManager/addhardware.py:598
+msgid "PS/2"
+msgstr ""
+
+#. translators: Examples: 'USB Mouse', 'PS/2 Keyboard'
+#: virtManager/addhardware.py:607
+#, python-format
+msgid "%(input_bus)s %(input_type)s"
+msgstr ""
+
+#: virtManager/addhardware.py:704
+msgid "Disk device"
+msgstr ""
+
+#: virtManager/addhardware.py:705
+msgid "CDROM device"
+msgstr ""
+
+#: virtManager/addhardware.py:706
+msgid "Floppy device"
+msgstr ""
+
+#: virtManager/addhardware.py:708
+msgid "LUN Passthrough"
+msgstr ""
+
+#: virtManager/addhardware.py:730 virtManager/addhardware.py:764
+#: virtManager/addhardware.py:841 virtManager/addhardware.py:850
+#: virtManager/addhardware.py:896 virtManager/addhardware.py:923
+#: virtManager/device/addstorage.py:98 virtManager/device/addstorage.py:104
+#: virtManager/device/fsdetails.py:87 virtManager/device/gfxdetails.py:105
+#: virtManager/device/tpmdetails.py:77 virtManager/device/tpmdetails.py:88
+#: virtManager/preferences.py:172
+msgid "Hypervisor default"
+msgstr "ਹਾਈਪਰਵਾਈਜ਼ਰ ਡਿਫਾਲਟ"
+
+#: virtManager/addhardware.py:819
+#, python-format
+msgid ""
+"%s is not active in the host system.\n"
+"Please start the mdev in the host system before adding it to the guest."
+msgstr ""
+
+#: virtManager/addhardware.py:828
+msgid "No Devices Available"
+msgstr "ਕੋਈ ਯੰਤਰ ਉਪਲੱਬਧ ਨਹੀਂ"
+
+#: virtManager/addhardware.py:885 virtManager/device/tpmdetails.py:73
+msgid "Passthrough"
+msgstr ""
+
+#: virtManager/addhardware.py:886
+msgid "Host"
+msgstr ""
+
+#: virtManager/addhardware.py:891
+msgid "Spice channel"
+msgstr ""
+
+#: virtManager/addhardware.py:919
+msgid "USB 3"
+msgstr ""
+
+#: virtManager/addhardware.py:920
+msgid "USB 2"
+msgstr ""
+
+#: virtManager/addhardware.py:1018
+msgid "Video Device"
+msgstr "ਵਿਡੀਓ ਯੰਤਰ"
+
+#: virtManager/addhardware.py:1020
+msgid "Watchdog Device"
+msgstr "ਵਾਚਡੌਗ ਯੰਤਰ"
+
+#: virtManager/addhardware.py:1022
+msgid "Filesystem Passthrough"
+msgstr "ਫਾਈਲਸਿਸਟਮ ਪਾਸਥਰੂਅ"
+
+#: virtManager/addhardware.py:1030
+msgid "Random Number Generator"
+msgstr "ਬੇ-ਤਰਤੀਬ ਅੰਕ ਪੈਦਾ ਕਰਨ ਵਾਲਾ"
+
+#: virtManager/addhardware.py:1034
+msgid "VM Sockets"
+msgstr ""
+
+#: virtManager/addhardware.py:1038 virtManager/details/details.py:2054
+#, python-format
+msgid "%s Device"
+msgstr "%s ਯੰਤਰ"
+
+#: virtManager/addhardware.py:1042
+#, fuzzy
+msgid "PCI Device"
+msgstr "%s ਜੰਤਰ"
+
+#: virtManager/addhardware.py:1044
+#, fuzzy
+#| msgid "%s Device"
+msgid "MDEV Device"
+msgstr "%s ਯੰਤਰ"
+
+#: virtManager/addhardware.py:1045
+#, fuzzy
+msgid "USB Device"
+msgstr "%s ਜੰਤਰ"
+
+#: virtManager/addhardware.py:1162
+#, python-format
+msgid ""
+"%s already has a USB controller attached.\n"
+"Adding more than one USB controller is not supported.\n"
+"You can change the USB controller type in the VM details screen."
+msgstr ""
+
+#: virtManager/addhardware.py:1256
+msgid "Are you sure you want to add this device?"
+msgstr "ਕੀ ਤੁਸੀਂ ਇਸ ਯੰਤਰ ਨੂੰ ਸ਼ਾਮਿਲ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: virtManager/addhardware.py:1260
+msgid ""
+"This device could not be attached to the running machine. Would you like to "
+"make the device available after the next guest shutdown?"
+msgstr ""
+"ਇਹ ਯੰਤਰ ਨੂੰ ਚੱਲ ਰਹੀ ਮਸ਼ੀਨ ਨਾਲ ਜੋੜਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ। ਕੀ ਤੁਸੀਂ ਜੰਤਰ ਨੂੰ ਅਗਲੇ ਗੈਸਟ ਬੰਦ ਹੋਣ ਤੋਂ ਬਾਅਦ "
+"ਉਪਲੱਬਧ ਕਰਾਉਣਾ ਚਾਹੋਗੇ?"
+
+#: virtManager/addhardware.py:1287
+#, python-format
+msgid "Unable to add device: %s"
+msgstr "ਯੰਤਰ ਸ਼ਾਮਿਲ ਕਰਨ ਵਿੱਚ ਅਸਮਰਥ: %s"
+
+#: virtManager/addhardware.py:1307
+#, python-format
+msgid "Error validating device parameters: %s"
+msgstr ""
+
+#: virtManager/addhardware.py:1316
+msgid "Creating device"
+msgstr "ਯੰਤਰ ਬਣਾ ਰਿਹਾ"
+
+#: virtManager/addhardware.py:1317
+msgid "Depending on the device, this may take a few minutes to complete."
+msgstr "ਯੰਤਰ ਤੇ ਨਿਰਭਰ ਹੋਣ ਕਰ ਕੇ, ਇਹ ਪੂਰਾ ਹੋਣ ਲਈ ਕੁਝ ਮਿੰਟ ਲੈ ਸਕਦਾ ਹੈ।"
+
+#: virtManager/addhardware.py:1338
+#, python-format
+msgid "The device is already in use by other guests %s"
+msgstr ""
+
+#: virtManager/addhardware.py:1339
+msgid "Do you really want to use the device?"
+msgstr ""
+
+#: virtManager/addhardware.py:1383
+#, python-format
+msgid "Error building device XML: %s"
+msgstr ""
+
+#: virtManager/asyncjob.py:228
+msgid "Cancelling job..."
+msgstr "ਜੌਬ ਰੱਦ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ..."
+
+#: virtManager/clone.py:28 virtinst/cloner.py:199
+msgid "No storage to clone."
+msgstr "ਕਲੋਨ ਕਰਨ ਲਈ ਕੋਈ ਸਟੋਰੇਜ਼ ਨਹੀਂ।"
+
+#: virtManager/clone.py:118
+#, python-format
+msgid "Disk target: %s"
+msgstr ""
+
+#: virtManager/clone.py:119
+#, python-format
+msgid "Original path: %s"
+msgstr ""
+
+#: virtManager/clone.py:121
+#, fuzzy, python-format
+#| msgid "Deleting path '%s'"
+msgid "New path: %s"
+msgstr "ਟਿਕਾਣਾ '%s' ਹਟਾਇਆ ਜਾ ਰਿਹਾ ਹੈ"
+
+#: virtManager/clone.py:125
+#, fuzzy, python-format
+#| msgid "Storage is marked as shareable."
+msgid "Storage is safe to share: %(reason)s"
+msgstr "ਸਟੋਰੇਜ਼ ਨੂੰ ਸ਼ੇਅਰ-ਯੋਗ ਮਾਰਕ ਕੀਤਾ ਹੈ।"
+
+#: virtManager/clone.py:127
+msgid "Sharing this storage is potentially dangerous."
+msgstr ""
+
+#: virtManager/clone.py:130
+#, python-format
+msgid "Storage is not cloneable: %(reason)s"
+msgstr ""
+
+#: virtManager/clone.py:141
+#, fuzzy
+#| msgid "No storage to clone."
+msgid "No storage."
+msgstr "ਕਲੋਨ ਕਰਨ ਲਈ ਕੋਈ ਸਟੋਰੇਜ਼ ਨਹੀਂ।"
+
+#: virtManager/clone.py:146
+#, python-format
+msgid "Share disk with %s"
+msgstr "ਡਿਸਕ ਨੂੰ %s ਨਾਲ ਸ਼ੇਅਰ ਕਰੋ"
+
+#: virtManager/clone.py:148
+msgid "Clone this disk"
+msgstr "ਇਹ ਡਿਸਕ ਕਲੋਨ ਕਰੋ"
+
+#: virtManager/clone.py:185
+#, python-format
+msgid "Error launching clone dialog: %s"
+msgstr ""
+
+#: virtManager/clone.py:278
+#, fuzzy
+#| msgid "C_lone"
+msgid "Clone"
+msgstr "ਕਲੋਨ(_l)"
+
+#: virtManager/clone.py:453
+msgid "Cloning will overwrite the existing file"
+msgstr "ਕਲੋਨ ਕਰਨ ਨਾਲ ਮੌਜੂਦਾ ਫਾਇਲ ਮੁੜ-ਲਿਖੀ ਜਾਵੇਗੀ"
+
+#: virtManager/clone.py:455
+msgid ""
+"Using an existing image will overwrite the path during the clone process. "
+"Are you sure you want to use this path?"
+msgstr ""
+"ਕਲੋਨ ਕਾਰਜ ਦੌਰਾਨ ਮੌਜੂਦਾ ਈਮੇਜ਼ ਵਰਤਣ ਨਾਲ ਮਾਰਗ ਮੁੜ-ਲਿਖਿਆ ਜਾਂਦਾ ਹੈ। ਕੀ ਤੁਸੀਂ ਯਕੀਨਨ ਇਸ ਮਾਰਗ ਨੂੰ "
+"ਵਰਤਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: virtManager/clone.py:483
+#, fuzzy
+#| msgid "Skipping disks may cause data to be overwritten."
+msgid "Sharing storage may cause data to be overwritten."
+msgstr "ਡਿਸਕ ਛੱਡਣ ਨਾਲ ਡਾਟਾ ਮੁੜ-ਲਿਖਿਆ ਜਾ ਸਕਦਾ ਹੈ।"
+
+#: virtManager/clone.py:485
+#, fuzzy, python-format
+#| msgid ""
+#| "The following disk devices will not be cloned:\n"
+#| "\n"
+#| "%s\n"
+#| "Running the new guest could overwrite data in these disk images."
+msgid ""
+"The following disk devices will be shared with %(vmname)s:\n"
+"\n"
+"%(pathlist)s\n"
+"Running the new guest could overwrite data in these disk images."
+msgstr ""
+"ਹੇਠਲੀ ਡਿਸਕ ਕਲੋਨ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ:\n"
+"\n"
+"%s\n"
+"ਨਵਾਂ ਗੈੱਸਟ ਚਲਾਉਣ ਨਾਲ ਇਹਨਾਂ ਡਿਸਕ ਈਮੇਜ਼ਾਂ ਵਿਚਲਾ ਡਾਟਾ ਮੁੜ ਲਿਖਿਆ ਜਾਵੇਗਾ।"
+
+#: virtManager/clone.py:502
+#, fuzzy, python-format
+#| msgid "Error creating virtual machine clone '%s': %s"
+msgid "Error creating virtual machine clone '%(vm)s': %(error)s"
+msgstr "ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਕਲੋਨ '%s' ਬਣਾਉਣ ਸਮੇਂ ਗਲਤੀ: %s"
+
+#: virtManager/clone.py:562
+#, fuzzy, python-format
+#| msgid "Error changing pool settings: %s"
+msgid "Error with clone settings: %s"
+msgstr "ਪੂਲ ਸੈਟਿੰਗਾਂ ਬਦਲਣ ਵੇਲੇ ਗਲਤੀ: %s"
+
+#: virtManager/clone.py:567
+#, python-format
+msgid "Creating virtual machine clone '%s'"
+msgstr "ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਕਲੋਨ '%s' ਬਣਾਓ"
+
+#: virtManager/clone.py:573
+#, fuzzy, python-format
+#| msgid " and selected storage (this may take a while)"
+msgid ""
+"Creating virtual machine clone '%s' and selected storage (this may take a "
+"while)"
+msgstr " ਅਤੇ ਸਟੋਰੇਜ਼ ਚੁਣੋ (ਇਸਨੂੰ ਕੁਝ ਸਮਾਂ ਲੱਗ ਸਕਦਾ ਹੈ)"
+
+#: virtManager/connection.py:390
+msgid "User session"
+msgstr ""
+
+#: virtManager/connection.py:488
+msgid "Disconnected"
+msgstr "ਡਿਸ-ਕੁਨੈਕਟ ਹੋ ਗਿਆ ਹੈ"
+
+#: virtManager/connection.py:490
+msgid "Connecting"
+msgstr "ਕੁਨੈਕਟ ਹੋ ਰਿਹਾ ਹੈ"
+
+#: virtManager/connection.py:582
+#, fuzzy, python-format
+#| msgid ""
+#| "%s rename failed. Attempting to recover also failed.\n"
+#| "\n"
+#| "Original error: %s\n"
+#| "\n"
+#| "Recover error: %s"
+msgid ""
+"%(object)s rename failed. Attempting to recover also failed.\n"
+"\n"
+"Original error: %(origerror)s\n"
+"\n"
+"Recover error: %(recovererror)s"
+msgstr ""
+"%s ਨਾਂ ਬਦਲੀ ਅਸਫਲ। ਮੁੜ ਠੀਕ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਵੀ ਅਸਫਲ।\n"
+"\n"
+"ਅਸਲ ਗਲਤੀ: %s\n"
+"\n"
+"ਮੁੜ ਠੀਕ ਕਰਨ ਵਿੱਚ ਗਲਤੀ: %s"
+
+#: virtManager/createconn.py:51
+#, python-format
+msgid "Error launching connect dialog: %s"
+msgstr "ਕੁਨੈਕਟ ਡਾਇਲਾਗ ਚਲਾਉਣ ਤੇ ਗਲਤੀ: %s"
+
+#: virtManager/createconn.py:114
+msgid "user session"
+msgstr ""
+
+#: virtManager/createconn.py:120
+msgid "Custom URI..."
+msgstr ""
+
+#: virtManager/createconn.py:236
+msgid "A hostname is required for remote connections."
+msgstr "ਰਿਮੋਟ ਕੁਨੈਕਸ਼ਨ ਲਈ ਹੋਸਟ-ਨਾਂ ਲੋੜੀਂਦਾ ਹੈ।"
+
+#: virtManager/createconn.py:249
+msgid "Would you still like to remember this connection?"
+msgstr "ਕੀ ਤੁਸੀਂ ਅਜੇ ਵੀ ਇਸ ਸੰਪਰਕ ਨੂੰ ਯਾਦ ਰੱਖਣਾ ਪਸੰਦ ਕਰੋਗੇ?"
+
+#: virtManager/createnet.py:98
+msgid "Any physical device"
+msgstr "ਕੋਈ ਵੀ ਫਿਜ਼ਿਕਲ ਜੰਤਰ"
+
+#: virtManager/createnet.py:99
+msgid "Physical device..."
+msgstr ""
+
+#: virtManager/createnet.py:107 virtManager/object/network.py:156
+msgid "NAT"
+msgstr "NAT"
+
+#: virtManager/createnet.py:109
+msgid "Open"
+msgstr ""
+
+#: virtManager/createnet.py:110
+msgid "Isolated"
+msgstr ""
+
+#: virtManager/createnet.py:111
+msgid "SR-IOV pool"
+msgstr ""
+
+#: virtManager/createnet.py:173
+msgid "No available device"
+msgstr ""
+
+#: virtManager/createnet.py:338
+#, python-format
+msgid "Name '%s' already in use by another network."
+msgstr "'%s' ਨਾਂ ਪਹਿਲਾਂ ਹੀ ਕਿਸੇ ਹੋਰ ਨੈੱਟਵਰਕ ਦੁਆਰਾ ਵਰਤੋਂ ਵਿੱਚ ਹੈ।"
+
+#: virtManager/createnet.py:408 virtManager/createpool.py:312
+#: virtManager/createvol.py:255
+#, python-format
+msgid "Error building XML: %s"
+msgstr ""
+
+#: virtManager/createnet.py:414
+#, python-format
+msgid "Error creating virtual network: %s"
+msgstr "ਵਰਚੁਅਲ ਨੈੱਟਵਰਕ ਬਣਾਉਣ ਸਮੇਂ ਗਲਤੀ: %s"
+
+#: virtManager/createnet.py:441
+#, python-format
+msgid "Error validating network: %s"
+msgstr ""
+
+#: virtManager/createnet.py:449
+msgid "Creating virtual network..."
+msgstr "ਇੱਕ ਵਰਚੁਅਲ ਨੈੱਟਵਰਕ ਬਣਾ ਰਿਹਾ..."
+
+#: virtManager/createnet.py:450
+msgid "Creating the virtual network may take a while..."
+msgstr "ਵਰਚੁਅਲ ਨੈੱਟਵਰਕ ਬਣਾਉਣ ਵਿੱਚ ਕੁੱਝ ਦੇਰ ਲੱਗ ਸਕਦੀ ਹੈ..."
+
+#: virtManager/createpool.py:210
+msgid "Sou_rce Name:"
+msgstr ""
+
+#: virtManager/createpool.py:210
+msgid "Volg_roup Name:"
+msgstr ""
+
+#: virtManager/createpool.py:213
+msgid "_Source Path:"
+msgstr "ਸਰੋਤ ਮਾਰਗ(_S):"
+
+#: virtManager/createpool.py:215
+msgid "_Source IQN:"
+msgstr ""
+
+#: virtManager/createpool.py:217
+msgid "_Source Adapter:"
+msgstr ""
+
+#: virtManager/createpool.py:325
+#, python-format
+msgid "Error creating pool: %s"
+msgstr "ਪੂਲ ਬਣਾਉਣ ਵਿੱਚ ਗਲਤੀ: %s"
+
+#: virtManager/createpool.py:348
+#, python-format
+msgid "Error validating pool: %s"
+msgstr ""
+
+#: virtManager/createpool.py:357
+msgid "Creating storage pool..."
+msgstr "ਸਟੋਰੇਜ਼ ਪੂਲ ਬਣਾ ਰਿਹਾ ਹੈ..."
+
+#: virtManager/createpool.py:358
+msgid "Creating the storage pool may take a while..."
+msgstr "ਸਟੋਰੇਜ਼ ਪੂਲ ਬਣਨ ਵਿੱਚ ਕੁਝ ਸਮਾਂ ਲੱਗੇਗਾ..."
+
+#: virtManager/createpool.py:378
+msgid "Choose source path"
+msgstr "ਸਰੋਤ ਮਾਰਗ ਚੁਣੋ"
+
+#: virtManager/createpool.py:389
+msgid "Choose target directory"
+msgstr "ਟਾਰਗਿਟ ਡਾਇਰੈਕਟਰੀ ਚੁਣੋ"
+
+#: virtManager/createvm.py:66
+#, python-format
+msgid "%.1f GiB"
+msgstr ""
+
+#: virtManager/createvm.py:70
+#, python-format
+msgid "%d MiB"
+msgstr ""
+
+#: virtManager/createvm.py:180
+#, python-format
+msgid "Error launching create dialog: %s"
+msgstr ""
+
+#: virtManager/createvm.py:301
+#, fuzzy, python-format
+#| msgid "Error"
+msgid "Error: %s"
+msgstr "ਗਲਤੀ"
+
+#: virtManager/createvm.py:306 virtManager/createvm.py:310
+#, python-format
+msgid "<span size='small'>Warning: %s</span>"
+msgstr ""
+
+#: virtManager/createvm.py:482
+#, python-format
+msgid ""
+"Failed to setup UEFI: %s\n"
+"Install options are limited."
+msgstr ""
+
+#: virtManager/createvm.py:504
+msgid "Libvirt version does not support remote URL installs."
+msgstr "Libvirt ਰਿਮੋਟ URL ਇੰਸਟਾਲ ਲਈ ਸਹਿਯੋਗੀ ਨਹੀਂ ਹੈ।"
+
+#: virtManager/createvm.py:510
+#, fuzzy
+#| msgid "%s installs not available for paravirt guests."
+msgid "CDROM/ISO installs not available for paravirt guests."
+msgstr "%s ਇੰਸਟਾਲ paravirt ਗੈੱਸਟਾਂ ਲਈ ਉਪਲੱਬਧ ਨਹੀਂ ਹਨ।"
+
+#: virtManager/createvm.py:513
+#, python-format
+msgid "Architecture '%s' is not installable"
+msgstr ""
+
+#: virtManager/createvm.py:525
+msgid "No install methods available for this connection."
+msgstr "ਇਸ ਕੁਨੈਕਸ਼ਨ ਲਈ ਕੋਈ ਇੰਸਟਾਲ ਉਪਲੱਬਧ ਨਹੀਂ ਹੈ।"
+
+#: virtManager/createvm.py:553
+msgid "No hypervisor options were found for this connection."
+msgstr ""
+"ਇਸ ਕੁਨੈਕਸ਼ਨ ਲਈ ਕੋਈ ਹਾਈਪਰਵਾਈਸਰ ਚੋਣ ਉਪਲੱਬਧ\n"
+"ਨਹੀਂ ਹੈ।"
+
+#: virtManager/createvm.py:558
+msgid ""
+"This usually means that QEMU or KVM is not installed on your machine, or the "
+"KVM kernel modules are not loaded."
+msgstr ""
+"ਇਸਦਾ ਮਤਲਬ ਹੈ ਕਿ QEMU ਜਾਂ KVM ਤੁਹਾਡੀ ਮਸ਼ੀਨ ਤੇ ਇੰਸਟਾਲ ਨਹੀਂ ਹਨ, ਜਾਂ KVM ਕਰਨਲ ਮੋਡੀਊਲ ਲੋਡ "
+"ਨਹੀਂ ਹੋਇਆ।"
+
+#: virtManager/createvm.py:583
+msgid ""
+"KVM is not available. This may mean the KVM package is not installed, or the "
+"KVM kernel modules are not loaded. Your virtual machines may perform poorly."
+msgstr ""
+"KVM ਉਪਲੱਬਧ ਨਹੀਂ ਹੈ। ਇਸ ਦੀ ਮਤਲਬ ਹੋ ਸਕਦਾ ਹੈ ਕਿ KVM ਪੈਕੇਜ ਇੰਸਟਾਲ ਨਹੀਂ ਹੈ, ਜਾਂ KVM ਕਰਨਲ "
+"ਮੋਡੀਊਲ ਲੋਡ ਨਹੀਂ ਹੋਏ ਹਨ। ਤੁਹਾਡੀ ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਵਧੀਆ ਨਹੀਂ ਚੱਲੇਗੀ।"
+
+#: virtManager/createvm.py:626
+#, python-format
+msgid "Up to %(maxmem)s available on the host"
+msgstr "%(maxmem)s ਤੱਕ ਹੋਸਟ ਤੇ ਉਪਲੱਬਧ ਹਨ"
+
+#: virtManager/createvm.py:634
+#, fuzzy, python-format
+#| msgid "Up to %(numcpus)d available"
+msgid "Up to %(numcpus)d available"
+msgid_plural "Up to %(numcpus)d available"
+msgstr[0] "%(numcpus)d ਤੱਕ ਉਪਲੱਬਧ ਹਨ"
+msgstr[1] "%(numcpus)d ਤੱਕ ਉਪਲੱਬਧ ਹਨ"
+
+#: virtManager/createvm.py:669
+msgid "No active connection to install on."
+msgstr "ਇੰਸਟਾਲ ਕਰਨ ਲਈ ਕੋਈ ਯੰਤਰ ਉਪਲੱਬਧ ਨਹੀਂ ਹੈ।"
+
+#: virtManager/createvm.py:921 virtManager/details/details.py:1718
+#: virtManager/device/gfxdetails.py:98
+msgid "None"
+msgstr "ਕੋਈ ਨਹੀਂ"
+
+#: virtManager/createvm.py:935
+msgid "Local CDROM/ISO"
+msgstr "ਲੋਕਲ CDROM/ISO"
+
+#: virtManager/createvm.py:937
+msgid "URL Install Tree"
+msgstr "URL ਇੰਸਟਾਲ ਟਰੀ"
+
+#: virtManager/createvm.py:939
+msgid "Import existing OS image"
+msgstr "ਮੌਜੂਦਾ OS ਈਮੇਜ਼ ਇੰਪੋਰਟ ਕਰੋ"
+
+#: virtManager/createvm.py:941
+msgid "Manual install"
+msgstr ""
+
+#: virtManager/createvm.py:943
+msgid "Application container"
+msgstr "ਐਪਲੀਕੇਸ਼ਨ ਕੰਟੇਨਰ"
+
+#: virtManager/createvm.py:945
+msgid "Operating system container"
+msgstr "ਓਪਰੇਟਿੰਗ ਸਿਸਟਮ ਕੰਟੇਨਰ"
+
+#: virtManager/createvm.py:947
+msgid "Virtuozzo container"
+msgstr ""
+
+#: virtManager/createvm.py:1086
+msgid "Removing disk images"
+msgstr ""
+
+#: virtManager/createvm.py:1087
+msgid "Removing disk images we created for this virtual machine."
+msgstr ""
+
+#: virtManager/createvm.py:1285
+#, python-format
+msgid "Step %(current_page)d of %(max_page)d"
+msgstr "Step %(current_page)d of %(max_page)d"
+
+#: virtManager/createvm.py:1295
+msgid "Waiting for install media / source"
+msgstr ""
+
+#: virtManager/createvm.py:1365
+#, python-format
+msgid "Error populating summary page: %s"
+msgstr ""
+
+#: virtManager/createvm.py:1407
+#, python-format
+msgid "Uncaught error validating install parameters: %s"
+msgstr "ਅਣਜਾਣੀ ਗਲਤੀ ਜੋ ਇੰਸਟਾਲ ਪੈਰਾਮੀਟਰਾਂ ਨੂੰ ਪ੍ਰਮਾਣਿਤ ਕਰਦੀ ਹੈ: %s"
+
+#: virtManager/createvm.py:1417
+msgid "Source URL is required"
+msgstr ""
+
+#: virtManager/createvm.py:1422
+msgid "Please specify password for accessing source registry"
+msgstr ""
+
+#: virtManager/createvm.py:1430
+#, python-format
+msgid "Destination path is not directory: %s"
+msgstr ""
+
+#: virtManager/createvm.py:1433
+#, python-format
+msgid "No write permissions for directory path: %s"
+msgstr ""
+
+#: virtManager/createvm.py:1440
+msgid "OS root directory is not empty"
+msgstr ""
+
+#: virtManager/createvm.py:1442
+msgid ""
+"Creating root file system in a non-empty directory might fail due to file "
+"conflicts.\n"
+"Would you like to continue?"
+msgstr ""
+
+#: virtManager/createvm.py:1463
+msgid "An install media selection is required."
+msgstr "ਇੱਕ ਇੰਸਟਾਲ ਮੀਡੀਆ ਚੁਣਨ ਦੀ ਲੋੜ ਹੈ।"
+
+#: virtManager/createvm.py:1471
+msgid "An install tree is required."
+msgstr "ਇੰਸਟਾਲ ਟਰੀ ਲੋੜੀਂਦਾ ਹੈ।"
+
+#: virtManager/createvm.py:1479
+msgid "A storage path to import is required."
+msgstr "ਇੰਪੋਰਟ ਕਰਨ ਲਈ ਸਟੋਰੇਜ਼ ਮਾਰਗ ਦੀ ਲੋੜ ਹੈ।"
+
+#: virtManager/createvm.py:1483
+msgid "The import path must point to an existing storage."
+msgstr ""
+
+#: virtManager/createvm.py:1489
+msgid "An application path is required."
+msgstr "ਐਪਲੀਕੇਸ਼ਨ ਟਿਕਾਣਾ ਲੋੜੀਂਦਾ ਹੈ।"
+
+#: virtManager/createvm.py:1494
+msgid "An OS directory path is required."
+msgstr "ਓਪਰੇਟਿੰਗ ਸਿਸਟਮ ਡਾਇਰੈਕਟਰੀ ਟਿਕਾਣਾ ਲੋੜੀਂਦਾ ਹੈ।"
+
+#: virtManager/createvm.py:1507
+msgid "A template name is required."
+msgstr ""
+
+#: virtManager/createvm.py:1510
+msgid "You must select an OS."
+msgstr ""
+
+#: virtManager/createvm.py:1540
+msgid "Error setting installer parameters."
+msgstr "ਇੰਸਾਟਲਰ ਪੈਰਾਮੀਟਰ ਸੈੱਟ ਕਰਨ ਵਿੱਚ ਗਲਤੀ।"
+
+#: virtManager/createvm.py:1548
+msgid "Error setting default name."
+msgstr ""
+
+#: virtManager/createvm.py:1643
+msgid "Storage parameter error."
+msgstr "ਸਟੋਰੇਜ਼ ਪੈਰਾਮੀਟਰ ਗਲਤੀ।"
+
+#: virtManager/createvm.py:1664
+msgid "Invalid guest name"
+msgstr ""
+
+#: virtManager/createvm.py:1750
+msgid "Detecting..."
+msgstr ""
+
+#: virtManager/createvm.py:1812
+msgid "None detected"
+msgstr ""
+
+#: virtManager/createvm.py:1848
+#, fuzzy, python-format
+#| msgid "Error starting installation: "
+msgid "Error starting installation: %s"
+msgstr "ਇੰਸਟਾਲੇਸ਼ਨ ਸ਼ੁਰੂ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ: "
+
+#: virtManager/createvm.py:1889
+#, python-format
+msgid "Unable to complete install: '%s'"
+msgstr "ਮੁਕੰਮਲ ਇੰਸਟਾਲ ਵਿੱਚ ਅਸਮਰਥ: '%s'"
+
+#: virtManager/createvm.py:1929
+msgid "Creating Virtual Machine"
+msgstr "ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਬਣਾਈ ਜਾ ਰਹੀ ਹੈ"
+
+#: virtManager/createvm.py:1931
+msgid ""
+"The virtual machine is now being created. Allocation of disk storage and "
+"retrieval of the installation images may take a few minutes to complete."
+msgstr ""
+"ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਹੁਣ ਬਣਾਈ ਗਈ ਹੈ। ਡਿਸਕ ਸਟੋਰੇਜ਼ ਦਾ ਨਿਰਧਾਰਨ ਅਤੇ ਇੰਸਟਾਲੇਸ਼ਨ ਈਮੇਜ਼ ਦੀ ਪ੍ਰਾਪਤੀ ਮੁਕੰਮਲ "
+"ਹੋਣ ਲਈ ਕੁਝ ਸਮਾਂ ਲੈ ਸਕਦੀ ਹੈ।"
+
+#: virtManager/createvm.py:1987
+#, python-format
+msgid "VM '%s' didn't show up after expected time."
+msgstr ""
+
+#: virtManager/createvm.py:2039
+#, fuzzy, python-format
+#| msgid "Error continue install: %s"
+msgid "Error continuing install: %s"
+msgstr "ਇੰਸਟਾਲ ਜਾਰੀ ਕਰਨ ਵੇਲੇ ਗਲਤੀ: %s"
+
+#: virtManager/createvm.py:2055
+#, fuzzy
+#| msgid "Application container"
+msgid "Bootstrapping container"
+msgstr "ਐਪਲੀਕੇਸ਼ਨ ਕੰਟੇਨਰ"
+
+#: virtManager/createvol.py:134
+#, python-format
+msgid "<b>%(volume)s's</b> available space: %(size)s"
+msgstr ""
+
+#: virtManager/createvol.py:269
+#, python-format
+msgid "Error creating vol: %s"
+msgstr "ਵਾਲੀਅਮ ਬਣਾਉਣ ਵਿੱਚ ਗਲਤੀ: %s"
+
+#: virtManager/createvol.py:284
+#, python-format
+msgid "Error validating volume: %s"
+msgstr ""
+
+#: virtManager/createvol.py:292
+msgid "Creating storage volume..."
+msgstr "ਸਟੋਰੇਜ਼ ਵਾਲੀਅਮ ਬਣਾਇਆ ਜਾ ਰਿਹਾ ਹੈ..."
+
+#: virtManager/createvol.py:293
+msgid "Creating the storage volume may take a while..."
+msgstr "ਸਟੋਰੇਜ਼ ਵਾਲੀਅਮ ਬਣਨ ਤੇ ਕੁਝ ਸਮਾਂ ਲੱਗ ਸਕਦਾ ਹੈ..."
+
+#: virtManager/delete.py:149
+msgid "Are you sure you want to delete the storage?"
+msgstr "ਕੀ ਤੁਸੀ ਯਕੀਨੀ ਭੰਡਾਰਣ ਮਿਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: virtManager/delete.py:150
+#, python-format
+msgid ""
+"The following paths will be deleted:\n"
+"\n"
+"%s"
+msgstr ""
+"ਹੇਠਾਂ ਦਿੱਤੇ ਰਾਹ ਮਿਟਾ ਦਿੱਤੇ ਜਾਣਗੇ:\n"
+"\n"
+"%s"
+
+#: virtManager/delete.py:197
+#, fuzzy, python-format
+#| msgid "Error deleting virtual machine '%s': %s"
+msgid "Error deleting virtual machine '%(vm)s': %(error)s"
+msgstr "ਵਰਚੁਅਲ ਮਸ਼ੀਨ '%s' ਨੂੰ ਹਟਾਉਣ ਵੇਲੇ ਗਲਤੀ: %s"
+
+#: virtManager/delete.py:215
+msgid "Additionally, there were errors removing certain storage devices: \n"
+msgstr "ਨਾਲ ਹੀ, ਕੁਝ ਸਟੋਰਜ਼ ਜੰਤਰਾਂ ਨੂੰ ਹਟਾਉਣ ਵੇਲੇ ਗਲਤੀਆਂ ਆਈਆਂ ਹਨ: \n"
+
+#: virtManager/delete.py:218
+msgid "Errors encountered while removing certain storage devices."
+msgstr "ਕੁਝ ਸਟੋਰੇਜ਼ ਜੰਤਰਾਂ ਨੂੰ ਹਟਾਉਣ ਵੇਲੇ ਗਲਤੀ ਆਈ ਹੈ।"
+
+#: virtManager/delete.py:228
+#, python-format
+msgid "Deleting path '%s'"
+msgstr "ਟਿਕਾਣਾ '%s' ਹਟਾਇਆ ਜਾ ਰਿਹਾ ਹੈ"
+
+#: virtManager/delete.py:291
+#, python-format
+msgid "Error launching delete dialog: %s"
+msgstr ""
+
+#: virtManager/delete.py:297
+#, python-format
+msgid "Delete '%(vmname)s'"
+msgstr ""
+
+#: virtManager/delete.py:302
+#, python-format
+msgid ""
+"Deleting virtual machine '%s' and selected storage (this may take a while)"
+msgstr ""
+
+#: virtManager/delete.py:307
+#, python-format
+msgid "Deleting virtual machine '%s'"
+msgstr "ਵਰਚੁਅਲ ਮਸ਼ੀਨ '%s' ਹਟਾਈ ਜਾ ਰਹੀ ਹੈ"
+
+#: virtManager/delete.py:350
+#, python-format
+msgid "Error Removing Device: %s"
+msgstr "ਜੰਤਰ ਹਟਾਉਣ ਵਿੱਚ ਗਲਤੀ: %s"
+
+#: virtManager/delete.py:364
+msgid "This change will take effect after the next guest shutdown."
+msgstr "ਇਹ ਤਬਦੀਲੀਆਂ ਅਗਲੀ ਵਾਰ ਮੁੜ-ਚਾਲੂ ਕਰਨ ਤੇ ਲਾਗੂ ਹੋਣਗੀਆਂ।"
+
+#: virtManager/delete.py:367
+msgid "Storage will not be deleted."
+msgstr ""
+
+#: virtManager/delete.py:370
+msgid "Device could not be removed from the running machine"
+msgstr "ਚੱਲ ਰਹੀ ਮਸ਼ੀਨ ਤੋਂ ਜੰਤਰ ਹਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ।"
+
+#: virtManager/delete.py:382
+msgid "Remove Disk Device"
+msgstr ""
+
+#: virtManager/delete.py:385
+#, python-format
+msgid "Remove disk device '%(target)s'"
+msgstr ""
+
+#: virtManager/delete.py:390
+#, python-format
+msgid "Removing disk device '%s' and selected storage (this may take a while)"
+msgstr ""
+
+#: virtManager/delete.py:394
+#, python-format
+msgid "Removing disk device '%s'"
+msgstr ""
+
+#: virtManager/delete.py:526
+msgid "Target"
+msgstr "ਟਾਰਗੇਟ"
+
+#: virtManager/delete.py:528
+msgid "Storage Path"
+msgstr "ਸਰੋਤ ਟਿਕਾਣਾ"
+
+#: virtManager/delete.py:589
+#, fuzzy
+#| msgid "Cannot delete iscsi share."
+msgid "Cannot delete iSCSI share."
+msgstr "iscsi ਸ਼ੇਅਰ ਨੂੰ ਹਟਾ ਨਹੀਂ ਸਕਦਾ।"
+
+#: virtManager/delete.py:591
+msgid "Cannot delete SCSI device."
+msgstr ""
+
+#: virtManager/delete.py:594
+msgid "Cannot delete unmanaged remote storage."
+msgstr "ਨਾ-ਪਰਬੰਧਿਤ ਸਟੋਰੇਜ਼ ਨੂੰ ਹਟਾ ਨਹੀਂ ਸਕਦਾ।"
+
+#: virtManager/delete.py:596
+msgid "Path does not exist."
+msgstr "ਟਿਕਾਣਾ ਮੌਜੂਦ ਨਹੀਂ ਹੈ।"
+
+#: virtManager/delete.py:598
+msgid "No write access to parent directory."
+msgstr "ਮੁੱਢਲੀ ਡਾਇਰੈਕਟਰੀ ਉੱਤੇ ਕੋਈ ਲਿਖਣ ਅਧਿਕਾਰ ਨਹੀਂ।"
+
+#: virtManager/delete.py:600
+msgid "Cannot delete unmanaged block device."
+msgstr "ਨਾ-ਪਰਬੰਧਿਤ ਬਲਾਕ ਜੰਤਰ ਨੂੰ ਹਟਾ ਨਹੀਂ ਸਕਦਾ ਹੈ।"
+
+#: virtManager/delete.py:611
+msgid "Storage is read-only."
+msgstr "ਸਟੋਰੇਜ਼ ਸਿਰਫ ਪੜਨ ਲਈ ਹੈ।"
+
+#: virtManager/delete.py:613
+msgid "No write access to path."
+msgstr "ਟਿਕਾਣੇ ਨੂੰ ਕੋਈ ਲਿਖਣ ਅਧਿਕਾਰ ਨਹੀਂ।"
+
+#: virtManager/delete.py:616
+msgid "Storage is marked as shareable."
+msgstr "ਸਟੋਰੇਜ਼ ਨੂੰ ਸ਼ੇਅਰ-ਯੋਗ ਮਾਰਕ ਕੀਤਾ ਹੈ।"
+
+#: virtManager/delete.py:619
+msgid "Storage is a media device."
+msgstr ""
+
+#: virtManager/delete.py:627
+#, fuzzy
+#| msgid ""
+#| "Storage is in use by the following virtual machines:\n"
+#| "- %s "
+msgid "Storage is in use by the following virtual machines"
+msgstr ""
+"ਸਟੋਰੇਜ਼ ਨੂੰ ਹੇਠਲੀਆਂ ਵਰਚੁਅਲ ਮਸ਼ੀਨਾਂ ਵਰਤ ਰਹੀਆਂ ਹਨ:\n"
+"- %s "
+
+#: virtManager/delete.py:632
+msgid "Failed to check disk usage conflict."
+msgstr ""
+
+#: virtManager/details/console.py:155
+#, fuzzy
+#| msgid "Leave fullscreen"
+msgid "Leave Fullscreen"
+msgstr "ਪੂਰੀ ਸਕਰੀਨ ਛੱਡੋ"
+
+#: virtManager/details/console.py:157
+msgid "Leave fullscreen"
+msgstr "ਪੂਰੀ ਸਕਰੀਨ ਛੱਡੋ"
+
+#: virtManager/details/console.py:165
+msgid "Send key combination"
+msgstr "ਸਵਿੱਚ ਮਿਸ਼ਰਨ ਭੇਜੋ"
+
+#: virtManager/details/console.py:196
+#, python-format
+msgid "Cannot display graphical console type '%s'"
+msgstr "ਗਰਾਫੀਕਲ ਕਨਸੋਲ ਕਿਸਮ ਵਿਖਾ ਨਹੀਂ ਸਕਦਾ '%s'"
+
+#: virtManager/details/console.py:224
+#, python-format
+msgid "Text Console %d"
+msgstr ""
+
+#: virtManager/details/console.py:226
+#, python-format
+msgid "Serial %d"
+msgstr ""
+
+#: virtManager/details/console.py:232
+msgid "No text console available"
+msgstr "ਕੋਈ ਪਾਠ ਕੰਸੋਲ ਉਪਲੱਬਧ ਨਹੀਂ ਹੈ"
+
+#: virtManager/details/console.py:246
+msgid "Graphical Console"
+msgstr ""
+
+#: virtManager/details/console.py:258
+msgid "virt-manager does not support more than one graphical console"
+msgstr ""
+
+#: virtManager/details/console.py:263
+msgid "Graphical console not configured for guest"
+msgstr "ਗੈੱਸਟ ਲਈ ਗਰਾਫੀਕਲ ਕੰਸੋਲ ਸੰਰਚਿਤ ਨਹੀਂ ਹੈ"
+
+#: virtManager/details/console.py:540
+msgid "Guest has crashed."
+msgstr ""
+
+#: virtManager/details/console.py:542
+msgid "Guest is not running."
+msgstr ""
+
+#: virtManager/details/console.py:651
+msgid "Connecting to graphical console for guest"
+msgstr "ਗੈੱਸਟ ਲਈ ਗਰਾਫੀਕਲ ਕਨਸੋਲ ਨਾਲ ਜੁੜ ਰਿਹਾ ਹੈ"
+
+#: virtManager/details/console.py:671
+#, fuzzy, python-format
+#| msgid "Error connecting to graphical console"
+msgid ""
+"Error connecting to graphical console:\n"
+"%s"
+msgstr "ਗਰਾਫੀਕਲ ਕੰਸੋਲ ਨਾਲ ਜੁੜਨ ਵਿੱਚ ਗਲਤੀ ਹੈ"
+
+#: virtManager/details/console.py:724
+#, python-format
+msgid "Viewer authentication error: %s"
+msgstr ""
+
+#: virtManager/details/console.py:746
+msgid "USB redirection error"
+msgstr "USB ਰੀਡਾਇਰੈਕਸ਼ਨ ਗਲਤੀ"
+
+#: virtManager/details/console.py:755
+msgid "Viewer was disconnected."
+msgstr ""
+
+#: virtManager/details/console.py:762
+#, python-format
+msgid "SSH tunnel error output: %s"
+msgstr ""
+
+#: virtManager/details/console.py:775
+msgid "Viewer is disconnecting."
+msgstr ""
+
+#: virtManager/details/console.py:914
+msgid "Viewer window closed."
+msgstr ""
+
+#: virtManager/details/console.py:919
+#, python-format
+msgid "Press %s to release pointer."
+msgstr "ਪੁਆਇੰਟਰ ਛੱਡਣ ਲਈ %s ਦੱਬੋ।"
+
+#: virtManager/details/details.py:159
+#, python-format
+msgid "Floppy %(index)d"
+msgstr ""
+
+#: virtManager/details/details.py:165
+#, fuzzy, python-format
+#| msgid "USB Redirection"
+msgid "%(bus)s CDROM %(index)d"
+msgstr "USB ਰੀਡਾਇਰੈਕਸ਼ਨ ਗਲਤੀ"
+
+#: virtManager/details/details.py:170
+#, fuzzy, python-format
+#| msgid "USB Redirection"
+msgid "%(bus)s Disk %(index)d"
+msgstr "USB ਰੀਡਾਇਰੈਕਸ਼ਨ ਗਲਤੀ"
+
+#: virtManager/details/details.py:174
+#, fuzzy, python-format
+#| msgid "USB Redirection"
+msgid "%(bus)s %(device)s %(index)d"
+msgstr "USB ਰੀਡਾਇਰੈਕਸ਼ਨ ਗਲਤੀ"
+
+#: virtManager/details/details.py:182
+#, python-format
+msgid "NIC %(mac)s"
+msgstr ""
+
+#: virtManager/details/details.py:195
+#, python-format
+msgid "Serial %(num)d"
+msgstr ""
+
+#: virtManager/details/details.py:199
+#, python-format
+msgid "Parallel %(num)d"
+msgstr ""
+
+#: virtManager/details/details.py:203
+#, fuzzy, python-format
+#| msgid "Console"
+msgid "Console %(num)d"
+msgstr "ਕਨਸੋਲ"
+
+#: virtManager/details/details.py:211
+#, fuzzy, python-format
+#| msgid "Channel Device"
+msgid "Channel (%(name)s)"
+msgstr "ਚੈਨਲ ਜੰਤਰ"
+
+#: virtManager/details/details.py:212
+#, fuzzy, python-format
+#| msgid "Channel Device"
+msgid "Channel %(type)s"
+msgstr "ਚੈਨਲ ਜੰਤਰ"
+
+#: virtManager/details/details.py:216
+#, python-format
+msgid "Display %s"
+msgstr "ਡਿਸਪਲੇਅ %s"
+
+#: virtManager/details/details.py:218
+#, fuzzy, python-format
+#| msgid "USB Redirection"
+msgid "%(bus)s Redirector %(index)d"
+msgstr "USB ਰੀਡਾਇਰੈਕਸ਼ਨ ਗਲਤੀ"
+
+#: virtManager/details/details.py:225
+#, python-format
+msgid "Sound %s"
+msgstr ""
+
+#: virtManager/details/details.py:227
+#, python-format
+msgid "Video %s"
+msgstr "ਵਿਡੀਓ %s"
+
+#: virtManager/details/details.py:229
+#, fuzzy, python-format
+#| msgid "Filesystem %s"
+msgid "Filesystem %(path)s"
+msgstr "ਫਾਇਲਸਿਸਟਮ %s"
+
+#: virtManager/details/details.py:233
+#, python-format
+msgid "Controller %(controller)s %(index)s"
+msgstr ""
+
+#: virtManager/details/details.py:237
+#, python-format
+msgid "Controller %(controller)s"
+msgstr ""
+
+#: virtManager/details/details.py:242
+#, python-format
+msgid "RNG %(device)s"
+msgstr ""
+
+#: virtManager/details/details.py:246
+#, python-format
+msgid "TPM %(device)s"
+msgstr ""
+
+#: virtManager/details/details.py:247
+#, python-format
+msgid "TPM v%(version)s"
+msgstr ""
+
+#: virtManager/details/details.py:498
+msgid "_Add Hardware"
+msgstr "ਹਾਰਡਵੇਅਰ ਜੋੜੋ(_A)"
+
+#: virtManager/details/details.py:506
+msgid "_Remove Hardware"
+msgstr "ਹਾਰਡਵੇਅਰ ਹਟਾਓ(_R)"
+
+#: virtManager/details/details.py:626 virtManager/details/details.py:1725
+msgid "UEFI"
+msgstr ""
+
+#: virtManager/details/details.py:634
+msgid "Libvirt or hypervisor does not support UEFI."
+msgstr ""
+
+#: virtManager/details/details.py:637
+msgid ""
+"Libvirt did not detect any UEFI/OVMF firmware image installed on the host."
+msgstr ""
+
+#: virtManager/details/details.py:683
+msgid "Version"
+msgstr "ਵਰਜਨ"
+
+#: virtManager/details/details.py:745
+msgid "Application Default"
+msgstr ""
+
+#: virtManager/details/details.py:748
+msgid "Hypervisor Default"
+msgstr ""
+
+#: virtManager/details/details.py:751
+msgid "Clear CPU configuration"
+msgstr ""
+
+#: virtManager/details/details.py:769
+msgid "Disk bus:"
+msgstr ""
+
+#: virtManager/details/details.py:979
+#, python-format
+msgid "Error launching hardware dialog: %s"
+msgstr "ਹਾਰਡਵੇਅਰ ਡਾਇਲਾਗ ਚਲਾਉਣ ਚ ਗਲਤੀ: %s"
+
+#: virtManager/details/details.py:985
+msgid "Are you sure you want to remove this device?"
+msgstr "ਕੀ ਤੁਸੀਂ ਯਕੀਨਨ ਇਸ ਜੰਤਰ ਨੂੰ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: virtManager/details/details.py:1236 virtManager/details/details.py:1717
+#: virtManager/details/details.py:1734 virtManager/details/details.py:1935
+#: virtManager/lib/libvirtenummap.py:82
+msgid "Unknown"
+msgstr "ਅਣਜਾਣ"
+
+#: virtManager/details/details.py:1317
+#, python-format
+msgid "Error applying changes: %s"
+msgstr ""
+
+#: virtManager/details/details.py:1444
+#, python-format
+msgid "Error changing autostart value: %s"
+msgstr "ਆਟੋਸਟਾਰਟ ਮੁੱਲ ਤਬਦੀਲ ਕਰਨ ਵਿੱਚ ਗਲਤੀ: %s"
+
+#: virtManager/details/details.py:1460
+msgid "Cannot set initrd without specifying a kernel path"
+msgstr "initrd ਨੂੰ ਕਰਨਲ ਟਿਕਾਣਾ ਦਿੱਤੇ ਬਿਨਾਂ ਸੈੱਟ ਨਹੀਂ ਕਰ ਸਕਦਾ"
+
+#: virtManager/details/details.py:1463
+msgid "Cannot set kernel arguments without specifying a kernel path"
+msgstr "ਕਰਨਲ ਆਰਗੂਮੈਂਟ ਨੂੰ ਕਰਨਲ ਟਿਕਾਣਾ ਦਿੱਤੇ ਬਿਨਾਂ ਸੈੱਟ ਨਹੀਂ ਕਰ ਸਕਦਾ"
+
+#: virtManager/details/details.py:1470
+msgid "An init path must be specified"
+msgstr "ਇੱਕ init ਟਿਕਾਣਾ ਦੇਣਾ ਜਰੂਰੀ ਹੈ"
+
+#: virtManager/details/details.py:1482 virtManager/device/addstorage.py:271
+#, fuzzy, python-format
+#| msgid "Disk %s is already in use by other guests %s."
+msgid "Disk '%(path)s' is already in use by other guests %(names)s"
+msgstr "ਡਿਸਕ \"%s\" ਪਹਿਲਾਂ ਹੀ ਹੋਰ ਪ੍ਰਾਹੁਣੇ %s ਵਲੋਂ ਵਰਤੀ ਜਾ ਰਹੀ ਹੈ।"
+
+#: virtManager/details/details.py:1486 virtManager/device/addstorage.py:275
+msgid "Do you really want to use the disk?"
+msgstr "ਕੀ ਤੁਸੀਂ ਸੱਚਮੁੱਚ ਡਿਸਕ ਵਰਤਣੀ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: virtManager/details/details.py:1639
+msgid "Remove this device from the virtual machine"
+msgstr ""
+
+#: virtManager/details/details.py:1696
+#, python-format
+msgid "Error refreshing hardware page: %s"
+msgstr "ਹਾਰਡਵੇਅਰ ਪੇਜ਼ ਮੁੜ-ਤਾਜ਼ਾ ਕਰਨ ਵਿੱਚ ਗਲਤੀ: %s"
+
+#: virtManager/details/details.py:1786
+#, python-format
+msgid "%(summary)s ..."
+msgstr ""
+
+#: virtManager/details/details.py:1800
+#, python-format
+msgid "%(received)d %(units)s read"
+msgstr ""
+
+#: virtManager/details/details.py:1800
+#, python-format
+msgid "%(transferred)d %(units)s write"
+msgstr ""
+
+#: virtManager/details/details.py:1806
+#, python-format
+msgid "%(received)d %(units)s in"
+msgstr ""
+
+#: virtManager/details/details.py:1806
+#, python-format
+msgid "%(transferred)d %(units)s out"
+msgstr ""
+
+#: virtManager/details/details.py:1809 virtManager/details/details.py:1810
+#: virtManager/details/details.py:1811 virtManager/details/details.py:1812
+#: virtManager/hostnets.py:203 virtManager/hostnets.py:222
+msgid "Disabled"
+msgstr "ਅਯੋਗ"
+
+#: virtManager/details/details.py:1820
+#, python-format
+msgid "%(current-memory)s of %(total-memory)s"
+msgstr ""
+
+#: virtManager/details/details.py:1983
+msgid "Absolute Movement"
+msgstr "ਅਸਲੀ ਹਿੱਲਜੁੱਲ"
+
+#: virtManager/details/details.py:1985
+msgid "Relative Movement"
+msgstr "ਸੰਬੰਧਿਤ ਹਿੱਲਜੁੱਲ"
+
+#: virtManager/details/details.py:1994 virtManager/details/details.py:2158
+#: virtManager/details/details.py:2160
+msgid "Hypervisor does not support removing this device"
+msgstr ""
+
+#: virtManager/details/details.py:1998
+#, python-format
+msgid "%(graphicstype)s Server"
+msgstr "%(graphicstype)s ਸਰਵਰ"
+
+#: virtManager/details/details.py:2046
+msgid "Serial Device"
+msgstr "ਸੀਰੀਅਲ ਜੰਤਰ"
+
+#: virtManager/details/details.py:2048
+msgid "Parallel Device"
+msgstr "ਪੈਰਲਲ ਜੰਤਰ"
+
+#: virtManager/details/details.py:2050
+msgid "Console Device"
+msgstr "ਕੰਸੋਲ ਜੰਤਰ"
+
+#: virtManager/details/details.py:2052
+msgid "Channel Device"
+msgstr "ਚੈਨਲ ਜੰਤਰ"
+
+#: virtManager/details/details.py:2061
+msgid "Primary Console"
+msgstr "ਪ੍ਰਾਇਮਰੀ ਕੰਸੋਲ"
+
+#: virtManager/details/details.py:2095 virtManager/preferences.py:122
+msgid "Off"
+msgstr ""
+
+#: virtManager/details/details.py:2095 virtManager/preferences.py:123
+msgid "On"
+msgstr ""
+
+#: virtManager/details/details.py:2127
+#, python-format
+msgid "Physical %s Device"
+msgstr ""
+
+#: virtManager/details/details.py:2143
+msgid "Cannot remove last video device while Graphics/Display is attached."
+msgstr ""
+
+#: virtManager/details/details.py:2167
+#, python-format
+msgid "%(device)s on %(address)s"
+msgstr ""
+
+#: virtManager/details/details.py:2173 virtManager/details/details.py:2182
+msgid "Cannot remove controller while devices are attached."
+msgstr ""
+
+#: virtManager/details/details.py:2274
+msgid "Hard Disk"
+msgstr ""
+
+#: virtManager/details/details.py:2275
+msgid "CDROM"
+msgstr ""
+
+#: virtManager/details/details.py:2276
+msgid "Network (PXE)"
+msgstr ""
+
+#: virtManager/details/details.py:2291
+msgid "No bootable devices"
+msgstr ""
+
+#: virtManager/details/details.py:2337
+msgid "Overview"
+msgstr "ਸੰਖੇਪ"
+
+#: virtManager/details/details.py:2338
+msgid "OS information"
+msgstr ""
+
+#: virtManager/details/details.py:2340
+msgid "Performance"
+msgstr ""
+
+#: virtManager/details/details.py:2341
+msgid "CPUs"
+msgstr ""
+
+#: virtManager/details/details.py:2343
+msgid "Boot Options"
+msgstr ""
+
+#: virtManager/details/serialcon.py:189
+#, python-format
+msgid "Console for device type '%s' is not supported"
+msgstr ""
+
+#: virtManager/details/serialcon.py:251
+msgid "_Copy"
+msgstr ""
+
+#: virtManager/details/serialcon.py:255
+msgid "_Paste"
+msgstr ""
+
+#: virtManager/details/serialcon.py:342
+#, python-format
+msgid "Error connecting to text console: %s"
+msgstr "ਟੈਕਸਟ ਕੰਸੋਲ ਨਾਲ ਜੁੜ ਵਿੱਚ ਗਲਤੀ: %s"
+
+#: virtManager/details/snapshots.py:125
+msgid "external snapshots not supported with this libvirt connection"
+msgstr ""
+
+#: virtManager/details/snapshots.py:291
+#, python-format
+msgid "Error creating snapshot: %s"
+msgstr "ਸਨੈਪਸ਼ਾਟ ਬਣਾਉਣ ਵੇਲੇ ਗਲਤੀ: %s"
+
+#: virtManager/details/snapshots.py:312
+msgid "Snapshot"
+msgstr ""
+
+#: virtManager/details/snapshots.py:315
+#, python-format
+msgid "Error validating snapshot: %s"
+msgstr "ਸਨੈਪਸ਼ਾਟ ਦੀ ਜਾਇਜਤਾ ਜਾਂਚਣ ਵੇਲੇ ਗਲਤੀ: %s"
+
+#: virtManager/details/snapshots.py:357 virtManager/lib/libvirtenummap.py:110
+msgid "Creating snapshot"
+msgstr "ਸਨੈਪਸ਼ਾਟ ਬਣਾ ਰਿਹਾ ਹੈ"
+
+#: virtManager/details/snapshots.py:358
+msgid "Creating virtual machine snapshot"
+msgstr "ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਸਨੈਪਸ਼ਾਟ ਬਣਾ ਰਿਹਾ"
+
+#: virtManager/details/snapshots.py:388
+msgid ""
+"Mixing external and internal snapshots for the same VM is not recommended. "
+"Are you sure you want to continue?"
+msgstr ""
+
+#: virtManager/details/snapshots.py:503
+msgid "_Start snapshot"
+msgstr ""
+
+#: virtManager/details/snapshots.py:508
+msgid "_Delete snapshot"
+msgstr ""
+
+#: virtManager/details/snapshots.py:561
+#, python-format
+msgid "Error refreshing snapshot list: %s"
+msgstr "ਸਨੈਪਸ਼ਾਟ ਸੂਚੀ ਸੱਜਰੀ ਕਰਨ ਵੇਲੇ ਗਲਤੀ: %s"
+
+#: virtManager/details/snapshots.py:573
+#, python-format
+msgid ""
+"%(vm)s\n"
+"<span size='small'>VM State: %(state)s (External)</span>"
+msgstr ""
+
+#: virtManager/details/snapshots.py:577
+#, python-format
+msgid ""
+"%(vm)s\n"
+"<span size='small'>VM State: %(state)s</span>"
+msgstr ""
+
+#: virtManager/details/snapshots.py:634
+#, python-format
+msgid "<b>Snapshot '%(name)s':</b>"
+msgstr ""
+
+#: virtManager/details/snapshots.py:650
+msgid "External disk and memory"
+msgstr "ਬਾਹਰੀ ਡਿਸਕ ਅਤੇ ਮੈਮੋਰੀ"
+
+#: virtManager/details/snapshots.py:652
+msgid "External memory only"
+msgstr "ਸਿਰਫ਼ ਬਾਹਰੀ ਮੈਮੋਰੀ"
+
+#: virtManager/details/snapshots.py:654
+msgid "External disk only"
+msgstr "ਸਿਰਫ਼ ਬਾਹਰੀ ਡਿਸਕ"
+
+#: virtManager/details/snapshots.py:743
+msgid "Saved memory state will not be part of the snapshot"
+msgstr ""
+
+#: virtManager/details/snapshots.py:745
+msgid ""
+"The domain is currently saved. Due to technical limitations that saved "
+"memory state will not become part of the snapshot. Running it later will be "
+"the same as having forced the system off mid-flight. It is recommended to "
+"snapshot either the running or shut down system instead."
+msgstr ""
+
+#: virtManager/details/snapshots.py:769
+#, python-format
+msgid ""
+"Are you sure you want to run the snapshot '%(name)s'? All the disk changes "
+"since the last snapshot was created will be discarded."
+msgstr ""
+
+#: virtManager/details/snapshots.py:775
+#, python-format
+msgid ""
+"Are you sure you want to run the snapshot '%(name)s'? All the disk and "
+"configuration changes since the last snapshot was created will be discarded."
+msgstr ""
+
+#: virtManager/details/snapshots.py:787
+msgid "Saved state will be removed to avoid filesystem corruption"
+msgstr ""
+
+#: virtManager/details/snapshots.py:789
+#, python-format
+msgid ""
+"Snapshot '%s' contains only disk and no memory state. Restoring the snapshot "
+"would leave the existing saved state in place, effectively switching a disk "
+"underneath a running system. Running the domain afterwards would likely "
+"result in extensive filesystem corruption. Therefore the saved state will be "
+"removed before restoring the snapshot."
+msgstr ""
+
+#: virtManager/details/snapshots.py:807
+msgid "Running snapshot"
+msgstr ""
+
+#: virtManager/details/snapshots.py:808
+#, python-format
+msgid "Running snapshot '%s'"
+msgstr ""
+
+#: virtManager/details/snapshots.py:809
+#, python-format
+msgid "Error running snapshot '%s'"
+msgstr ""
+
+#: virtManager/details/snapshots.py:819
+msgid "Are you sure you want to permanently delete the selected snapshots?"
+msgstr ""
+
+#: virtManager/details/snapshots.py:830
+msgid "Deleting snapshot"
+msgstr ""
+
+#: virtManager/details/snapshots.py:831
+#, python-format
+msgid "Deleting snapshot '%s'"
+msgstr ""
+
+#: virtManager/details/snapshots.py:832
+#, python-format
+msgid "Error deleting snapshot '%s'"
+msgstr "ਸਨੈਪਸ਼ਾਟ '%s' ਮਿਟਾਉਣ ਵੇਲੇ ਗਲਤੀ"
+
+#: virtManager/details/snapshots.py:840
+msgid "No snapshot selected."
+msgstr "ਕੋਈ ਸਨੈਪਸ਼ਾਟ ਚੁਣਿਆ ਨਹੀਂ ਗਿਆ।"
+
+#: virtManager/details/snapshots.py:843
+msgid "Multiple snapshots selected."
+msgstr ""
+
+#: virtManager/details/snapshots.py:853
+#, python-format
+msgid "Error selecting snapshot: %s"
+msgstr "ਸਨੈਪਸ਼ਾਟ ਚੁਣਨ ਵੇਲੇ ਗਲਤੀ: %s"
+
+#: virtManager/details/sshtunnels.py:66
+msgid ""
+"Guest is on a remote host, but is only configured to allow local file "
+"descriptor connections."
+msgstr ""
+
+#: virtManager/details/sshtunnels.py:71
+msgid "Guest is configured for TLS only which does not work over SSH."
+msgstr ""
+
+#: virtManager/details/sshtunnels.py:81
+#, python-format
+msgid ""
+"Guest is on a remote host with transport '%s' but is only configured to "
+"listen locally. To connect remotely you will need to change the guest's "
+"listen address."
+msgstr ""
+
+#: virtManager/details/viewers.py:389
+#, python-format
+msgid ""
+"Unable to provide requested credentials to the VNC server.\n"
+"The credential type %s is not supported"
+msgstr ""
+
+#: virtManager/details/viewers.py:446
+msgid "GTK-VNC viewer is too old"
+msgstr ""
+
+#: virtManager/details/viewers.py:594
+#, python-format
+msgid "Encountered SPICE %(error-name)s"
+msgstr ""
+
+#: virtManager/details/viewers.py:741
+msgid "Guest agent is not available."
+msgstr ""
+
+#: virtManager/device/addstorage.py:92
+#, python-format
+msgid "%s available in the default location"
+msgstr ""
+
+#: virtManager/device/addstorage.py:128
+#, python-format
+msgid "The emulator may not have search permissions for the path '%s'."
+msgstr "ਇੰਮੂਲੇਟਰ ਕੋਲ ਮਾਰਗ '%s' ਲਈ ਖੋਜ ਅਧਿਕਾਰ ਨਹੀਂ ਹੈ।"
+
+#: virtManager/device/addstorage.py:129
+msgid "Do you want to correct this now?"
+msgstr "ਕੀ ਤੁਸੀਂ ਇਸ ਨੂੰ ਹੁਣੇ ਠੀਕ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: virtManager/device/addstorage.py:130 virtManager/device/addstorage.py:154
+msgid "Don't ask about these directories again."
+msgstr "ਇਹਨਾਂ ਡਾਇਰੈਕਟਰੀਆਂ ਲਈ ਫੇਰ ਨਾ ਪੁੱਛੋ।"
+
+#: virtManager/device/addstorage.py:144
+msgid ""
+"Errors were encountered changing permissions for the following directories:"
+msgstr "ਅੱਗੇ ਦਿੱਤੀਆਂ ਡਾਇਰੈਕਟਰੀਆਂ ਲਈ ਅਧਿਕਾਰ ਬਦਲਣ ਦੌਰਾਨ ਗਲਤੀਆਂ ਆਈਆਂ ਹਨ:"
+
+#: virtManager/device/addstorage.py:263
+msgid "A storage path must be specified."
+msgstr "ਸਟੋਰੇਜ਼ ਮਾਰਗ ਦੇਣਾ ਜਰੂਰੀ ਹੈ।"
+
+#: virtManager/device/fsdetails.py:140
+msgid "Te_mplate:"
+msgstr "ਟੈਪਲੇਟ(_M):"
+
+#: virtManager/device/fsdetails.py:142
+msgid "_Source path:"
+msgstr "ਸਰੋਤ ਮਾਰਗ(_S):"
+
+#: virtManager/device/fsdetails.py:154
+msgid "You may need to 'Enable shared memory' on the 'Memory' screen."
+msgstr ""
+
+#: virtManager/device/gfxdetails.py:89
+msgid "Spice server"
+msgstr "ਸਪਾਈਸ ਸਰਵਰ"
+
+#: virtManager/device/gfxdetails.py:90
+msgid "VNC server"
+msgstr "VNC ਸਰਵਰ"
+
+#: virtManager/device/gfxdetails.py:97
+msgid "Address"
+msgstr ""
+
+#: virtManager/device/gfxdetails.py:106
+msgid "Localhost only"
+msgstr "ਸਿਰਫ਼ ਸਥਾਨਕ ਮੇਜਬਾਨ"
+
+#: virtManager/device/gfxdetails.py:107
+msgid "All interfaces"
+msgstr "ਸਾਰੇ ਇੰਟਰਫੇਸ"
+
+#: virtManager/device/gfxdetails.py:114
+msgid "Auto"
+msgstr ""
+
+#: virtManager/device/gfxdetails.py:211
+#, python-format
+msgid "A_uto (Port %(port)d)"
+msgstr ""
+
+#: virtManager/device/mediacombo.py:65
+msgid "No media selected"
+msgstr ""
+
+#: virtManager/device/mediacombo.py:100
+msgid "Media Unknown"
+msgstr "ਅਣਜਾਣ ਮੀਡੀਆ"
+
+#: virtManager/device/mediacombo.py:102
+msgid "No media detected"
+msgstr "ਕੋਈ ਮੀਡਿਆ ਨਹੀਂ ਲੱਭਿਆ"
+
+#: virtManager/device/netlist.py:40
+msgid "Usermode networking"
+msgstr "ਯੂਜ਼ਰ-ਮੋਡ ਨੈੱਟਵਰਕਿੰਗ"
+
+#: virtManager/device/netlist.py:44
+msgid "Virtual network"
+msgstr "ਵਰਚੁਅਲ ਨੈੱਟਵਰਕ"
+
+#: virtManager/device/netlist.py:121 virtManager/object/libvirtobject.py:214
+msgid "Inactive"
+msgstr "ਨਾ-ਸਰਗਰਮ"
+
+#: virtManager/device/netlist.py:136
+msgid "Bridge device..."
+msgstr ""
+
+#: virtManager/device/netlist.py:141
+msgid "Macvtap device..."
+msgstr ""
+
+#: virtManager/device/netlist.py:146
+msgid "vDPA device..."
+msgstr ""
+
+#: virtManager/device/netlist.py:204
+msgid "Virtual Network is not active."
+msgstr "ਵਰਚੁਅਲ ਪੈਰਾਮੀਟਰ ਸਰਗਰਮ ਨਹੀਂ ਹੈ।"
+
+#: virtManager/device/netlist.py:205
+#, python-format
+msgid ""
+"Virtual Network '%s' is not active. Would you like to start the network now?"
+msgstr "ਵਰਚੁਅਲ ਨੈੱਟਵਰਕ '%s' ਸਰਗਰਮ ਨਹੀਂ ਹੈ। ਕੀ ਤੁਸੀਂ ਹੁਣ ਨੈੱਟਵਰਕ ਚਾਲੂ ਕਰਨਾ ਚਾਹੋਗੇ?"
+
+#: virtManager/device/netlist.py:217
+#, fuzzy, python-format
+#| msgid "Could not start virtual network '%s': %s"
+msgid "Could not start virtual network '%(device)s': %(error)s"
+msgstr "ਵਰਚੁਅਲ ਨੈੱਟਵਰਕ ਚਾਲੂ ਨਹੀਂ ਕਰ ਸਕਦਾ '%s': %s"
+
+#: virtManager/device/tpmdetails.py:12
+msgid "TIS"
+msgstr ""
+
+#: virtManager/device/tpmdetails.py:13
+msgid "CRB"
+msgstr ""
+
+#: virtManager/device/tpmdetails.py:14
+msgid "SPAPR"
+msgstr ""
+
+#: virtManager/device/tpmdetails.py:72
+#, fuzzy
+#| msgid "Emulator:"
+msgid "Emulated"
+msgstr "ਇਮੂਲੇਟਰ:"
+
+#: virtManager/device/vsockdetails.py:58
+msgid "CID"
+msgstr ""
+
+#: virtManager/engine.py:120
+msgid "Checking for virtualization packages..."
+msgstr ""
+
+#: virtManager/error.py:145
+msgid "Input Error"
+msgstr "ਇੰਪੁੱਟ ਗਲਤੀ"
+
+#: virtManager/error.py:146
+#, python-format
+msgid "Validation Error: %s"
+msgstr ""
+
+#: virtManager/error.py:186
+msgid "There are unapplied changes. Would you like to apply them now?"
+msgstr "ਨਾ-ਲਾਗੂ ਤਬਦੀਲੀਆਂ ਹਨ। ਕੀ ਤੁਸੀਂ ਇਹਨਾਂ ਨੂੰ ਹੁਣ ਲਾਗੂ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: virtManager/error.py:187
+msgid "Don't warn me again."
+msgstr "ਮੈਨੂੰ ਦੁਬਾਰਾ ਚੇਤਾਵਨੀ ਨਾ ਦਿਓ।"
+
+#: virtManager/error.py:212
+msgid "Don't ask me again"
+msgstr "ਮੈਨੂੰ ਦੁਬਾਰਾ ਨਾ ਪੁੱਛੋ"
+
+#: virtManager/host.py:31
+#, python-format
+msgid "Error launching host dialog: %s"
+msgstr "ਹੋਸਟ ਡਾਇਲਾਗ ਚਲਾਉਣ ਤੇ ਗਲਤੀ: %s"
+
+#: virtManager/host.py:165
+#, python-format
+msgid "%(currentmem)s of %(maxmem)s"
+msgstr "%(maxmem)s ਵਿੱਚੋਂ %(currentmem)s"
+
+#: virtManager/host.py:175
+#, fuzzy, python-format
+#| msgid "Connecting..."
+msgid "%(connection)s - Connection Details"
+msgstr "ਜੁਡ਼ ਰਿਹਾ ਹੈ..."
+
+#: virtManager/hostnets.py:100
+msgid "Networks"
+msgstr ""
+
+#: virtManager/hostnets.py:131
+msgid "Libvirt connection does not support virtual network management."
+msgstr "Libvirt ਕੁਨੈਕਸ਼ਨ ਵਰਚੁਅਲ ਨੈੱਟਵਰਕ ਮੈਨੇਜਮੈਂਟ ਨੂੰ ਸਹਿਯੋਗ ਨਹੀਂ ਦਿੰਦਾ ਹੈ।"
+
+#: virtManager/hostnets.py:139 virtManager/hoststorage.py:268
+msgid "Connection not active."
+msgstr "ਕੁਨੈਕਸ਼ਨ ਚਾਲੂ ਨਹੀਂ ਹੈ।"
+
+#: virtManager/hostnets.py:155
+msgid "No virtual network selected."
+msgstr "ਕੋਈ ਵਰਚੁਅਲ ਨੈੱਟਵਰਕ ਨਹੀਂ ਚੁਣਿਆ।"
+
+#: virtManager/hostnets.py:164
+#, python-format
+msgid "Error selecting network: %s"
+msgstr "ਨੈੱਟਵਰਕ ਚੁਣਨ ਵਿੱਚ ਗਲਤੀ: %s"
+
+#: virtManager/hostnets.py:215 virtManager/object/network.py:161
+msgid "Routed network"
+msgstr "ਰਾਊਟ ਕੀਤਾ ਨੈੱਟਵਰਕ"
+
+#: virtManager/hostnets.py:217
+msgid "Isolated network, internal routing only"
+msgstr "ਅਲੱਗ ਨੈੱਟਵਰਕ, ਸਿਰਫ਼ ਅੰਦਰੂਨੀ ਰੂਟਿੰਗ"
+
+#: virtManager/hostnets.py:219
+msgid "Isolated network, routing disabled"
+msgstr "ਅਲੱਗ ਨੈੱਟਵਰਕ, ਰੂਟਿੰਗ ਅਯੋਗ ਕੀਤੀ"
+
+#: virtManager/hostnets.py:248 virtManager/hoststorage.py:310
+msgid "On Boot"
+msgstr "ਬੂਟ ਸਮੇਂ"
+
+#: virtManager/hostnets.py:265
+#, python-format
+msgid "Are you sure you want to permanently delete the network %s?"
+msgstr "ਕੀ ਤੁਸੀਂ ਯਕੀਨਨ ਪੱਕੇ ਤੌਰ ਤੇ ਨੈੱਟਵਰਕ %s ਨੂੰ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: virtManager/hostnets.py:272
+#, python-format
+msgid "Error deleting network '%s'"
+msgstr "ਨੈੱਟਵਰਕ ਹਟਾਉਣ ਵਿੱਚ ਗਲਤੀ: '%s'"
+
+#: virtManager/hostnets.py:282
+#, python-format
+msgid "Error starting network '%s'"
+msgstr "ਨੈੱਟਵਰਕ ਚਾਲੂ ਕਰਨ ਵੇਲੇ ਗਲਤੀ: '%s'"
+
+#: virtManager/hostnets.py:292
+#, python-format
+msgid "Error stopping network '%s'"
+msgstr "ਨੈੱਟਵਰਕ ਰੋਕਣ ਵਿੱਚ ਗਲਤੀ: '%s'"
+
+#: virtManager/hostnets.py:302
+#, python-format
+msgid "Error launching network wizard: %s"
+msgstr "ਨੈੱਟਵਰਕ ਡਾਈਲਾਗ ਚਲਾਉਣ ਵਿੱਚ ਗਲਤੀ: %s"
+
+#: virtManager/hostnets.py:325
+#, python-format
+msgid "Error changing network settings: %s"
+msgstr "ਨੈੱਟਵਰਕ ਸੈਟਿੰਗਾਂ ਬਦਲਣ ਵੇਲੇ ਗਲਤੀ: %s"
+
+#: virtManager/hoststorage.py:173
+msgid "Copy Volume Path"
+msgstr "ਵਾਲੀਅਮ ਮਾਰਗ ਕਾਪੀ ਕਰੋ"
+
+#: virtManager/hoststorage.py:183
+msgid "Volumes"
+msgstr ""
+
+#: virtManager/hoststorage.py:191
+msgid "Size"
+msgstr "ਆਕਾਰ"
+
+#: virtManager/hoststorage.py:200
+msgid "Format"
+msgstr "ਫਾਰਮੈਟ"
+
+#: virtManager/hoststorage.py:208
+msgid "Used By"
+msgstr "ਵਲੋਂ ਵਰਤਿਆ"
+
+#: virtManager/hoststorage.py:224
+msgid "Storage Pools"
+msgstr ""
+
+#: virtManager/hoststorage.py:260
+msgid "Libvirt connection does not support storage management."
+msgstr "Libvirt ਕੁਨੈਕਸ਼ਨ ਸਟੋਰੇਜ਼ ਮੈਨੇਜਮੈਂਟ ਨੂੰ ਸਹਿਯੋਗ ਨਹੀਂ ਦਿੰਦਾ ਹੈ।"
+
+#: virtManager/hoststorage.py:302
+#, python-format
+msgid "%(bytesfree)s Free / <i>%(bytesinuse)s In Use</i>"
+msgstr ""
+
+#: virtManager/hoststorage.py:321
+msgid "Create new volume"
+msgstr "ਨਵਾਂ ਆਇਤਨ ਬਣਾ ਰਿਹਾ"
+
+#: virtManager/hoststorage.py:326
+msgid "Pool does not support volume creation"
+msgstr "ਪੂਲ ਆਇਤਨ ਬਣਾਉਣ ਦਾ ਸਮਰਥਨ ਨਹੀਂ ਕਰਦਾ"
+
+#: virtManager/hoststorage.py:341
+msgid "No storage pool selected."
+msgstr "ਕੋਈ ਸਟੋਰੇਜ਼ ਪੂਲ ਨਹੀਂ ਚੁਣਿਆ।"
+
+#: virtManager/hoststorage.py:350
+#, python-format
+msgid "Error selecting pool: %s"
+msgstr "ਪੂਲ ਚੁਣਨ ਵੇਲੇ ਗਲਤੀ: %s"
+
+#: virtManager/hoststorage.py:454
+#, python-format
+msgid "Error stopping pool '%s'"
+msgstr "ਪੂਲ ਰੋਕਣ ਤੇ ਗਲਤੀ '%s'"
+
+#: virtManager/hoststorage.py:464
+#, python-format
+msgid "Error starting pool '%s'"
+msgstr "ਪੂਲ ਚਾਲੂ ਕਰਨ ਤੇ ਗਲਤੀ '%s'"
+
+#: virtManager/hoststorage.py:475
+#, python-format
+msgid "Error launching pool wizard: %s"
+msgstr "ਪੂਲ ਡਾਈਲਾਗ ਚਲਾਉਣ ਵੇਲੇ ਗਲਤੀ: %s"
+
+#: virtManager/hoststorage.py:483
+#, python-format
+msgid "Are you sure you want to permanently delete the pool %s?"
+msgstr "ਕੀ ਤੁਸੀਂ ਯਕੀਨਨ ਪੂਲ %s ਨੂੰ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: virtManager/hoststorage.py:490
+#, python-format
+msgid "Error deleting pool '%s'"
+msgstr "ਪੂਲ '%s' ਹਟਾਉਣ ਵੇਲੇ ਗਲਤੀ"
+
+#: virtManager/hoststorage.py:502
+#, python-format
+msgid "Error refreshing pool '%s'"
+msgstr "ਪੂਲ ਮੁੜ-ਤਾਜ਼ਾ ਕਰਨ ਤੇ ਗਲਤੀ '%s'"
+
+#: virtManager/hoststorage.py:535
+#, python-format
+msgid "Error launching volume wizard: %s"
+msgstr "ਵਾਲੀਅਮ ਡਾਈਲਾਗ ਚਲਾਉਣ ਵੇਲੇ ਗਲਤੀ: %s"
+
+#: virtManager/hoststorage.py:544
+#, python-format
+msgid "Are you sure you want to permanently delete the volume %s?"
+msgstr "ਕੀ ਤੁਸੀਂ ਵਾਲੀਅਮ %s ਨੂੰ ਪੱਕੇ ਤੌਰ ਉੱਤੇ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: virtManager/hoststorage.py:559
+#, python-format
+msgid "Error deleting volume '%s'"
+msgstr ""
+
+#: virtManager/hoststorage.py:584
+#, python-format
+msgid "Error changing pool settings: %s"
+msgstr "ਪੂਲ ਸੈਟਿੰਗਾਂ ਬਦਲਣ ਵੇਲੇ ਗਲਤੀ: %s"
+
+#: virtManager/lib/connectauth.py:54
+msgid "Authentication required"
+msgstr ""
+
+#: virtManager/lib/connectauth.py:159
+msgid ""
+"The remote host requires a version of netcat/nc which supports the -U option."
+msgstr ""
+
+#: virtManager/lib/connectauth.py:165
+msgid ""
+"Configure SSH key access for the remote host, or install an SSH askpass "
+"package locally."
+msgstr ""
+
+#: virtManager/lib/connectauth.py:170
+#, fuzzy
+#| msgid "Verify that the 'libvirtd' daemon is running."
+msgid ""
+"Verify that an appropriate libvirt daemon is running on the remote host."
+msgstr "ਜਾਂਚ ਕਰੋ ਕਿ 'libvirtd' ਡੈਮਨ ਚੱਲ ਰਿਹਾ ਹੈ।"
+
+#: virtManager/lib/connectauth.py:174
+msgid ""
+"Verify that:\n"
+" - A Xen host kernel was booted\n"
+" - The Xen service has been started"
+msgstr ""
+"ਜਾਂਚ ਕਰੋ ਕਿ:\n"
+" - ਇੱਕ Xen ਹੋਸਟ ਕਰਨਲ ਬੂਟ ਕੀਤਾ ਸੀ\n"
+" - Xen ਸਰਵਿਸ ਚਾਲੂ ਕੀਤੀ ਸੀ"
+
+#: virtManager/lib/connectauth.py:182
+msgid ""
+"Could not detect a local session: if you are running virt-manager over ssh -"
+"X or VNC, you may not be able to connect to libvirt as a regular user. Try "
+"running as root."
+msgstr ""
+
+#: virtManager/lib/connectauth.py:189
+#, fuzzy
+#| msgid "Verify that the 'libvirtd' daemon is running."
+msgid "Verify that an appropriate libvirt daemon is running."
+msgstr "ਜਾਂਚ ਕਰੋ ਕਿ 'libvirtd' ਡੈਮਨ ਚੱਲ ਰਿਹਾ ਹੈ।"
+
+#: virtManager/lib/connectauth.py:192
+#, python-format
+msgid "Unable to connect to libvirt %s."
+msgstr ""
+
+#: virtManager/lib/connectauth.py:204
+msgid "Virtual Machine Manager Connection Failure"
+msgstr "ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਮੈਨੇਜਰ ਕੁਨੈਕਸ਼ਨ ਫੇਲ੍ਹ"
+
+#: virtManager/lib/connectauth.py:219
+msgid ""
+"Could not detect a default hypervisor. Make sure the appropriate QEMU/KVM "
+"virtualization and libvirt packages are installed to manage virtualization "
+"on this host."
+msgstr ""
+
+#: virtManager/lib/connectauth.py:227
+msgid ""
+"A virtualization connection can be manually added via File->Add Connection"
+msgstr ""
+
+#: virtManager/lib/inspection.py:77
+#, python-format
+msgid "Error launching libguestfs appliance: %s"
+msgstr ""
+
+#: virtManager/lib/inspection.py:85
+msgid "Inspection found no operating systems."
+msgstr ""
+
+#: virtManager/lib/inspection.py:319
+#, python-format
+msgid "Error inspection VM: %s"
+msgstr ""
+
+#: virtManager/lib/inspection.py:329
+msgid "Cannot inspect VM on remote connection"
+msgstr ""
+
+#: virtManager/lib/libvirtenummap.py:66
+msgid "Running"
+msgstr "ਚੱਲ ਰਿਹਾ ਹੈ"
+
+#: virtManager/lib/libvirtenummap.py:68
+msgid "Paused"
+msgstr "ਵਿਰਾਮ ਹੈ"
+
+#: virtManager/lib/libvirtenummap.py:70
+msgid "Shutting Down"
+msgstr "ਬੰਦ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
+
+#: virtManager/lib/libvirtenummap.py:73 virtManager/lib/libvirtenummap.py:121
+msgid "Saved"
+msgstr "ਸੰਭਾਲੇ"
+
+#: virtManager/lib/libvirtenummap.py:75
+msgid "Shutoff"
+msgstr "ਬੰਦ"
+
+#: virtManager/lib/libvirtenummap.py:77 virtManager/lib/libvirtenummap.py:99
+#: virtManager/lib/libvirtenummap.py:111 virtManager/lib/libvirtenummap.py:119
+msgid "Crashed"
+msgstr "ਨਸ਼ਟ ਹੋਇਆ"
+
+#: virtManager/lib/libvirtenummap.py:79
+msgid "Suspended"
+msgstr "ਮੁਲਤਵੀ"
+
+#: virtManager/lib/libvirtenummap.py:91
+msgid "Booted"
+msgstr ""
+
+#: virtManager/lib/libvirtenummap.py:92 virtManager/lib/libvirtenummap.py:120
+msgid "Migrated"
+msgstr ""
+
+#: virtManager/lib/libvirtenummap.py:93
+msgid "Restored"
+msgstr ""
+
+#: virtManager/lib/libvirtenummap.py:94 virtManager/lib/libvirtenummap.py:108
+#: virtManager/lib/libvirtenummap.py:123
+msgid "From snapshot"
+msgstr ""
+
+#: virtManager/lib/libvirtenummap.py:95
+msgid "Unpaused"
+msgstr ""
+
+#: virtManager/lib/libvirtenummap.py:96
+msgid "Migration canceled"
+msgstr ""
+
+#: virtManager/lib/libvirtenummap.py:97
+msgid "Save canceled"
+msgstr ""
+
+#: virtManager/lib/libvirtenummap.py:98
+msgid "Event wakeup"
+msgstr ""
+
+#: virtManager/lib/libvirtenummap.py:102 virtManager/lib/libvirtenummap.py:114
+msgid "User"
+msgstr ""
+
+#: virtManager/lib/libvirtenummap.py:103
+msgid "Migrating"
+msgstr ""
+
+#: virtManager/lib/libvirtenummap.py:104
+msgid "Saving"
+msgstr ""
+
+#: virtManager/lib/libvirtenummap.py:105
+msgid "Dumping"
+msgstr ""
+
+#: virtManager/lib/libvirtenummap.py:106
+msgid "I/O error"
+msgstr ""
+
+#: virtManager/lib/libvirtenummap.py:109
+msgid "Shutting down"
+msgstr ""
+
+#: virtManager/lib/libvirtenummap.py:117
+msgid "Shut Down"
+msgstr "ਬੰਦ ਕਰੋ"
+
+#: virtManager/lib/libvirtenummap.py:118
+msgid "Destroyed"
+msgstr ""
+
+#: virtManager/lib/libvirtenummap.py:122
+msgid "Failed"
+msgstr ""
+
+#: virtManager/lib/libvirtenummap.py:126
+msgid "Panicked"
+msgstr ""
+
+#: virtManager/manager.py:83
+#, python-format
+msgid "Error launching manager: %s"
+msgstr "ਮੈਨੇਜਰ ਚਲਾਉਣ ਤੇ ਗਲਤੀ: %s"
+
+#: virtManager/manager.py:289
+msgid "_New"
+msgstr ""
+
+#: virtManager/manager.py:290
+#, fuzzy
+#| msgid "Co_nnect"
+msgid "_Connect"
+msgstr "ਕੁਨੈਕਟ ਕਰੋ(_n)"
+
+#: virtManager/manager.py:291
+#, fuzzy
+#| msgid "Disconnected"
+msgid "Dis_connect"
+msgstr "ਡਿਸ-ਕੁਨੈਕਟ ਹੋ ਗਿਆ ਹੈ"
+
+#: virtManager/manager.py:293
+#, fuzzy
+#| msgid "_Delete"
+msgid "De_lete"
+msgstr "ਹਟਾਓ(_D)"
+
+#: virtManager/manager.py:370
+msgid "CPU usage"
+msgstr "CPU ਵਰਤੋਂ"
+
+#: virtManager/manager.py:371
+msgid "Host CPU usage"
+msgstr "ਹੋਸਟ CPU ਵਰਤੋਂ"
+
+#: virtManager/manager.py:372
+msgid "Memory usage"
+msgstr ""
+
+#: virtManager/manager.py:373
+msgid "Disk I/O"
+msgstr "ਡਿਸਕ I/O"
+
+#: virtManager/manager.py:374
+msgid "Network I/O"
+msgstr "ਨੈੱਟਵਰਕ I/O"
+
+#: virtManager/manager.py:493
+#, python-format
+msgid ""
+"This will remove the connection:\n"
+"\n"
+"%s\n"
+"\n"
+"Are you sure?"
+msgstr ""
+"ਇਸ ਨਾਲ ਕੁਨੈਕਸ਼ਨ ਹਟਾਇਆ ਜਾਵੇਗਾ:\n"
+"\n"
+"%s\n"
+"\n"
+"ਕੀ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: virtManager/manager.py:570
+#, fuzzy, python-format
+#| msgid "Double click to connect"
+msgid "%(uri)s (Double click to connect)"
+msgstr "ਕੁਨੈਕਟ ਲਈ ਡਬਲ ਕਲਿੱਕ"
+
+#: virtManager/manager.py:577
+#, fuzzy, python-format
+#| msgid "Connection not active."
+msgid "%(connection)s - Not Connected"
+msgstr "ਕੁਨੈਕਸ਼ਨ ਚਾਲੂ ਨਹੀਂ ਹੈ।"
+
+#: virtManager/manager.py:579
+#, fuzzy, python-format
+#| msgid "Connecting..."
+msgid "%(connection)s - Connecting..."
+msgstr "ਜੁਡ਼ ਰਿਹਾ ਹੈ..."
+
+#: virtManager/manager.py:750 virtManager/vmwindow.py:368
+msgid "_Restore"
+msgstr "ਰੀ-ਸਟੋਰ ਕਰੋ(_R)"
+
+#: virtManager/manager.py:787 virtManager/vmwindow.py:408
+msgid "Resume the virtual machine"
+msgstr ""
+
+#: virtManager/manager.py:898
+msgid "Disabled in preferences dialog."
+msgstr "ਪਸੰਦ ਡਾਈਲਾਗ ਵਿੱਚ ਅਯੋਗ।"
+
+#: virtManager/migrate.py:35
+#, python-format
+msgid "Error launching migrate dialog: %s"
+msgstr "ਮਾਈਗਰੇਟ ਡਾਇਲਾਗ ਚਲਾਉਣ ਤੇ ਗਲਤੀ: %s"
+
+#: virtManager/migrate.py:139
+msgid "Direct"
+msgstr ""
+
+#: virtManager/migrate.py:140
+msgid "Tunnelled"
+msgstr ""
+
+#: virtManager/migrate.py:159
+#, python-format
+msgid "<span size='large'>Migrate '%(vm)s'</span>"
+msgstr ""
+
+#: virtManager/migrate.py:219
+msgid "A valid destination connection must be selected."
+msgstr "ਇੱਕ ਸਹੀ ਨੀਯਤ ਕੁਨੈਕਸ਼ਨ ਚੁਣਨਾ ਜਰੂਰੀ ਹੈ।"
+
+#: virtManager/migrate.py:235
+msgid ""
+"A remotely accessible libvirt URI is required for tunneled migration, but "
+"the selected connection is a local URI. Libvirt will reject this unless you "
+"add a transport."
+msgstr ""
+
+#: virtManager/migrate.py:287
+#, python-format
+msgid "%(uri)s (Hypervisors do not match)"
+msgstr ""
+
+#: virtManager/migrate.py:289
+#, fuzzy, python-format
+#| msgid "Disconnected"
+msgid "%(uri)s (Disconnected)"
+msgstr "ਡਿਸ-ਕੁਨੈਕਟ ਹੋ ਗਿਆ ਹੈ"
+
+#: virtManager/migrate.py:291
+#, python-format
+msgid "%(uri)s (Same connection)"
+msgstr ""
+
+#: virtManager/migrate.py:307
+msgid "No usable connections available."
+msgstr ""
+
+#: virtManager/migrate.py:346
+#, python-format
+msgid "Unable to migrate guest: %s"
+msgstr "ਗਿਸਟ ਮਾਈਗਰੇਟ ਕਰਨ ਤੋਂ ਅਸਮਰਥ: %s"
+
+#: virtManager/migrate.py:374
+#, python-format
+msgid "Uncaught error validating input: %s"
+msgstr "ਅਣਜਾਣ ਗਲਤੀ ਇੰਪੁੱਟ ਪ੍ਰਮਾਣਿਕਤਾ ਦੌਰਾਨ: %s"
+
+#: virtManager/migrate.py:391
+#, python-format
+msgid "Migrating VM '%s'"
+msgstr "VM '%s' ਮਾਈਗਰੇਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
+
+#: virtManager/migrate.py:393
+#, python-format
+msgid "Migrating VM '%(name)s' to %(host)s. This may take a while."
+msgstr ""
+
+#: virtManager/migrate.py:407
+#, python-format
+msgid "Error cancelling migrate job: %s"
+msgstr "ਮਾਈਗਰੇਟ ਜੌਬ ਰੱਦ ਕਰਨ ਤੇ ਗਲਤੀ: %s"
+
+#: virtManager/object/domain.py:446
+msgid "Can not change shared memory setting when <numa> is configured."
+msgstr ""
+
+#: virtManager/object/domain.py:450
+msgid "Libvirt may not be new enough to support memfd."
+msgstr ""
+
+#: virtManager/object/domain.py:468
+msgid "Libvirt connection does not support snapshots."
+msgstr "Libvirt ਸੰਪਰਕ ਸਨੈਪਸ਼ਾਟਾਂ ਦਾ ਸਮਰਥਨ ਨਹੀਂ ਕਰਦਾ।"
+
+#: virtManager/object/domain.py:501
+#, python-format
+msgid "Could not find specified device in the inactive VM configuration: %s"
+msgstr "ਦਿੱਤਾ ਜੰਤਰ ਨਾ-ਸਰਗਰਮ VM ਸੰਰਚਨਾ ਵਿੱਚ ਲੱਭ ਨਹੀਂ ਸਕਿਆ: %s"
+
+#: virtManager/object/domain.py:1490
+msgid "Saving domain to disk"
+msgstr "ਡੋਮੇਨ ਡਿਸਕ ਉੱਤੇ ਸੰਭਾਲੀ ਜਾ ਰਹੀ ਹੈ"
+
+#: virtManager/object/domain.py:1555
+msgid "Migrating domain"
+msgstr "ਡੋਮੇਨ ਮਾਈਗਰੇਟ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ"
+
+#: virtManager/object/network.py:150
+msgid "Isolated network"
+msgstr "ਵੱਖ ਕੀਤਾ ਨੈੱਟਵਰਕ"
+
+#: virtManager/object/network.py:154
+#, python-format
+msgid "NAT to %s"
+msgstr "%s ਲਈ NAT"
+
+#: virtManager/object/network.py:159
+#, python-format
+msgid "Route to %s"
+msgstr "%s ਲਈ ਰੂਟ"
+
+#: virtManager/object/network.py:164
+#, python-format
+msgid "%s network"
+msgstr ""
+
+#: virtManager/object/nodedev.py:25
+#, python-format
+msgid "Interface %s"
+msgstr "ਇੰਟਰਫੇਸ %s"
+
+#: virtManager/object/storagepool.py:25
+msgid "Filesystem Directory"
+msgstr "ਫਾਈਲ-ਸਿਸਟਮ ਡਾਇਰੈਕਟਰੀ"
+
+#: virtManager/object/storagepool.py:26
+msgid "Pre-Formatted Block Device"
+msgstr "ਪਹਿਲਾਂ ਤੋਂ ਫਾਰਮੈੱਟ ਹੋਇਆ ਬਲਾਕ ਯੰਤਰ"
+
+#: virtManager/object/storagepool.py:27
+msgid "Network Exported Directory"
+msgstr "ਨੈੱਟਵਰਕ ਦੀ ਨਿਰਯਾਤ ਕੀਤੀ ਡਾਇਰੈਕਟਰੀ"
+
+#: virtManager/object/storagepool.py:28
+msgid "LVM Volume Group"
+msgstr "LVM ਆਇਤਨ ਸਮੂਹ"
+
+#: virtManager/object/storagepool.py:29
+msgid "Physical Disk Device"
+msgstr "ਭੌਤਿਕ ਡਿਸਕ ਯੰਤਰ"
+
+#: virtManager/object/storagepool.py:30
+msgid "iSCSI Target"
+msgstr "iSCSI ਨਿਸ਼ਾਨਾ"
+
+#: virtManager/object/storagepool.py:31
+msgid "SCSI Host Adapter"
+msgstr "SCSI ਮੇਜਬਾਨ ਅਡਾਪਟਰ"
+
+#: virtManager/object/storagepool.py:32
+msgid "Multipath Device Enumerator"
+msgstr "ਬਹੁ-ਰਾਹੀ ਯੰਤਰ ਗਿਣਤੀਕਾਰ"
+
+#: virtManager/object/storagepool.py:33
+msgid "Gluster Filesystem"
+msgstr ""
+
+#: virtManager/object/storagepool.py:34
+msgid "RADOS Block Device/Ceph"
+msgstr ""
+
+#: virtManager/object/storagepool.py:35
+msgid "ZFS Pool"
+msgstr ""
+
+#: virtManager/oslist.py:29
+msgid "Type to start searching..."
+msgstr ""
+
+#: virtManager/preferences.py:28
+#, python-format
+msgid "Error launching preferences: %s"
+msgstr "ਪਸੰਦਾਂ ਚਲਾਉਣ ਤੇ ਗਲਤੀ: %s"
+
+#: virtManager/preferences.py:113
+msgid "Always"
+msgstr "ਹਮੇਸ਼ਾ"
+
+#: virtManager/preferences.py:113
+msgid "Fullscreen only"
+msgstr "ਸਿਰਫ ਪੂਰਾ-ਪਰਦਾ"
+
+#: virtManager/preferences.py:113
+msgid "Never"
+msgstr "ਕਦੇ ਨਹੀਂ"
+
+#: virtManager/preferences.py:125 virtManager/preferences.py:147
+#: virtManager/preferences.py:159
+#, python-format
+msgid "System default (%s)"
+msgstr ""
+
+#: virtManager/preferences.py:135
+msgid "Manual redirect only"
+msgstr ""
+
+#: virtManager/preferences.py:136
+msgid "Auto redirect on USB attach"
+msgstr ""
+
+#: virtManager/preferences.py:171
+msgid "Application default"
+msgstr ""
+
+#: virtManager/preferences.py:173
+msgid "Nearest host CPU model"
+msgstr ""
+
+#: virtManager/preferences.py:185
+#, fuzzy
+#| msgid "Hypervisor default"
+msgid "System default"
+msgstr "ਹਾਈਪਰਵਾਈਜ਼ਰ ਡਿਫਾਲਟ"
+
+#: virtManager/preferences.py:193
+msgid "python libguestfs support is not installed"
+msgstr ""
+
+#: virtManager/preferences.py:338
+msgid "Configure grab key combination"
+msgstr "ਸਵਿੱਚ ਮਿਸ਼ਰਨ ਸੰਰਚਨਾ"
+
+#: virtManager/preferences.py:348
+msgid ""
+"You can now define grab keys by pressing them.\n"
+"To confirm your selection please click OK button\n"
+"while you have desired keys pressed."
+msgstr ""
+"ਤੁਸੀਂ ਹੁਣ grab ਸਵਿੱਚਾਂ ਨੂੰ ਦਬਾ ਕੇ ਪਰਿਭਾਸ਼ਤ ਕਰ ਸਕਦੇ ਹੋ।\n"
+"ਆਪਣੀ ਚੋਣ ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ ਕਿਰਪਾ ਕਰਕੇ ਠੀਕ ਬਟਨ ਦਬਾਓ\n"
+"ਜਦੋਂ ਤੁਸੀਂ ਲੋੜੀਦੀਆਂ ਸਵਿੱਚਾਂ ਦਬਾਈਆਂ ਹੋਣ।"
+
+#: virtManager/preferences.py:353
+msgid "Please press desired grab key combination"
+msgstr "ਲੋੜੀਂਦਾ ਸਵਿੱਚ ਮਿਸ਼ਰਨ ਦੱਬੋ ਜੀ"
+
+#: virtManager/storagebrowse.py:29
+msgid "Locate existing storage"
+msgstr "ਮੌਜੂਦਾ ਸਟੋਰੇਜ਼ ਲੱਭ ਰਿਹਾ ਹੈ"
+
+#: virtManager/storagebrowse.py:30
+msgid "Locate or create storage volume"
+msgstr "ਸਟੋਰੇਜ਼ ਵਾਲੀਅਮ ਲੱਭੋ ਜਾਂ ਨਵੀਂ ਬਣਾਓ"
+
+#: virtManager/storagebrowse.py:36
+msgid "Locate ISO media"
+msgstr "ISO ਮੀਡੀਆ ਲੱਭੋ"
+
+#: virtManager/storagebrowse.py:37
+msgid "Locate ISO media volume"
+msgstr "ISO ਮੀਡੀਆ ਵਾਲੀਅਮ ਲੱਭੋ"
+
+#: virtManager/storagebrowse.py:41
+msgid "Locate floppy media"
+msgstr "ਫਲਾਪੀ ਮੀਡੀਆ ਲੱਭੋ"
+
+#: virtManager/storagebrowse.py:42
+msgid "Locate floppy media volume"
+msgstr "ਫਲਾਪੀ ਮੀਡੀਆ ਵਾਲੀਅਮ ਲੱਭੋ"
+
+#: virtManager/storagebrowse.py:46 virtManager/storagebrowse.py:47
+msgid "Locate directory volume"
+msgstr "ਡਾਇਰੈਕਟਰੀ ਵਾਲੀਅਮ ਲੱਭੋ"
+
+#: virtManager/storagebrowse.py:52
+msgid "Choose Storage Volume"
+msgstr "ਸਟੋਰੇਜ਼ ਵਾਲੀਅਮ ਚੁਣੋ"
+
+#: virtManager/storagebrowse.py:122
+msgid "Cannot use local storage on remote connection."
+msgstr "ਰਿਮੋਟ ਕੁਨੈਕਸ਼ਨ ਤੇ ਲੋਕਲ ਸਟੋਰੇਜ਼ ਵਰਤ ਨਹੀਂ ਸਕਦਾ।"
+
+#: virtManager/systray.py:118
+msgid "_Show Virtual Machine Manager"
+msgstr "ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਮੈਨੇਜਰ ਵਿਖਾਓ (_S)"
+
+#: virtManager/systray.py:419
+msgid ""
+"AppIndicator not installed or usable, system tray icon not available on "
+"Wayland"
+msgstr ""
+
+#: virtManager/virtmanager.py:43
+msgid "Error starting Virtual Machine Manager"
+msgstr "ਵਰਚੁਅਲ  ਮਸ਼ੀਨ ਪ੍ਰਬੰਧਕ ਚਲਾਉਣ ਸਮੇਂ ਗਲਤੀ"
+
+#: virtManager/virtmanager.py:44
+#, fuzzy, python-format
+#| msgid "Error starting Virtual Machine Manager"
+msgid "Error starting Virtual Machine Manager: %(error)s"
+msgstr "ਵਰਚੁਅਲ  ਮਸ਼ੀਨ ਪ੍ਰਬੰਧਕ ਚਲਾਉਣ ਸਮੇਂ ਗਲਤੀ"
+
+#: virtManager/vmmenu.py:57
+msgid "_Reboot"
+msgstr "ਮੁੜ-ਚਾਲੂ(_R)"
+
+#: virtManager/vmmenu.py:59
+msgid "F_orce Reset"
+msgstr "ਧੱਕੇ ਨਾਲ ਬੰਦ ਕਰੋ (_o)"
+
+#: virtManager/vmmenu.py:60
+msgid "_Force Off"
+msgstr "ਫੋਰਸ ਆਫ(_F)"
+
+#: virtManager/vmmenu.py:62
+msgid "Sa_ve"
+msgstr "ਸੰਭਾਲੋ(_v)"
+
+#: virtManager/vmmenu.py:90
+msgid "R_esume"
+msgstr "ਮੁੜ-ਪ੍ਰਾਪਤ(_e)"
+
+#: virtManager/vmmenu.py:95
+msgid "Clone..."
+msgstr "ਕਲੋਨ..."
+
+#: virtManager/vmmenu.py:96
+msgid "Migrate..."
+msgstr "ਪ੍ਰਵਾਸ..."
+
+#: virtManager/vmmenu.py:151
+#, python-format
+msgid "Error cancelling save job: %s"
+msgstr "ਜੌਬ ਸੰਭਾਲ ਰੱਦ ਕਰਨ ਤੇ ਗਲਤੀ: %s"
+
+#: virtManager/vmmenu.py:161
+#, python-format
+msgid "Are you sure you want to save '%s'?"
+msgstr "ਕੀ ਤੁਸੀਂ '%s' ਨੂੰ ਸੰਭਾਲਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: virtManager/vmmenu.py:174
+#, python-format
+msgid "Error saving domain: %s"
+msgstr "ਡੋਮੇਨ ਸੰਭਾਲਣ ਵਿੱਚ ਗਲਤੀ: %s"
+
+#: virtManager/vmmenu.py:182
+msgid "Saving Virtual Machine"
+msgstr "ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਸੰਭਾਲੀ ਜਾ ਰਹੀ ਹੈ"
+
+#: virtManager/vmmenu.py:183
+msgid "Saving virtual machine memory to disk "
+msgstr "ਵਰਚੁਅਲ ਮੈਮੋਰੀ ਨੂੰ ਡਿਸਕ ਤੇ ਸੰਭਾਲ ਰਿਹਾ ਹੈ"
+
+#: virtManager/vmmenu.py:194
+#, python-format
+msgid "Are you sure you want to force poweroff '%s'?"
+msgstr "ਕੀ ਤੁਸੀਂ '%s' ਨੂੰ ਧੱਕੇ ਨਾਲ ਬੰਦ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: virtManager/vmmenu.py:196
+msgid ""
+"This will immediately poweroff the VM without shutting down the OS and may "
+"cause data loss."
+msgstr ""
+"ਇਹ ਤੁਰੰਤ VM ਨੂੰ ਹਟਾਏਗਾ ਅਤੇ ਇਸਦਾ ਈਮੇਜ਼ ਨਿਕਾਰਾ ਹੋ ਸਕਦਾ ਹੈ। ਕੀ ਤੁਸੀਂ ਜਾਰੀ ਰੱਖਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: virtManager/vmmenu.py:203 virtManager/vmmenu.py:272
+msgid "Error shutting down domain"
+msgstr "ਡੋਮੇਨ ਬੰਦ ਕਰਨ ਵਿੱਚ ਗਲਤੀ"
+
+#: virtManager/vmmenu.py:210
+#, python-format
+msgid "Are you sure you want to pause '%s'?"
+msgstr "ਕੀ ਤੁਸੀਂ ਯਕੀਨਨ '%s' ਨੂੰ ਸ਼ਾਂਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: virtManager/vmmenu.py:215
+msgid "Error pausing domain"
+msgstr "ਡੋਮੇਨ ਵਿਰਾਮ ਕਰਨ ਵਿੱਚ ਗਲਤੀ"
+
+#: virtManager/vmmenu.py:220
+msgid "Error unpausing domain"
+msgstr "ਡੋਮੇਨ ਵਿਰਾਮ ਹਟਾਉਣ ਵਿੱਚ ਗਲਤੀ"
+
+#: virtManager/vmmenu.py:231
+#, fuzzy, python-format
+#| msgid "Error restoring domain"
+msgid "Error restoring domain: %s"
+msgstr "ਡੋਮੇਨ ਮੁੜ-ਸੰਭਾਲਣ ਵਿੱਚ ਗਲਤੀ"
+
+#: virtManager/vmmenu.py:234
+msgid ""
+"The domain could not be restored. Would you like\n"
+"to remove the saved state and perform a regular\n"
+"start up?"
+msgstr ""
+"ਡੋਮੇਨ ਰੀਸਟੋਰ ਨਹੀਂ ਹੋ ਸਕਿਆ। ਕੀ ਤੁਸੀਂ ਸੰਭਾਲੀ ਸਟੇਟ ਨੂੰ\n"
+"ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ ਅਤੇ ਲਗਾਤਾਰ ਚਾਲੂ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: virtManager/vmmenu.py:250
+#, python-format
+msgid "Error removing domain state: %s"
+msgstr "ਡੋਮੇਨ ਸਟੇਟ ਹਟਾਉਣ ਤੇ ਗਲਤੀ: %s"
+
+#: virtManager/vmmenu.py:253
+msgid "Restoring Virtual Machine"
+msgstr "ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਮੁੜ-ਸਟੋਰ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ"
+
+#: virtManager/vmmenu.py:254
+msgid "Restoring virtual machine memory from disk"
+msgstr "ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਮੈਮੋਰੀ ਡਿਸਕ ਨੂੰ ਰੀਸਟੋਰ ਕਰ ਰਿਹਾ ਹੈ"
+
+#: virtManager/vmmenu.py:259
+msgid "Error starting domain"
+msgstr "ਡੋਮੇਨ ਸ਼ੁਰੂ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
+
+#: virtManager/vmmenu.py:267
+#, python-format
+msgid "Are you sure you want to poweroff '%s'?"
+msgstr "ਕੀ ਤੁਸੀਂ ਯਕੀਨਨ '%s' ਨੂੰ ਬੰਦ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: virtManager/vmmenu.py:279
+#, python-format
+msgid "Are you sure you want to reboot '%s'?"
+msgstr "ਕੀ ਤੁਸੀਂ ਯਕੀਨਨ '%s' ਨੂੰ ਮੁੜ-ਚਾਲੂ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: virtManager/vmmenu.py:284
+msgid "Error rebooting domain"
+msgstr ""
+
+#: virtManager/vmmenu.py:291
+#, python-format
+msgid "Are you sure you want to force reset '%s'?"
+msgstr "ਕੀ ਤੁਸੀਂ '%s' ਨੂੰ ਯਕੀਨਨ ਹੀ ਧੱਕੇ ਨਾਲ ਰੀਸੈੱਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: virtManager/vmmenu.py:293
+msgid ""
+"This will immediately reset the VM without shutting down the OS and may "
+"cause data loss."
+msgstr ""
+"ਇਹ OS ਨੂੰ ਬੰਦ ਕੀਤੇ ਬਿਨਾਂ VM ਨੂੰ ਤੁਰੰਤ ਹੀ ਬੰਦ ਕਰ ਦੇਵੇਗਾ ਅਤੇ ਡਾਟਾ ਗੁੰਮਣ ਦਾ ਕਾਰਣ ਬਣ ਸਕਦਾ ਹੈ।"
+
+#: virtManager/vmmenu.py:300
+msgid "Error resetting domain"
+msgstr "ਡੋਮੇਨ ਨੂੰ ਰੀਸੈੱਟ ਕਰਨ ਵੇਲੇ ਗਲਤੀ"
+
+#: virtManager/vmwindow.py:43
+#, python-format
+msgid "Error launching details: %s"
+msgstr "ਵੇਰਵਾ ਚਲਾਉਣ ਤੇ ਗਲਤੀ: %s"
+
+#: virtManager/vmwindow.py:217
+#, fuzzy
+msgid "This will abort the installation. Are you sure?"
+msgstr ""
+"ਇਸ ਨਾਲ ਕੁਨੈਕਸ਼ਨ ਹਟਾਇਆ ਜਾਵੇਗਾ:\n"
+"\n"
+"%s\n"
+"\n"
+"ਕੀ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: virtManager/vmwindow.py:377
+#, python-format
+msgid "%(vm-name)s on %(connection-name)s"
+msgstr ""
+
+#: virtManager/vmwindow.py:420
+msgid "Manage VM snapshots"
+msgstr "VM ਸਨੈਪਸ਼ਾਟਾਂ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰੋ"
+
+#: virtManager/vmwindow.py:497
+#, python-format
+msgid "Error taking screenshot: %s"
+msgstr "ਸਕਰੀਨਸ਼ਾਟ ਲੈਣ ਲੱਗਿਆਂ ਗਲਤੀ: %s"
+
+#: virtManager/vmwindow.py:505
+msgid "Error initializing spice USB device widget"
+msgstr "ਸਪਾਈਸ USB ਯੰਤਰ ਵਿਜੈੱਟ ਨੂੰ ਸ਼ੁਰੂ ਕਰਨ ਲੱਗਿਆਂ ਗਲਤੀ"
+
+#: virtManager/vmwindow.py:510
+msgid "Select USB devices for redirection"
+msgstr "ਮੁੜ-ਨਿਰਦੇਸ਼ਨ ਲਈ USB ਯੰਤਰ"
+
+#: virtManager/vmwindow.py:545
+msgid "Save Virtual Machine Screenshot"
+msgstr "ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਸਕਰੀਨ-ਸ਼ਾਟ ਸੰਭਾਲੋ"
+
+#: virtManager/vmwindow.py:546
+msgid "PNG files"
+msgstr ""
+
+#: virtManager/vmwindow.py:548
+#, fuzzy
+#| msgid "Saved"
+msgid "_Save"
+msgstr "ਸੰਭਾਲੇ"
+
+#: virtManager/xmleditor.py:131 virtManager/xmleditor.py:144
+msgid "There are unapplied changes."
+msgstr ""
+
+#: virtManager/xmleditor.py:132
+msgid "Your changes will be lost if you leave this tab. Really leave this tab?"
+msgstr ""
+
+#: virtManager/xmleditor.py:145
+msgid ""
+"Your XML changes will be lost if you leave this tab. Really leave this tab?"
+msgstr ""
+
+#: virtinst/capabilities.py:300
+#, fuzzy, python-format
+#| msgid ""
+#| "Host does not support domain type %(domain)s%(machine)s for "
+#| "virtualization type '%(virttype)s' arch '%(arch)s'"
+msgid ""
+"Host does not support virtualization type '%(virttype)s' for architecture "
+"'%(arch)s'"
+msgstr ""
+"ਮੇਜਬਾਨ %(domain)s%(machine)s ਡੋਮੇਨ ਕਿਸਮ ਦਾ '%(virttype)s' arch '%(arch)s "
+"ਵਰਚੁਅਲਾਈਜ਼ੇਸ਼ਨ ਕਿਸਮ ਲਈ ਸਮਰਥਨ ਨਹੀਂ ਕਰਦਾ"
+
+#: virtinst/capabilities.py:305
+#, fuzzy, python-format
+#| msgid ""
+#| "Host does not support domain type %(domain)s%(machine)s for "
+#| "virtualization type '%(virttype)s' arch '%(arch)s'"
+msgid ""
+"Host does not support any virtualization options for architecture '%(arch)s'"
+msgstr ""
+"ਮੇਜਬਾਨ %(domain)s%(machine)s ਡੋਮੇਨ ਕਿਸਮ ਦਾ '%(virttype)s' arch '%(arch)s "
+"ਵਰਚੁਅਲਾਈਜ਼ੇਸ਼ਨ ਕਿਸਮ ਲਈ ਸਮਰਥਨ ਨਹੀਂ ਕਰਦਾ"
+
+#: virtinst/capabilities.py:309
+#, fuzzy, python-format
+#| msgid "Host does not support %(virttype)s %(arch)s"
+msgid "Host does not support virtualization type '%(virttype)s'"
+msgstr "ਮੇਜਬਾਨ %(virttype)s %(arch)s ਦਾ ਸਮਰਥਨ ਨਹੀਂ ਕਰਦਾ"
+
+#: virtinst/capabilities.py:313
+#, fuzzy
+#| msgid "any virtualization options"
+msgid "Host does not support any virtualization options"
+msgstr "ਕੋਈ ਵਰਚੁਅਲਾਈਜ਼ੇਸ਼ਨ ਚੋਣਾਂ"
+
+#: virtinst/capabilities.py:320
+#, fuzzy, python-format
+#| msgid ""
+#| "Host does not support domain type %(domain)s%(machine)s for "
+#| "virtualization type '%(virttype)s' arch '%(arch)s'"
+msgid ""
+"Host does not support domain type %(domain)s with machine '%(machine)s' for "
+"virtualization type '%(virttype)s' with architecture '%(arch)s'"
+msgstr ""
+"ਮੇਜਬਾਨ %(domain)s%(machine)s ਡੋਮੇਨ ਕਿਸਮ ਦਾ '%(virttype)s' arch '%(arch)s "
+"ਵਰਚੁਅਲਾਈਜ਼ੇਸ਼ਨ ਕਿਸਮ ਲਈ ਸਮਰਥਨ ਨਹੀਂ ਕਰਦਾ"
+
+#: virtinst/capabilities.py:331
+#, fuzzy, python-format
+#| msgid ""
+#| "Host does not support domain type %(domain)s%(machine)s for "
+#| "virtualization type '%(virttype)s' arch '%(arch)s'"
+msgid ""
+"Host does not support domain type %(domain)s for virtualization type "
+"'%(virttype)s' with architecture '%(arch)s'"
+msgstr ""
+"ਮੇਜਬਾਨ %(domain)s%(machine)s ਡੋਮੇਨ ਕਿਸਮ ਦਾ '%(virttype)s' arch '%(arch)s "
+"ਵਰਚੁਅਲਾਈਜ਼ੇਸ਼ਨ ਕਿਸਮ ਲਈ ਸਮਰਥਨ ਨਹੀਂ ਕਰਦਾ"
+
+#: virtinst/cli.py:115
+msgid "See man page for examples and full option syntax."
+msgstr "ਉਦਾਹਰਣਾਂ ਅਤੇ ਚੋਣਾਂ ਦੇ ਪੂਰੇ ਸਿੰਟੈਕਸ ਲਈ ਮੈਨ ਸਫ੍ਹੇ ਦੇਖੋ।"
+
+#: virtinst/cli.py:118
+msgid "Use '--option=?' or '--option help' to see available suboptions"
+msgstr ""
+
+#: virtinst/cli.py:295
+#, python-format
+msgid ""
+"Domain installation does not appear to have been successful.\n"
+"If it was, you can restart your domain by running:\n"
+"  %s\n"
+"otherwise, please restart your installation."
+msgstr ""
+"ਡੋਮੇਨ ਇੰਸਟਾਲੇਸ਼ਨ ਸਫਲ ਹੋਈ ਪ੍ਰਤੀਤ ਨਹੀਂ ਹੁੰਦੀ।\n"
+"ਜੇ ਇਹ ਸੀ, ਤੁਸੀਂ ਡੋਮੇਨ ਨੂੰ ਮੁੜ-ਚਾਲੂ ਕਰ ਸਕਦੇ ਹੋ ਇਹ ਚਲਾ ਕੇ:\n"
+"%s\n"
+"ਨਹੀਂ ਤਾਂ ਆਪਣੀ ਇੰਸਟਾਲੇਸ਼ਨ ਨੂੰ ਮੁੜ ਸ਼ੁਰੂ ਕਰੋ। "
+
+#: virtinst/cli.py:316
+#, python-format
+msgid ""
+"%(path)s may not be accessible by the hypervisor. You will need to grant the "
+"'%(user)s' user search permissions for the following directories: %(dirs)s"
+msgstr ""
+
+#: virtinst/cli.py:329
+#, python-format
+msgid " (Use --check %s=off or --check all=off to override)"
+msgstr ""
+
+#: virtinst/cli.py:360
+#, python-format
+msgid "This will overwrite the existing path '%s'"
+msgstr "ਇਸ ਨਾਲ ਮੌਜੂਦਾ ਰਾਹ '%s' ਤੇ ਮੁੜ ਲਿਖਿਆ ਜਾਏਗਾ"
+
+#: virtinst/cli.py:370
+#, fuzzy, python-format
+#| msgid "Disk %s is already in use by other guests %s."
+msgid "Disk %(path)s is already in use by other guests %(names)s."
+msgstr "ਡਿਸਕ \"%s\" ਪਹਿਲਾਂ ਹੀ ਹੋਰ ਪ੍ਰਾਹੁਣੇ %s ਵਲੋਂ ਵਰਤੀ ਜਾ ਰਹੀ ਹੈ।"
+
+#: virtinst/cli.py:414
+#, fuzzy, python-format
+#| msgid "Connecting to graphical console for guest"
+msgid "Running graphical console command: %(command)s"
+msgstr "ਗੈੱਸਟ ਲਈ ਗਰਾਫੀਕਲ ਕਨਸੋਲ ਨਾਲ ਜੁੜ ਰਿਹਾ ਹੈ"
+
+#: virtinst/cli.py:426
+#, python-format
+msgid "Running text console command: %(command)s"
+msgstr ""
+
+#: virtinst/cli.py:470
+#, fuzzy, python-format
+#| msgid "Could not define storage pool: %s"
+msgid "Could not find domain '%(domain)s': %(error)s"
+msgstr "ਭੰਡਾਰਣ ਪੂਲ ਪਰਿਭਾਸ਼ਤ ਨਹੀਂ ਕਰ ਸਕਿਆ: %s"
+
+#. translators: option1 and option2 are command line options,
+#. e.g. -a or --disk
+#: virtinst/cli.py:490
+#, python-format
+msgid "Cannot use %(option1)s and %(option2)s at the same time"
+msgstr ""
+
+#: virtinst/cli.py:608 virtinst/cli.py:612
+msgid "Connect to hypervisor with libvirt URI"
+msgstr "libvirt URI ਨਾਲ ਹਾਈਪਰਵਾਇਜ਼ਰ ਦੇ ਨਾਲ ਜੁੜੋ"
+
+#: virtinst/cli.py:635
+msgid ""
+"Configure guest console auto connect. Example:\n"
+"--autoconsole text\n"
+"--autoconsole graphical\n"
+"--autoconsole none"
+msgstr ""
+
+#: virtinst/cli.py:646
+msgid "Don't automatically try to connect to the guest console"
+msgstr "ਪ੍ਰਾਹੁਣੇ ਕੰਸੋਲ ਨਾਲ ਸ੍ਵੈ-ਚਲਿਤ ਹੀ ਜੁੜਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਨਾ ਕਰੋ"
+
+#: virtinst/cli.py:651
+msgid "Don't boot guest after completing install."
+msgstr "ਇੰਸਟਾਲ ਪੂਰਾ ਕਰਨ ਤੋਂ ਬਾਅਦ ਪ੍ਰਾਹੁਣੇ ਨੂੰ ਬੂਟ ਨਾ ਕਰੋ।"
+
+#: virtinst/cli.py:658
+msgid "Don't check name collision, overwrite any guest with the same name."
+msgstr "ਨਾਂ ਦੀ ਟੱਕਰ ਲਈ ਨਾ ਜਾਂਚੋ। ਇਸੇ ਨਾਮ ਨਾਲ ਕਿਸੇ ਪ੍ਰਾਹੁਣੇ ਨੂੰ ਮੁੜ ਲਿਖ ਦਿਓ।"
+
+#: virtinst/cli.py:665
+msgid "Print the generated domain XML rather than create the guest."
+msgstr ""
+
+#: virtinst/cli.py:685
+msgid ""
+"Run through install process, but do not create devices or define the guest."
+msgstr "ਇੰਸਟਾਲ ਕਾਰਵਾਈ ਵਿੱਚੋਂ ਚੱਲੋ, ਪਰ ਯੰਤਰ ਬਣਾਉਣਾ ਜਾਂ ਪ੍ਰਾਹੁਣਾ ਪਰਿਭਾਸ਼ਿਤ ਨਾ ਕਰੋ।"
+
+#: virtinst/cli.py:693
+msgid ""
+"Enable or disable validation checks. Example:\n"
+"--check path_in_use=off\n"
+"--check all=off"
+msgstr ""
+
+#: virtinst/cli.py:698
+msgid "Suppress non-error output"
+msgstr "ਬਿਨਾਂ ਗਲਤੀ ਆਊਟਪੁੱਟ ਨੂੰ ਦਬਾਓ"
+
+#: virtinst/cli.py:699
+msgid "Print debugging information"
+msgstr "ਡੀ-ਬੱਗ ਜਾਣਕਾਰੀ ਛਾਪੋ"
+
+#: virtinst/cli.py:708
+msgid ""
+"Configure guest metadata. Ex:\n"
+"--metadata name=foo,title=\"My pretty title\",uuid=...\n"
+"--metadata description=\"My nice long description\""
+msgstr ""
+
+#: virtinst/cli.py:721
+msgid ""
+"Configure guest memory allocation. Ex:\n"
+"--memory 1024 (in MiB)\n"
+"--memory memory=1024,currentMemory=512\n"
+msgstr ""
+
+#: virtinst/cli.py:738
+msgid ""
+"Number of vCPUs to configure for your guest. Ex:\n"
+"--vcpus 5\n"
+"--vcpus 5,maxvcpus=10,cpuset=1-4,6,8\n"
+"--vcpus sockets=2,cores=4,threads=2"
+msgstr ""
+
+#: virtinst/cli.py:751
+msgid ""
+"CPU model and features. Ex:\n"
+"--cpu coreduo,+x2apic\n"
+"--cpu host-passthrough\n"
+msgstr ""
+
+#: virtinst/cli.py:766
+msgid ""
+"Configure guest display settings. Ex:\n"
+"--graphics spice\n"
+"--graphics vnc,port=5901,listen=0.0.0.0\n"
+"--graphics none\n"
+msgstr ""
+
+#: virtinst/cli.py:781
+msgid ""
+"Configure a guest network interface. Ex:\n"
+"--network bridge=mybr0\n"
+"--network network=my_libvirt_virtual_net\n"
+"--network network=mynet,model=virtio,mac=00:11...\n"
+"--network none\n"
+"--network help"
+msgstr ""
+
+#: virtinst/cli.py:797
+msgid ""
+"Configure a guest controller device. Ex:\n"
+"--controller type=usb,model=qemu-xhci\n"
+"--controller type=scsi,model=virtio-scsi\n"
+msgstr ""
+
+#: virtinst/cli.py:806
+msgid ""
+"Configure a guest input device. Ex:\n"
+"--input tablet\n"
+"--input keyboard,bus=usb"
+msgstr ""
+
+#: virtinst/cli.py:809
+msgid "Configure a guest serial device"
+msgstr "ਇੱਕ ਪ੍ਰਾਹੁਣਾ ਸੀਰੀਅਲ ਯੰਤਰ ਸੰਰਚਿਤ ਕਰੋ"
+
+#: virtinst/cli.py:811
+msgid "Configure a guest parallel device"
+msgstr "ਇੱਕ ਪ੍ਰਾਹੁਣਾ ਸਮਾਂਤਰ ਯੰਤਰ ਸੰਰਚਿਤ ਕਰੋ"
+
+#: virtinst/cli.py:814
+msgid "Configure a guest communication channel"
+msgstr "ਇੱਕ ਪ੍ਰਾਹੁਣਾ ਸੰਚਾਰ ਚੈਨਲ ਸੰਰਚਿਤ ਕਰੋ"
+
+#: virtinst/cli.py:820
+msgid "Configure a text console connection between the guest and host"
+msgstr "ਪ੍ਰਾਹੁਣੇ ਅਤੇ ਮੇਜਬਾਨ ਵਿੱਚਕਾਰ ਇੱਕ ਪਾਠ ਕੰਸੋਲ ਸੰਪਰਕ ਸੰਰਚਿਤ ਕਰੋ"
+
+#: virtinst/cli.py:826
+msgid "Configure physical USB/PCI/etc host devices to be shared with the guest"
+msgstr ""
+
+#: virtinst/cli.py:836
+msgid ""
+"Pass host directory to the guest. Ex: \n"
+"--filesystem /my/source/dir,/dir/in/guest\n"
+"--filesystem template_name,/,type=template"
+msgstr ""
+"ਮੇਜਬਾਨ ਡਾਇਰੈਕਟਰੀ ਪ੍ਰਾਹੁਣੇ ਤੱਕ ਪਹੁੰਚਾਓ। ਉਦਾਹਰਣ: \n"
+"--filesystem /my/source/dir,/dir/in/guest\n"
+"--filesystem template_name,/,type=template"
+
+#: virtinst/cli.py:846
+msgid "Configure guest sound device emulation"
+msgstr "ਪ੍ਰਾਹੁਣਾ ਅਵਾਜ ਯੰਤਰ ਅਨੁਕਰਣ ਸੰਰਚਿਤ ਕਰੋ"
+
+#: virtinst/cli.py:856
+#, fuzzy
+#| msgid "Configure a guest watchdog device"
+msgid "Configure host audio backend for sound devices"
+msgstr "ਇੱਕ ਪ੍ਰਾਹੁਣਾ ਨਿਗਰਾਨ ਯੰਤਰ ਸੰਰਚਿਤ ਕਰੋ"
+
+#: virtinst/cli.py:860
+msgid "Configure a guest watchdog device"
+msgstr "ਇੱਕ ਪ੍ਰਾਹੁਣਾ ਨਿਗਰਾਨ ਯੰਤਰ ਸੰਰਚਿਤ ਕਰੋ"
+
+#: virtinst/cli.py:862
+msgid "Configure guest video hardware."
+msgstr "ਪ੍ਰਾਹੁਣਾ ਵੀਡੀਓ ਹਾਰਡਵੇਅਰ ਸੰਰਚਿਤ ਕਰੋ।"
+
+#: virtinst/cli.py:867
+msgid ""
+"Configure a guest smartcard device. Ex:\n"
+"--smartcard mode=passthrough"
+msgstr ""
+"ਇੱਕ ਪ੍ਰਾਹੁਣਾ ਸਮਾਰਟ ਕਾਰਡ ਯੰਤਰ ਸੰਰਚਿਤ ਕਰੋ। ਉਦਾਹਰਣ:\n"
+"--smartcard mode=passthrough"
+
+#: virtinst/cli.py:874
+msgid ""
+"Configure a guest redirection device. Ex:\n"
+"--redirdev usb,type=tcp,server=192.168.1.1:4000"
+msgstr ""
+"ਇੱਕ ਪ੍ਰਾਹੁਣਾ ਮੁੜ-ਨਿਰਦੇਸ਼ਨ ਯੰਤਰ ਸੰਰਚਿਤ ਕਰੋ।ਉਦਾਹਰਣ:\n"
+"--redirdev usb,type=tcp,server=192.168.1.1:4000"
+
+#: virtinst/cli.py:882
+msgid ""
+"Configure a guest memballoon device. Ex:\n"
+"--memballoon model=virtio"
+msgstr ""
+"ਇੱਕ ਪ੍ਰਾਹੁਣਾ memballoon ਯੰਤਰ ਸੰਰਚਿਤ ਕਰੋ। ਉਦਾਹਰਣ:\n"
+"--memballoon model=virtio"
+
+#: virtinst/cli.py:886
+msgid ""
+"Configure a guest TPM device. Ex:\n"
+"--tpm /dev/tpm"
+msgstr ""
+"ਇੱਕ ਪ੍ਰਾਹੁਣਾ TPM ਯੰਤਰ ਸੰਰਚਿਤ ਕਰੋ। ਉਦਾਹਰਣ:\n"
+"--tpm /dev/tpm"
+
+#: virtinst/cli.py:890
+msgid ""
+"Configure a guest RNG device. Ex:\n"
+"--rng /dev/urandom"
+msgstr ""
+
+#: virtinst/cli.py:896
+msgid ""
+"Configure a guest panic device. Ex:\n"
+"--panic default"
+msgstr ""
+
+#: virtinst/cli.py:902
+#, fuzzy
+#| msgid ""
+#| "Configure a guest smartcard device. Ex:\n"
+#| "--smartcard mode=passthrough"
+msgid ""
+"Configure a guest shared memory device. Ex:\n"
+"--shmem name=shmem0"
+msgstr ""
+"ਇੱਕ ਪ੍ਰਾਹੁਣਾ ਸਮਾਰਟ ਕਾਰਡ ਯੰਤਰ ਸੰਰਚਿਤ ਕਰੋ। ਉਦਾਹਰਣ:\n"
+"--smartcard mode=passthrough"
+
+#: virtinst/cli.py:908
+msgid ""
+"Configure a guest memory device. Ex:\n"
+"--memdev dimm,target.size=1024"
+msgstr ""
+
+#: virtinst/cli.py:914
+msgid ""
+"Configure guest vsock sockets. Ex:\n"
+"--vsock cid.auto=yes\n"
+"--vsock cid.address=7"
+msgstr ""
+
+#: virtinst/cli.py:920
+msgid ""
+"Configure an IOMMU device. Ex:\n"
+"--iommu model=intel,driver.aw_bits=48"
+msgstr ""
+
+#: virtinst/cli.py:927
+msgid ""
+"Configure a nvram storage device.\n"
+"It's for guest kernel to record oops/panic logs. Ex:\n"
+"--pstore backend=acpi-erst,size=8"
+msgstr ""
+
+#: virtinst/cli.py:939
+msgid "Set domain <iothreads> and <iothreadids> configuration."
+msgstr ""
+
+#: virtinst/cli.py:944
+msgid "Set domain seclabel configuration."
+msgstr ""
+
+#: virtinst/cli.py:951
+msgid "Set guest to perform the S390 cryptographic key management operations."
+msgstr ""
+
+#: virtinst/cli.py:956
+msgid "Tune CPU parameters for the domain process."
+msgstr ""
+
+#: virtinst/cli.py:961
+msgid "Tune NUMA policy for the domain process."
+msgstr "ਡੋਮਾਨ ਕਾਰਵਾਈ ਲਈ NUMA ਨੀਤੀ ਸੁਰ 'ਚ ਕਰੋ।"
+
+#: virtinst/cli.py:966
+msgid "Tune memory policy for the domain process."
+msgstr ""
+
+#: virtinst/cli.py:971
+msgid "Tune blkio policy for the domain process."
+msgstr ""
+
+#: virtinst/cli.py:979
+msgid ""
+"Set memory backing policy for the domain process. Ex:\n"
+"--memorybacking hugepages=on"
+msgstr ""
+
+#: virtinst/cli.py:988
+msgid ""
+"Set domain <features> XML. Ex:\n"
+"--features acpi=off\n"
+"--features apic=on,apic.eoi=on"
+msgstr ""
+
+#: virtinst/cli.py:998
+msgid ""
+"Set domain <clock> XML. Ex:\n"
+"--clock offset=localtime,rtc_tickpolicy=catchup"
+msgstr ""
+
+#: virtinst/cli.py:1002
+msgid "Configure VM power management features"
+msgstr ""
+
+#: virtinst/cli.py:1006
+msgid "Configure VM lifecycle management policy"
+msgstr ""
+
+#: virtinst/cli.py:1011
+msgid "Configure VM resource partitioning (cgroups)"
+msgstr ""
+
+#: virtinst/cli.py:1019
+msgid ""
+"Configure SMBIOS System Information. Ex:\n"
+"--sysinfo host\n"
+"--sysinfo bios.vendor=MyVendor,bios.version=1.2.3,...\n"
+msgstr ""
+
+#: virtinst/cli.py:1030
+msgid ""
+"Pass arguments directly to the QEMU emulator. Ex:\n"
+"--qemu-commandline='-display gtk,gl=on'\n"
+"--qemu-commandline env=DISPLAY=:0.1"
+msgstr ""
+
+#: virtinst/cli.py:1042
+msgid ""
+"Configure VM launch security (e.g. SEV memory encryption). Ex:\n"
+"--launchSecurity sev"
+msgstr ""
+
+#: virtinst/cli.py:1054
+msgid ""
+"Configure guest boot settings. Ex:\n"
+"--boot hd,cdrom,menu=on\n"
+"--boot init=/sbin/init (for containers)"
+msgstr ""
+
+#: virtinst/cli.py:1065
+msgid ""
+"Enable user namespace for LXC container. Ex:\n"
+"--idmap uid.start=0,uid.target=1000,uid.count=10"
+msgstr ""
+
+#: virtinst/cli.py:1080
+msgid ""
+"Specify storage with various options. Ex.\n"
+"--disk size=10 (new 10GiB image in default location)\n"
+"--disk /my/existing/disk,cache=none\n"
+"--disk device=cdrom,bus=scsi\n"
+"--disk=?"
+msgstr ""
+
+#: virtinst/cli.py:1091
+msgid "OS options"
+msgstr ""
+
+#: virtinst/cli.py:1094
+msgid "The OS being installed in the guest."
+msgstr ""
+
+#: virtinst/cli.py:1096
+msgid "The OS installed in the guest."
+msgstr ""
+
+#: virtinst/cli.py:1099
+msgid ""
+"This is used for deciding optimal defaults like VirtIO.\n"
+"Example values: fedora29, rhel7.0, win10, ...\n"
+"Use '--osinfo list' to see a full list."
+msgstr ""
+
+#: virtinst/cli.py:1115
+msgid ""
+"Perform raw XML XPath options on the final XML. Example:\n"
+"--xml ./cpu/@mode=host-passthrough\n"
+"--xml ./devices/disk[2]/serial=new-serial\n"
+"--xml xpath.delete=./clock"
+msgstr ""
+
+#: virtinst/cli.py:1148
+#, python-format
+msgid "%(key)s must be 'yes' or 'no'"
+msgstr "%(key)s ਦਾ 'ਹਾਂ' ਜਾਂ 'ਨਹੀਂ' ਹੋਣਾ ਜਰੂਰੀ ਹੈ"
+
+#: virtinst/cli.py:1343
+#, python-format
+msgid ""
+"Don't know how to match device type '%(device_type)s' property "
+"'%(property_name)s'"
+msgstr ""
+
+#: virtinst/cli.py:1673
+#, python-format
+msgid "Unknown %(optionflag)s options: %(string)s"
+msgstr ""
+
+#: virtinst/cli.py:1729 virtinst/cli.py:1760
+#, python-format
+msgid "Error: %(cli_flag_name)s %(options)s: %(err)s"
+msgstr ""
+
+#: virtinst/cli.py:2193
+msgid "No display detected. Not running virt-viewer."
+msgstr ""
+
+#: virtinst/cli.py:2199
+msgid ""
+"Unable to connect to graphical console: virt-viewer not installed. Please "
+"install the 'virt-viewer' package."
+msgstr ""
+"ਗਰਾਫੀਕਲ ਕੰਸੋਲ ਨਾਲ ਜੁੜਨ ਤੋਂ ਅਯੋਗ: virt-viewer ਇੰਸਟਾਲ ਨਹੀਂ ਹੋਇਆ। ਕਿਰਪਾ ਕਰ ਕੇ 'virt-"
+"viewer' ਪੰਡ (package) ਇੰਸਟਾਲ ਕਰੋ।"
+
+#: virtinst/cli.py:2213
+#, python-format
+msgid "Unknown autoconsole type '%s'"
+msgstr ""
+
+#: virtinst/cli.py:2615
+msgid "CPU model=host is deprecated, use model=host-model"
+msgstr ""
+
+#: virtinst/cli.py:3914
+#, python-format
+msgid "Improper value for 'size': %s"
+msgstr "ਅਢੁਕਵਾਂ ਮੁੱਲ 'size' ਲਈ: %s"
+
+#: virtinst/cli.py:3928
+#, fuzzy, python-format
+#| msgid "Unknown '%s' value '%s'"
+msgid "Unknown '%(optionname)s' value '%(string)s'"
+msgstr "ਅਣਜਾਣ '%s' ਮੁੱਲ '%s'"
+
+#: virtinst/cli.py:3944
+msgid "Storage volume must be specified as vol=poolname/volname"
+msgstr "ਭੰਡਾਰਣ ਆਇਤਨ vol=poolname/volname ਵਜੋਂ ਜਰੂਰੀ ਦਰਸਾਇਆ ਜਾਵੇ"
+
+#: virtinst/cli.py:4470
+#, python-format
+msgid "Expected PCI format string for '%s'"
+msgstr ""
+
+#: virtinst/cli.py:5229
+#, python-format
+msgid "%s corresponds to multiple node devices"
+msgstr "%s ਬਹੁਤੇ ਨੋਡ ਯੰਤਰਾਂ ਮੁਤਾਬਿਕ"
+
+#: virtinst/cli.py:5231
+#, python-format
+msgid "Did not find a matching node device for '%s'"
+msgstr "'%s' ਲਈ ਮੇਲ ਖਾਂਦਾ ਨੋਡ ਯੰਤਰ ਨਹੀਂ ਲੱਭਿਆ"
+
+#: virtinst/cli.py:5378
+msgid ""
+"You can see additional information with:\n"
+"\n"
+"  osinfo-query os\n"
+msgstr ""
+
+#: virtinst/cloner.py:46
+#, fuzzy, python-format
+#| msgid "Could not remove old vm '%s': %s"
+msgid "Could not remove old vm '%(vm)s': %(error)s"
+msgstr "ਪੁਰਾਣੀ vm '%s' ਹਟਾ ਨਹੀਂ ਸਕਿਆ: %s"
+
+#: virtinst/cloner.py:111
+#, python-format
+msgid "Domain '%s' was not found."
+msgstr "ਡੋਮੇਨ '%s' ਨਹੀਂ ਲੱਭੀ।"
+
+#: virtinst/cloner.py:161
+#, python-format
+msgid "Clone onto existing storage volume is not currently supported: '%s'"
+msgstr "ਮੌਜੂਦਾ ਭੰਡਾਰਣ ਆਇਤਨ ਦੇ ਉੱਤੇ ਕਲੋਨ ਕਰਨਾ ਇਸ ਮੌਕੇ ਸਮਰਥਿਤ ਨਹੀਂ ਹੈ: '%s'"
+
+#: virtinst/cloner.py:182
+#, python-format
+msgid "Disk path '%s' does not exist."
+msgstr ""
+
+#: virtinst/cloner.py:191
+#, fuzzy
+#| msgid "Clone onto existing storage volume is not currently supported: '%s'"
+msgid "Cloning rbd volumes is not yet supported."
+msgstr "ਮੌਜੂਦਾ ਭੰਡਾਰਣ ਆਇਤਨ ਦੇ ਉੱਤੇ ਕਲੋਨ ਕਰਨਾ ਇਸ ਮੌਕੇ ਸਮਰਥਿਤ ਨਹੀਂ ਹੈ: '%s'"
+
+#: virtinst/cloner.py:194
+#, python-format
+msgid "Disk network type '%s' is not cloneable."
+msgstr ""
+
+#: virtinst/cloner.py:201
+msgid "Read Only"
+msgstr "ਸਿਰਫ ਪੜ੍ਹਨ ਲਈ"
+
+#: virtinst/cloner.py:203
+#, fuzzy
+#| msgid "Storage is marked as shareable."
+msgid "Marked as shareable"
+msgstr "ਸਟੋਰੇਜ਼ ਨੂੰ ਸ਼ੇਅਰ-ਯੋਗ ਮਾਰਕ ਕੀਤਾ ਹੈ।"
+
+#: virtinst/cloner.py:277
+#, fuzzy, python-format
+#| msgid "Could not use path '%s' for cloning: %s"
+msgid "Could not use path '%(path)s' for cloning: %(error)s"
+msgstr "ਕਲੋਨਿੰਗ ਲਈ '%s' ਰਾਹ ਨਹੀਂ ਵਰਤ ਸਕਿਆ: %s"
+
+#: virtinst/cloner.py:297
+#, python-format
+msgid "Could not determine original disk information: %s"
+msgstr "ਅਸਲ ਡਿਸਕ ਜਾਣਕਾਰੀ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕਰ ਸਕਿਆ: %s"
+
+#: virtinst/cloner.py:350
+msgid "Domain to clone must be shutoff."
+msgstr ""
+
+#: virtinst/cloner.py:385
+msgid ""
+"Setting the graphics device port to autoport, in order to avoid conflicting."
+msgstr "ਟਕਰਾਅ ਨੂੰ ਟਾਲਣ ਲਈ, ਗਰਾਫਿਕਸ ਯੰਤਰ ਨੂੰ ਸ੍ਵੈ-ਪੋਰਟ ਸੈੱਟ ਕਰ ਰਿਹਾ।"
+
+#: virtinst/cloner.py:545
+#, python-format
+msgid "Invalid name for new guest: %s"
+msgstr "ਨਵੇਂ ਪ੍ਰਾਹੁਣੇ ਲਈ ਅਯੋਗ ਨਾਂ: %s"
+
+#: virtinst/devices/disk.py:394
+#, python-format
+msgid "Size must be specified for non existent volume '%s'"
+msgstr ""
+
+#: virtinst/devices/disk.py:400
+#, python-format
+msgid ""
+"Don't know how to create storage for path '%s'. Use libvirt APIs to manage "
+"the parent directory as a pool first."
+msgstr ""
+
+#: virtinst/devices/disk.py:425
+msgid "Format attribute not supported for this volume type"
+msgstr "ਫਾਰਮੈਟ ਐਟਰੀਬਿਊਟ ਇਸ ਆਇਤਨ ਕਿਸਮ ਵੱਲੋਂ ਸਮਰਥਿਤ ਨਹੀਂ"
+
+#: virtinst/devices/disk.py:861
+#, python-format
+msgid "Device type '%s' requires a path"
+msgstr "ਯੰਤਰ ਕਿਸਮ '%s' ਨੂੰ ਰਾਹ ਦੀ ਲੋੜੀਂਦਾ ਹੈ"
+
+#: virtinst/devices/disk.py:867
+#, python-format
+msgid "Must specify storage creation parameters for non-existent path '%s'."
+msgstr "ਗੈਰ-ਮੌਜੂਦਾ ਰਾਹ '%s' ਲਈ ਭੰਡਾਰਣ ਬਣਾਉਣ ਪੈਰਾਮੀਟਰ ਜਰੂਰ ਦਰਸਾਓ।"
+
+#: virtinst/devices/disk.py:982
+#, python-format
+msgid "Only %(number)s disk for bus '%(bus)s' are supported"
+msgid_plural "Only %(number)s disks for bus '%(bus)s' are supported"
+msgstr[0] ""
+msgstr[1] ""
+
+#: virtinst/devices/filesystem.py:127
+#, python-format
+msgid "Filesystem target '%s' must be an absolute path"
+msgstr "ਫਾਈਲ-ਸਿਸਟਮ ਟਿਕਾਣਾ '%s' ਇੱਕ ਪੂਰਾ ਰਾਹ ਜਰੂਰ ਹੋਵੇ"
+
+#: virtinst/devices/graphics.py:20
+#, python-format
+msgid "%s must be above 5900, or -1 for auto allocation"
+msgstr "%s ਜਰੂਰ 5900 ਤੋਂ ਉੱਪਰ ਹੋਵੇ, ਜਾਂ ਸ੍ਵੈ-ਵੰਡ ਲਈ -1"
+
+#: virtinst/devices/hostdev.py:87
+#, python-format
+msgid "Don't know how to generate nodedev for mdev type id '%s'"
+msgstr ""
+
+#: virtinst/devices/hostdev.py:93 virtinst/devices/interface.py:357
+#, python-format
+msgid "Unsupported node device type '%s'"
+msgstr ""
+
+#: virtinst/devices/interface.py:218
+#, python-format
+msgid "The MAC address '%s' is in use by another virtual machine."
+msgstr "MAC ਪਤਾ '%s' ਕਿਸੇ ਹੋਰ ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਦੁਆਰਾ ਵਰਤੋਂ ਵਿੱਚ ਹੈ।"
+
+#: virtinst/diskbackend.py:108
+#, python-format
+msgid "Cannot use storage %(path)s: %(err)s"
+msgstr "ਭੰਡਾਰਣ ਵਰਤ ਨਹੀਂ ਸਕਦਾ %(path)s: %(err)s"
+
+#: virtinst/diskbackend.py:284
+#, python-format
+msgid "Permissions on '%s' did not stick"
+msgstr "'%s' ਉੱਤੇ ਮਨਜ਼ੂਰੀਆਂ ਟਿਕੀਆਂ ਨਹੀਂ"
+
+#: virtinst/diskbackend.py:558
+msgid ""
+"The filesystem will not have enough free space to fully allocate the sparse "
+"file when the guest is running."
+msgstr ""
+"ਜਦੋਂ ਪ੍ਰਾਹੁਣਾ ਚੱਲ ਰਿਹਾ ਹੋਵੇ ਫਾਈਲ ਸਿਸਟਮ ਕੋਲ ਸਪਾਰਸ ਫਾਈਲ ਨੂੰ ਪੂਰੀ ਤਰ੍ਹਾਂ ਵੰਡਣ ਲਈ ਖਾਲੀ ਥਾਂ ਕਾਫ਼ੀ "
+"ਨਹੀਂ ਹੋਵੇਗੀ। "
+
+#: virtinst/diskbackend.py:564
+msgid "There is not enough free space to create the disk."
+msgstr "ਡਿਸਕ ਬਣਾਉਣ ਲਈ ਖਾਲੀ ਥਾਂ ਕਾਫ਼ੀ ਨਹੀਂ ਹੈ।"
+
+#: virtinst/diskbackend.py:568
+#, fuzzy, python-format
+#| msgid " %d M requested > %d M available"
+msgid "%(mem1)s M requested > %(mem2)s M available"
+msgstr "%d M ਮੰਗੀ ਗਈ > %d M ਉਪਲੱਬਧ"
+
+#: virtinst/diskbackend.py:576
+#, python-format
+msgid "size is required for non-existent disk '%s'"
+msgstr "ਗੈਰ-ਮੌਜੂਦ ਡਿਸਕ '%s' ਲਈ ਇੱਕ ਆਕਾਰ ਦਰਸਾਉਣ ਦੀ ਲੋੜ ਹੈ।"
+
+#: virtinst/diskbackend.py:585
+#, python-format
+msgid "Cloning %(srcfile)s"
+msgstr "%(srcfile)s ਕਲੋਨ ਕੀਤਾ ਜਾ ਰਿਹਾ"
+
+#: virtinst/diskbackend.py:656
+#, fuzzy, python-format
+#| msgid "Error cloning diskimage %s to %s: %s"
+msgid "Error cloning diskimage %(inputpath)s to %(outputpath)s: %(error)s"
+msgstr "ਡਿਸਕ ਪ੍ਰਤੀਬਿੰਬ %s ਨੂੰ %s ਤੇ ਕਲੋਨ ਕਰਨ ਲੱਗਿਆਂ ਗਲਤੀ: %s"
+
+#: virtinst/domain/cpu.py:60
+#, python-format
+msgid ""
+"Total CPUs implied by topology (sockets=%(sockets)d * dies=%(dies)d * "
+"cores=%(cores)d * threads=%(threads)d == %(total)d) does not match vCPU "
+"count %(vcpus)d"
+msgstr ""
+
+#: virtinst/domain/launch_security.py:33
+msgid "SEV launch security requires a Q35 UEFI machine"
+msgstr ""
+
+#: virtinst/domain/launch_security.py:47
+msgid "SEV-SNP launch security requires a Q35 UEFI machine"
+msgstr ""
+
+#: virtinst/domain/launch_security.py:51
+msgid "TDX launch security requires a Q35 UEFI machine"
+msgstr ""
+
+#: virtinst/domcapabilities.py:217
+#, python-format
+msgid "Failed to get expanded CPU XML: %s"
+msgstr ""
+
+#: virtinst/domcapabilities.py:346
+msgid "BIOS"
+msgstr ""
+
+#: virtinst/domcapabilities.py:347
+msgid "Default"
+msgstr "ਡਿਫਾਲਟ"
+
+#: virtinst/domcapabilities.py:352
+#, python-format
+msgid "UEFI %(arch)s: %(path)s"
+msgstr ""
+
+#: virtinst/domcapabilities.py:354
+#, python-format
+msgid "Custom: %(path)s"
+msgstr ""
+
+#: virtinst/guest.py:114
+msgid "Guest"
+msgstr "ਪ੍ਰਾਹੁਣਾ"
+
+#: virtinst/guest.py:122
+#, python-format
+msgid "Guest name '%s' is already in use."
+msgstr "ਪ੍ਰਾਹੁਣਾ ਨਾਂ '%s' ਪਹਿਲਾਂ ਹੀ ਵਰਤੋਂ ਵਿੱਚ ਹੈ।"
+
+#: virtinst/guest.py:1088
+msgid "Libvirt version does not support UEFI."
+msgstr ""
+
+#: virtinst/guest.py:1092
+#, python-format
+msgid "Don't know how to setup UEFI for arch '%s'"
+msgstr ""
+
+#: virtinst/guest.py:1097
+#, python-format
+msgid "Did not find any UEFI binary path for arch '%s'"
+msgstr ""
+
+#: virtinst/install/installer.py:120
+#, python-format
+msgid "Removing disk '%s'"
+msgstr ""
+
+#: virtinst/install/installer.py:286
+#, python-format
+msgid ""
+"Overriding memory to %(number)s MiB needed for %(osname)s network install."
+msgstr ""
+
+#: virtinst/install/installer.py:652
+msgid "Creating domain..."
+msgstr "ਡੋਮੇਨ ਬਣਾ ਰਿਹਾ ਹੈ..."
+
+#: virtinst/install/installer.py:659
+msgid "Domain type 'vz' doesn't support transient installs."
+msgstr ""
+
+#: virtinst/install/installertreemedia.py:66
+#, fuzzy, python-format
+msgid "Validating install media '%(media)s' failed: %(error)s"
+msgstr "ਇੰਸਟਾਲ ਟਿਕਾਣੇ ਨੂੰ ਜਾਇਜ ਕਰਨ ਵੇਲੇ ਗਲਤੀ: %s"
+
+#: virtinst/install/installertreemedia.py:125
+msgid "location kernel/initrd may only be specified with a location URL/path"
+msgstr ""
+
+#: virtinst/install/installertreemedia.py:128
+#, fuzzy
+#| msgid "An init path must be specified"
+msgid "location kernel/initrd must be specified as a pair"
+msgstr "ਇੱਕ init ਟਿਕਾਣਾ ਦੇਣਾ ਜਰੂਰੀ ਹੈ"
+
+#: virtinst/install/installertreemedia.py:155
+#, python-format
+msgid "Cannot access install tree on remote connection: %s"
+msgstr ""
+
+#: virtinst/install/installertreemedia.py:213
+msgid "Couldn't find kernel for install tree."
+msgstr ""
+
+#: virtinst/install/installertreemedia.py:270
+msgid ""
+"Directory tree installs typically do not work unless extra kernel args are "
+"passed to point the installer at a network accessible install tree."
+msgstr ""
+
+#: virtinst/install/unattended.py:64
+#, python-format
+msgid "%(osname)s cannot use '%(loginname)s' as user-login."
+msgstr ""
+
+#: virtinst/install/unattended.py:74
+#, python-format
+msgid "%s requires the user-password to be set."
+msgstr ""
+
+#: virtinst/install/unattended.py:80
+#, python-format
+msgid "%s requires the admin-password to be set."
+msgstr ""
+
+#: virtinst/install/unattended.py:176
+msgid "libosinfo or osinfo-db is too old to support unattended installs."
+msgstr ""
+
+#: virtinst/install/unattended.py:194
+#, python-format
+msgid ""
+"OS '%(osname)s' does not support required injection method '%(methodname)s'"
+msgstr ""
+
+#: virtinst/install/unattended.py:323
+#, python-format
+msgid "OS '%s' media does not support unattended installation"
+msgstr ""
+
+#: virtinst/install/unattended.py:333
+#, python-format
+msgid "OS '%s' does not support unattended installation."
+msgstr ""
+
+#: virtinst/install/unattended.py:342
+#, python-format
+msgid ""
+"OS '%(osname)s' does not support unattended installation for the "
+"'%(profilename)s' profile. Available profiles: %(profiles)s"
+msgstr ""
+
+#: virtinst/install/unattended.py:354
+#, python-format
+msgid "Using unattended profile '%s'"
+msgstr ""
+
+#: virtinst/install/urldetect.py:315
+msgid "The URL could not be accessed, maybe you mistyped?"
+msgstr ""
+
+#: virtinst/install/urldetect.py:317
+#, python-format
+msgid "Could not find an installable distribution at URL '%s'"
+msgstr ""
+
+#: virtinst/install/urldetect.py:321
+msgid ""
+"The location must be the root directory of an install tree.\n"
+"See virt-install man page for various distro examples."
+msgstr ""
+
+#: virtinst/install/urlfetcher.py:101
+#, fuzzy, python-format
+#| msgid "Couldn't acquire file %s: %s"
+msgid "Couldn't acquire file %(url)s: %(error)s"
+msgstr "ਫਾਈਲ %s ਪ੍ਰਾਪਤ ਨਹੀਂ ਕਰ ਸਕਿਆ: %s"
+
+#: virtinst/install/urlfetcher.py:105
+#, fuzzy, python-format
+#| msgid "Retrieving file %s..."
+msgid "Retrieving '%(filename)s'"
+msgstr "ਫਾਈਲ %s ਮੁੜ-ਪ੍ਰਾਪਤ ਕਰ ਰਿਹਾ ਹੈ..."
+
+#: virtinst/install/urlfetcher.py:278
+#, python-format
+msgid "Opening URL %(url)s failed: %(error)s"
+msgstr ""
+
+#: virtinst/install/volumeupload.py:107
+#, fuzzy, python-format
+#| msgid "Transferring %s"
+msgid "Transferring '%(filename)s'"
+msgstr "%s ਤਬਦੀਲ ਕਰ ਰਿਹਾ"
+
+#: virtinst/osdict.py:72
+msgid "Generic or unknown OS. Usage is not recommended."
+msgstr ""
+
+#: virtinst/osdict.py:97
+#, python-format
+msgid "Unknown libosinfo ID '%s'"
+msgstr ""
+
+#: virtinst/osdict.py:111
+#, python-format
+msgid "Unknown OS name '%s'. See `--osinfo list` for valid values."
+msgstr ""
+
+#: virtinst/osdict.py:535
+#, python-format
+msgid "OS '%s' does not have a URL location"
+msgstr ""
+
+#: virtinst/osdict.py:547
+#, python-format
+msgid ""
+"OS '%(osname)s' does not have a URL location for the architecture "
+"'%(archname)s'"
+msgstr ""
+
+#: virtinst/storage.py:162
+#, fuzzy, python-format
+#| msgid "Couldn't create default storage pool '%s': %s"
+msgid "Couldn't create default storage pool '%(path)s': %(error)s"
+msgstr "ਡਿਫਾਲਟ ਸਟੋਰੇਜ਼ ਪੂਲ '%s' ਨਹੀਂ ਬਣਾ ਸਕਿਆ: %s"
+
+#: virtinst/storage.py:218 virtinst/storage.py:563
+msgid "Storage object"
+msgstr "ਭੰਡਾਰਣ ਆਬਜੈਕਟ"
+
+#: virtinst/storage.py:224
+#, python-format
+msgid "Name '%s' already in use by another pool."
+msgstr "'%s' ਨਾਂ ਪਹਿਲਾਂ ਹੀ ਕਿਸੇ ਪੂਲ ਦੁਆਰਾ ਵਰਤਿਆ ਜਾ ਰਿਹਾ।"
+
+#: virtinst/storage.py:401
+#, python-format
+msgid "Could not define storage pool: %s"
+msgstr "ਭੰਡਾਰਣ ਪੂਲ ਪਰਿਭਾਸ਼ਤ ਨਹੀਂ ਕਰ ਸਕਿਆ: %s"
+
+#: virtinst/storage.py:409
+#, python-format
+msgid "Could not build storage pool: %s"
+msgstr "ਭੰਡਾਰਣ ਪੂਲ ਉਸਾਰ ਨਹੀਂ ਸਕਿਆ: %s"
+
+#: virtinst/storage.py:415
+#, python-format
+msgid "Could not start storage pool: %s"
+msgstr "ਭੰਡਾਰਣ ਪੂਲ ਸ਼ੁਰੂ ਨਹੀਂ ਕਰ ਸਕਿਆ: %s"
+
+#: virtinst/storage.py:421
+#, python-format
+msgid "Could not set pool autostart flag: %s"
+msgstr "ਪੂਲ ਸ੍ਵੈ-ਸ਼ੁਰੂ ਫਲੈਗ ਸੈੱਟ ਨਹੀਂ ਕਰ ਸਕਿਆ: %s"
+
+#: virtinst/storage.py:570
+#, python-format
+msgid "Name '%s' already in use by another volume."
+msgstr "ਨਾਂ '%s' ਪਹਿਲਾਂ ਹੀ ਕਿਸੇ ਹੋਰ ਆਇਤਨ ਦੁਆਰਾ ਵਰਤੋਂ ਵਿੱਚ ਹੈ।"
+
+#: virtinst/storage.py:662
+msgid ""
+"Sparse logical volumes are not supported, setting allocation equal to "
+"capacity"
+msgstr "ਸਪਾਰਸ ਲੌਜਿਕਲ ਆਇਤਨ ਸਮਰਥਿਤ ਨਹੀਂ ਹਨ, ਵੰਡ ਨੂੰ ਸਮਰੱਥਾ ਦੇ ਬਰਾਬਰ ਸੈੱਟ ਕਰ ਰਿਹਾ"
+
+#: virtinst/storage.py:714
+#, fuzzy, python-format
+#| msgid "Allocating '%s'"
+msgid "Allocating '%(filename)s'"
+msgstr "'%s' ਵੰਡ ਰਿਹਾ"
+
+#: virtinst/storage.py:755
+#, fuzzy, python-format
+#| msgid ""
+#| "There is not enough free space on the storage pool to create the volume. "
+#| "(%d M requested allocation > %d M available)"
+msgid ""
+"There is not enough free space on the storage pool to create the volume. "
+"(%(mem1)s M requested allocation > %(mem2)s M available)"
+msgstr ""
+"ਭੰਡਾਰਣ ਪੂਲ ਤੇ ਆਇਤਨ ਬਣਾਉਣ ਲਈ ਖਾਲੀ ਥਾਂ ਕਾਫੀ ਨਹੀਂ ਹੈ। (%d M ਮੰਗੀ ਗਈ ਵੰਡ > %d M ਉਪਲੱਬਧ)"
+
+#: virtinst/storage.py:762
+#, fuzzy, python-format
+#| msgid ""
+#| "The requested volume capacity will exceed the available pool space when "
+#| "the volume is fully allocated. (%d M requested capacity > %d M available)"
+msgid ""
+"The requested volume capacity will exceed the available pool space when the "
+"volume is fully allocated. (%(mem1)s M requested capacity > %(mem2)s M "
+"available)"
+msgstr ""
+"ਜਦੋਂ ਆਇਤਨ ਪੂਰੀ ਤਰ੍ਹਾਂ ਵੰਡਿਆ ਗਿਆ ਹੋਇਆ ਤਾਂ ਬੇਨਤੀ ਵਿੱਚ ਮੰਗੀ ਗਈ ਆਇਤਨ ਸਮਰੱਥਾ ਉਪਲੱਬਧ ਪੂਲ ਥਾਂ ਨਾਲੋਂ "
+"ਵੱਧ ਜਾਵੇਗੀ।  (%d M ਮੰਗੀ ਗਈ ਸਮਰੱਥਾ > %d M ਉਪਲੱਬਧ)"
+
+#: virtinst/virtclone.py:20
+msgid ""
+"An original machine name is required, use '--original src_name' and try "
+"again."
+msgstr ""
+
+#: virtinst/virtclone.py:66
+msgid ""
+"Duplicate a virtual machine, changing all the unique host side configuration "
+"like MAC address, name, etc. \n"
+"\n"
+"The VM contents are NOT altered: virt-clone does not change anything "
+"_inside_ the guest OS, it only duplicates disks and does host side changes. "
+"So things like changing passwords, changing static IP address, etc are "
+"outside the scope of this tool. For these types of changes, please see virt-"
+"sysprep(1)."
+msgstr ""
+
+#: virtinst/virtclone.py:77 virtinst/virtinstall.py:1056
+msgid "General Options"
+msgstr "ਆਮ ਚੋਣਾਂ"
+
+#: virtinst/virtclone.py:79
+msgid "Name of the original guest to clone."
+msgstr ""
+
+#: virtinst/virtclone.py:81
+msgid "XML file to use as the original guest."
+msgstr "ਅਸਲੀ ਗੈਸਟ ਵਜੋਂ ਵਰਤਣ ਲਈ XML ਫਾਈਲ।"
+
+#: virtinst/virtclone.py:85
+msgid ""
+"Auto generate clone name and storage paths from the original guest "
+"configuration."
+msgstr "ਅਸਲ ਗੈਸਟ ਸੰਰਚਨਾ ਤੋਂ ਆਪਣੇ-ਆਪ ਹੀ ਨਾਂ ਅਤੇ ਭੰਡਾਰਣ ਰਾਹ ਕਲੋਨ ਕਰੋ।"
+
+#: virtinst/virtclone.py:87
+msgid "Name for the new guest"
+msgstr "ਨਵੇਂ ਗੈਸਟ ਲਈ ਨਾਂ"
+
+#: virtinst/virtclone.py:89
+msgid "use btrfs COW lightweight copy"
+msgstr ""
+
+#: virtinst/virtclone.py:91
+msgid "Storage Configuration"
+msgstr "ਭੰਡਾਰਣ ਸੰਰਚਨਾ"
+
+#: virtinst/virtclone.py:97
+msgid "New file to use as the disk image for the new guest"
+msgstr "ਨਵੇਂ ਗੈਸਟ ਲਈ ਡਿਸਕ ਇਮੇਜ ਵਜੋਂ ਵਰਤਣ ਲਈ ਕੋਈ ਫਾਈਲ ਨਹੀਂ"
+
+#: virtinst/virtclone.py:103
+msgid ""
+"Force to copy devices (eg, if 'hdc' is a readonly cdrom device, --force-"
+"copy=hdc)"
+msgstr ""
+"ਯੰਤਰਾਂ ਤੇ ਜੋਰ ਨਾਲ ਨਕਲ ਕਰੋ (ਉਦਾਹਰਣ, ਜੇ 'hdc' ਇੱਕ ਸਿਰਫ਼ ਪੜ੍ਹਨ ਲਈ cdrom ਯੰਤਰ ਹੈ, --force-"
+"copy=hdc)"
+
+#: virtinst/virtclone.py:109
+msgid ""
+"Skip copy of the device target. (eg, if 'vda' is a disk you don't want to "
+"copy and use the same path in the new VM, use --skip-copy=vda)"
+msgstr ""
+
+#: virtinst/virtclone.py:119
+msgid "Do not use a sparse file for the clone's disk image"
+msgstr "ਕਲੋਨ ਦੀ ਡਿਸਕ ਈਮੇਜ਼ ਲਈ ਕੋਈ ਸਪਾਰਸ ਫ਼ਾਈਲ ਨਾ ਵਰਤੋ"
+
+#: virtinst/virtclone.py:127
+msgid ""
+"Do not clone storage contents to specified file paths, their contents will "
+"be left untouched. This requires specifying existing paths for every "
+"cloneable disk image."
+msgstr ""
+
+#: virtinst/virtclone.py:134
+msgid "New file to use as storage for nvram VARS"
+msgstr ""
+
+#: virtinst/virtclone.py:137
+msgid "Networking Configuration"
+msgstr "ਨੈੱਟਵਕਿੰਗ ਸੰਰਚਨਾ"
+
+#: virtinst/virtclone.py:143
+msgid ""
+"New fixed MAC address for the clone guest. Default is a randomly generated "
+"MAC"
+msgstr "ਕਲੋਨ ਗੈਸਟ ਲਈ ਨਵਾਂ ਠੀਕ ਕੀਤਾ MAC ਪਤਾ। ਮੂਲ ਇੱਕ ਬੇਤਰਤੀਬੀ ਨਾਲ ਪੈਦਾ ਕੀਤਾ MAC ਹੈ"
+
+#: virtinst/virtclone.py:146 virtinst/virtinstall.py:1187
+#: virtinst/virtxml.py:567
+msgid "Miscellaneous Options"
+msgstr "ਫ਼ੁਟਕਲ ਚੋਣਾਂ"
+
+#: virtinst/virtclone.py:179
+msgid ""
+"Either --auto-clone or --file is required, use '--auto-clone or --file' and "
+"try again."
+msgstr ""
+
+#: virtinst/virtclone.py:215
+msgid ""
+"A name is required for the new virtual machine, use '--name NEW_VM_NAME' to "
+"specify one."
+msgstr ""
+
+#: virtinst/virtclone.py:234
+#, python-format
+msgid "Clone '%s' created successfully."
+msgstr "ਕਲੋਨ '%s' ਕਾਮਯਾਬੀ ਨਾਲ ਬਣਾਇਆ ਗਿਆ"
+
+#: virtinst/virtclone.py:245 virtinst/virtinstall.py:1313
+msgid "Installation aborted at user request"
+msgstr "ਵਰਤੋਂਕਾਰ ਦੀ ਬੇਨਤੀ ਤੇ ਇੰਸਟਾਲੇਸ਼ਨ ਛੱਡ ਦਿੱਤੀ ਗਈ"
+
+#: virtinst/virtinstall.py:59
+msgid ""
+"-c specified with what looks like a libvirt URI. Did you mean to use --"
+"connect? If not, use --cdrom instead"
+msgstr ""
+
+#: virtinst/virtinstall.py:128
+msgid "Cannot specify storage and use --nodisks"
+msgstr "ਭੰਡਾਰਣ ਨਹੀਂ ਦਰਸਾ ਸਕਦਾ ਅਤੇ --nodisks ਵਰਤੋ"
+
+#: virtinst/virtinstall.py:133
+msgid ""
+"Cannot mix --file, --nonsparse, or --file-size with --disk options. Use --"
+"disk PATH[,size=SIZE][,sparse=yes|no]"
+msgstr ""
+"--file, --nonsparse, ਜਾਂ --file-size ਨੂੰ --disk ਵਿਕਲਪਾਂ ਨਾਲ ਮਿਸ਼ਰਤ ਨਹੀਂ ਕਰ ਸਕਦਾ। --"
+"disk PATH[,size=SIZE][,sparse=yes|no] ਵਰਤੋ"
+
+#: virtinst/virtinstall.py:154
+msgid "--os-type is deprecated and does nothing. Please stop using it."
+msgstr ""
+
+#: virtinst/virtinstall.py:229
+msgid "Cannot mix --graphics and old style graphical options"
+msgstr "--graphics ਅਤੇ ਪੁਰਾਣੇ ਅੰਦਾਜ ਦੀਆਂ ਗਰਾਫੀਕਲ ਚੋਣਾਂ ਦਾ ਰਲੇਵਾਂ ਨਹੀਂ ਕਰ ਸਕਦਾ"
+
+#: virtinst/virtinstall.py:233
+msgid "Can't specify more than one of VNC, SDL, --graphics or --nographics"
+msgstr "VNC, SDL, --graphics ਜਾਂ --nographics ਵਿੱਚੋਂ ਇੱਕ ਤੋਂ ਵੱਧ ਨਹੀਂ ਦਰਸਾ ਸਕਦਾ"
+
+#: virtinst/virtinstall.py:315
+msgid "--memory amount in MiB is required"
+msgstr ""
+
+#: virtinst/virtinstall.py:318
+msgid "--disk storage must be specified (override with --disk none)"
+msgstr ""
+
+#: virtinst/virtinstall.py:322
+#, python-format
+msgid ""
+"An install method must be specified\n"
+"(%(methods)s)"
+msgstr ""
+"ਇੱਕ ਇੰਸਟਾਲ ਤਰੀਕਾ ਦਰਸਾਉਣਾ ਜਰੂਰੀ ਹੈ\n"
+"(%(methods)s)"
+
+#: virtinst/virtinstall.py:336
+msgid ""
+"CDROM media does not print to the text console by default, so you likely "
+"will not see text install output. You might want to use --location."
+msgstr ""
+
+#: virtinst/virtinstall.py:341
+msgid "See the man page for examples of using --location with CDROM media"
+msgstr ""
+
+#: virtinst/virtinstall.py:356
+#, python-format
+msgid ""
+"Requested memory %(mem1)s MiB is less than the recommended %(mem2)s MiB for "
+"OS %(osname)s"
+msgstr ""
+
+#: virtinst/virtinstall.py:363
+#, python-format
+msgid ""
+"Requested memory %s MiB is abnormally low. Were you trying to specify GiB?"
+msgstr ""
+
+#: virtinst/virtinstall.py:380
+msgid "The guest's network configuration may not support PXE"
+msgstr ""
+
+#: virtinst/virtinstall.py:385
+#, python-brace-format
+msgid ""
+"Using --osinfo {osname}, VM performance may suffer. Specify an accurate OS "
+"for optimal results."
+msgstr ""
+
+#: virtinst/virtinstall.py:401
+#, python-brace-format
+msgid "Using {osname} --location {url}"
+msgstr ""
+
+#: virtinst/virtinstall.py:484
+#, python-brace-format
+msgid "Using default --name {vm_name}"
+msgstr ""
+
+#: virtinst/virtinstall.py:495
+#, python-brace-format
+msgid "Using container default --memory {megabytes}"
+msgstr ""
+
+#: virtinst/virtinstall.py:515
+#, python-brace-format
+msgid "Using {os_name} default --memory {megabytes}"
+msgstr ""
+
+#: virtinst/virtinstall.py:528
+#, python-brace-format
+msgid "Using {os_name} default --disk {disk_options}"
+msgstr ""
+
+#: virtinst/virtinstall.py:580
+#, python-brace-format
+msgid ""
+"Failed to detect osinfo OS name from install media, using fallback name "
+"'{name}'.\n"
+"Please file a bug against virt-install if you expected the detection to "
+"succeed."
+msgstr ""
+
+#: virtinst/virtinstall.py:587
+#, python-format
+msgid "Error validating install location: %s"
+msgstr "ਇੰਸਟਾਲ ਟਿਕਾਣੇ ਨੂੰ ਜਾਇਜ ਕਰਨ ਵੇਲੇ ਗਲਤੀ: %s"
+
+#: virtinst/virtinstall.py:589
+msgid ""
+"--osinfo/--os-variant OS name is required, but no value was\n"
+"set or detected."
+msgstr ""
+
+#: virtinst/virtinstall.py:600
+msgid ""
+"This is now a fatal error. Specifying an OS name is required\n"
+"for modern, performant, and secure virtual machine defaults.\n"
+msgstr ""
+
+#: virtinst/virtinstall.py:605
+msgid ""
+"If you expected virt-install to detect an OS name from the\n"
+"install media, you can set a fallback OS name with:\n"
+"\n"
+"  --osinfo detect=on,name=OSNAME\n"
+msgstr ""
+
+#: virtinst/virtinstall.py:615
+msgid ""
+"You can see a full list of possible OS name values with:\n"
+"\n"
+"   virt-install --osinfo list\n"
+msgstr ""
+
+#: virtinst/virtinstall.py:622
+#, python-brace-format
+msgid ""
+"If your Linux distro is not listed, try one of generic values\n"
+"such as: {oslist}\n"
+msgstr ""
+
+#: virtinst/virtinstall.py:629
+#, python-brace-format
+msgid ""
+"If you just need to get the old behavior back, you can use:\n"
+"\n"
+"  --osinfo detect=on,require=off\n"
+"\n"
+"Or export {env_var}=1\n"
+msgstr ""
+
+#: virtinst/virtinstall.py:639
+#, python-brace-format
+msgid "{env_var} set. Skipping fatal error."
+msgstr ""
+
+#: virtinst/virtinstall.py:723
+msgid "No console to launch for the guest, defaulting to --wait -1"
+msgstr ""
+
+#: virtinst/virtinstall.py:761
+#, fuzzy
+#| msgid "Minutes to wait for install to complete."
+msgid "Waiting for the installation to complete."
+msgstr "ਇੰਸਟਾਲ ਦੇ ਪੂਰਾ ਹੋਣ ਦੀ ਉਡੀਕ ਵਿੱਚ ਪਏ ਮਿੰਟ।"
+
+#: virtinst/virtinstall.py:763
+#, fuzzy, python-format
+#| msgid "Minutes to wait for install to complete."
+msgid "Waiting %(minutes)d minute for the installation to complete."
+msgid_plural "Waiting %(minutes)d minutes for the installation to complete."
+msgstr[0] "ਇੰਸਟਾਲ ਦੇ ਪੂਰਾ ਹੋਣ ਦੀ ਉਡੀਕ ਵਿੱਚ ਪਏ ਮਿੰਟ।"
+msgstr[1] "ਇੰਸਟਾਲ ਦੇ ਪੂਰਾ ਹੋਣ ਦੀ ਉਡੀਕ ਵਿੱਚ ਪਏ ਮਿੰਟ।"
+
+#: virtinst/virtinstall.py:787
+#, python-format
+msgid "Password for first root login is: %s"
+msgstr ""
+
+#: virtinst/virtinstall.py:797
+msgid "Installation will continue in 10 seconds (press Enter to skip)..."
+msgstr ""
+
+#: virtinst/virtinstall.py:823
+msgid "Console command returned failure."
+msgstr ""
+
+#: virtinst/virtinstall.py:862
+msgid "Domain has crashed."
+msgstr "ਡੋਮੇਨ ਕਰੈਸ਼ ਹੋ ਗਈ ਹੈ।"
+
+#: virtinst/virtinstall.py:872
+#, python-format
+msgid "VM disappeared unexpectedly: %s"
+msgstr ""
+
+#: virtinst/virtinstall.py:894
+msgid "Domain is still running. Installation may be in progress."
+msgstr ""
+
+#: virtinst/virtinstall.py:904
+msgid "You can reconnect to the console to complete the installation process."
+msgstr ""
+
+#: virtinst/virtinstall.py:914
+msgid "Domain has shutdown. Continuing."
+msgstr "ਡੋਮੇਨ ਬੰਦ ਹੋਈ ਹੈ। ਜਾਰੀ ਰਹਿਆ ਜਾ ਰਿਹਾ।"
+
+#: virtinst/virtinstall.py:919
+msgid "Installation has exceeded specified time limit. Exiting application."
+msgstr "ਇੰਸਟਾਲੇਸ਼ਨ ਦਰਸਾਈ ਗਈ ਸਮਾਂ ਹੱਦ ਤੋਂ ਟੱਪ ਚੁੱਕੀ ਹੈ। ਐਪਲੀਕੇਸ਼ਨ ਤੋਂ ਬਾਹਰ ਆ ਰਿਹਾ ਹੈ।"
+
+#: virtinst/virtinstall.py:941
+msgid "Domain creation completed."
+msgstr ""
+
+#: virtinst/virtinstall.py:950
+#, python-format
+msgid ""
+"You can restart your domain by running:\n"
+"  %s"
+msgstr ""
+
+#: virtinst/virtinstall.py:955
+msgid "User stopped the VM. Not rebooting."
+msgstr ""
+
+#: virtinst/virtinstall.py:958
+msgid "Restarting guest."
+msgstr ""
+
+#: virtinst/virtinstall.py:975
+msgid ""
+"\n"
+"Starting install..."
+msgstr ""
+"\n"
+"ਇੰਸਟਾਲ ਸ਼ੁਰੂ ਕਰ ਰਿਹਾ..."
+
+#: virtinst/virtinstall.py:1004
+msgid "Domain install interrupted."
+msgstr "ਡੋਮੇਨ ਇੰਸਟਾਲ ਵੇਲੇ ਰੁਕਾਵਟ ਪਈ।"
+
+#: virtinst/virtinstall.py:1023
+msgid "Dry run completed successfully"
+msgstr "ਖ਼ਾਲੀ ਚਲਾਉਣਾ ਕਾਮਯਾਬੀ ਨਾਲ ਪੂਰਾ ਹੋਇਆ"
+
+#: virtinst/virtinstall.py:1027
+#, python-format
+msgid "Unknown XML step request '%s', must be 1, 2, or all"
+msgstr ""
+
+#: virtinst/virtinstall.py:1033
+msgid "Requested installation does not have XML step 2"
+msgstr "ਮੰਗੀ ਗਈ ਇੰਸਟਾਲੇਸ਼ਨ ਕੋਲ XML ਕਦਮ 2 ਨਹੀਂ ਹੈ"
+
+#: virtinst/virtinstall.py:1051
+msgid "Create a new virtual machine from specified install media."
+msgstr "ਦਰਸਾਏ ਗਏ ਇੰਸਟਾਲ ਮੀਡੀਆ ਤੋਂ ਨਵੀਂ ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਬਣਾਓ।"
+
+#: virtinst/virtinstall.py:1057
+msgid "Name of the guest instance"
+msgstr "ਪ੍ਰਾਹੁਣੀ ਮਿਸਾਲ ਦਾ ਨਾਂ"
+
+#: virtinst/virtinstall.py:1065
+msgid "Installation Method Options"
+msgstr "ਇੰਸਟਾਲੇਸ਼ਨ ਤਰੀਕਾ ਦੀਆਂ ਚੋਣਾਂ"
+
+#: virtinst/virtinstall.py:1067
+msgid "CD-ROM installation media"
+msgstr "CD-ROM ਇੰਸਟਾਲੇਸ਼ਨ ਮੀਡੀਆ"
+
+#: virtinst/virtinstall.py:1072
+msgid ""
+"Distro install URL, eg. https://host/path. See man page for specific distro "
+"examples."
+msgstr ""
+
+#: virtinst/virtinstall.py:1077
+msgid "Boot from the network using the PXE protocol"
+msgstr "PXE ਪਰੋਟੋਕਾਲ ਵਰਤਣ ਵਾਲੇ ਨੈੱਟਵਰਕ ਤੋਂ ਬੂਟ"
+
+#: virtinst/virtinstall.py:1083
+msgid "Build guest around an existing disk image"
+msgstr "ਕਿਸੇ ਮੌਜੂਦਾ ਡਿਸਕ ਈਮੇਜ਼ ਦੇ ਆਲੇ-ਦੁਆਲੇ ਪ੍ਰਾਹੁਣਾ ਬਣਾਇਆ"
+
+#: virtinst/virtinstall.py:1090
+msgid ""
+"Additional arguments to pass to the install kernel booted from --location"
+msgstr "--location ਤੋਂ ਬੂਟ ਹੋਏ ਇੰਸਟਾਲ ਕਰਨਲ ਨੂੰ ਭੇਜਣ ਲਈ ਵਾਧੂ ਤਰਕ"
+
+#: virtinst/virtinstall.py:1095
+msgid "Add given file to root of initrd from --location"
+msgstr "--location ਤੋਂ initrd ਦੇ ਰੂਟ ਵਿੱਚ ਦਿੱਤੀ ਗਈ ਫਾਈਲ ਸ਼ਾਮਿਲ ਕਰੋ"
+
+#: virtinst/virtinstall.py:1098
+msgid "Perform an unattended installation"
+msgstr ""
+
+#: virtinst/virtinstall.py:1100
+msgid "Specify fine grained install options"
+msgstr ""
+
+#: virtinst/virtinstall.py:1105
+msgid ""
+"Reinstall existing VM. Only install options are applied, all other VM "
+"configuration options are ignored."
+msgstr ""
+
+#: virtinst/virtinstall.py:1113
+msgid "Perform a cloud image installation, configuring cloud-init"
+msgstr ""
+
+#: virtinst/virtinstall.py:1127
+msgid "Device Options"
+msgstr "ਯੰਤਰ ਚੋਣਾਂ"
+
+#: virtinst/virtinstall.py:1152
+msgid "Guest Configuration Options"
+msgstr ""
+
+#: virtinst/virtinstall.py:1155
+msgid "Virtualization Platform Options"
+msgstr "ਵਰਚੁਅਲਾਈਜ਼ੇਸ਼ਨ ਪਲੇਟਫਾਰਮ ਚੋਣਾਂ"
+
+#: virtinst/virtinstall.py:1163
+msgid "This guest should be a fully virtualized guest"
+msgstr "ਇਹ ਗੈਸਟ ਇੱਕ ਪੂਰੀ ਤਰਾਂ ਵਰਚੁਲਾਈਜ਼ੇਸ਼ਨ ਗੈਸਟ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ"
+
+#: virtinst/virtinstall.py:1171
+msgid "This guest should be a paravirtualized guest"
+msgstr "ਗੈਸਟ ਇੱਕ ਪੈਰਾ-ਵਰਚੁਲਾਈਜ਼ਡ ਗੈਸਟ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ"
+
+#: virtinst/virtinstall.py:1178
+msgid "This guest should be a container guest"
+msgstr "ਇਹ ਗੈਸਟ ਕੰਟੇਨਰ ਗੈਸਟ ਹੈ"
+
+#: virtinst/virtinstall.py:1180
+msgid "Hypervisor name to use (kvm, qemu, xen, ...)"
+msgstr "ਵਰਤਣ ਲਈ ਹਾਈਪਰਵਾਈਜ਼ਰ ਨਾਂ (kvm, qemu, xen, ...)"
+
+#: virtinst/virtinstall.py:1181
+msgid "The CPU architecture to simulate"
+msgstr "ਨਕਲ ਕਰਨ ਲਈ CPU ਢਾਂਚਾ"
+
+#: virtinst/virtinstall.py:1182
+msgid "The machine type to emulate"
+msgstr "ਨਕਲ ਕਰਨ ਲਈ ਮਸ਼ੀਨ ਕਿਸਮ"
+
+#: virtinst/virtinstall.py:1192
+msgid "Have domain autostart on host boot up."
+msgstr "ਮੇਜਬਾਨ ਦੇ ਬੂਟ ਹੋਣ ਤੇ ਡੋਮੇਨ ਆਪਣੇ-ਆਪ ਸ਼ੁਰੂ ਕਰੋ।"
+
+#: virtinst/virtinstall.py:1195
+msgid "Create a transient domain."
+msgstr ""
+
+#: virtinst/virtinstall.py:1201
+msgid "Force power off the domain when the console viewer is closed."
+msgstr ""
+
+#: virtinst/virtinstall.py:1204
+msgid "Minutes to wait for install to complete."
+msgstr "ਇੰਸਟਾਲ ਦੇ ਪੂਰਾ ਹੋਣ ਦੀ ਉਡੀਕ ਵਿੱਚ ਪਏ ਮਿੰਟ।"
+
+#: virtinst/virtxml.py:35
+msgid "Please enter 'yes' or 'no'."
+msgstr ""
+
+#: virtinst/virtxml.py:105
+msgid "--osinfo/--os-variant is not supported with --edit"
+msgstr ""
+
+#: virtinst/virtxml.py:107
+msgid "--osinfo/--os-variant is not supported with --remove-device"
+msgstr ""
+
+#: virtinst/virtxml.py:109
+msgid "--osinfo/--os-variant is not supported with --build-xml"
+msgstr ""
+
+#: virtinst/virtxml.py:113
+#, python-brace-format
+msgid "--build-xml not supported for {cli_flag}"
+msgstr ""
+
+#: virtinst/virtxml.py:122
+#, python-brace-format
+msgid "Cannot use --remove-device with {cli_flag}"
+msgstr ""
+
+#: virtinst/virtxml.py:128
+#, python-brace-format
+msgid "Cannot use --add-device with {cli_flag}"
+msgstr ""
+
+#: virtinst/virtxml.py:135
+#, python-brace-format
+msgid "Don't know how to --update for {cli_flag}"
+msgstr ""
+
+#: virtinst/virtxml.py:151
+#, python-format
+msgid "One of %s must be specified."
+msgstr ""
+
+#: virtinst/virtxml.py:153
+#, python-format
+msgid "Conflicting options %s"
+msgstr ""
+
+#: virtinst/virtxml.py:167
+msgid "No change specified."
+msgstr ""
+
+#: virtinst/virtxml.py:170
+#, python-format
+msgid "Only one change operation may be specified (conflicting options %s)"
+msgstr ""
+
+#: virtinst/virtxml.py:212
+#, python-format
+msgid "Invalid --edit option '%s'"
+msgstr ""
+
+#: virtinst/virtxml.py:216
+#, python-brace-format
+msgid "No {cli_flag} objects found in the XML"
+msgstr ""
+
+#: virtinst/virtxml.py:223
+#, python-brace-format
+msgid ""
+"'--edit {number}' requested but there's only {maxnum} {cli_flag} object in "
+"the XML"
+msgid_plural ""
+"'--edit {number}' requested but there are only {maxnum} {cli_flag} objects "
+"in the XML"
+msgstr[0] ""
+msgstr[1] ""
+
+#: virtinst/virtxml.py:244
+#, python-format
+msgid "No matching objects found for %s"
+msgstr ""
+
+#: virtinst/virtxml.py:261
+#, python-brace-format
+msgid ""
+"'--edit {option}' doesn't make sense with {cli_flag}, just use empty '--edit'"
+msgstr ""
+
+#: virtinst/virtxml.py:334
+#, python-format
+msgid "Define '%s' with the changed XML?"
+msgstr ""
+
+#: virtinst/virtxml.py:342
+#, python-format
+msgid "Domain '%s' defined successfully."
+msgstr ""
+
+#: virtinst/virtxml.py:348
+#, python-format
+msgid "Start '%s' with the changed XML?"
+msgstr ""
+
+#: virtinst/virtxml.py:359 virtinst/virtxml.py:671
+#, fuzzy, python-format
+#| msgid "Error starting domain"
+msgid "Failed starting domain '%(domain)s': %(error)s"
+msgstr "ਡੋਮੇਨ ਸ਼ੁਰੂ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
+
+#: virtinst/virtxml.py:366 virtinst/virtxml.py:677
+#, python-format
+msgid "Domain '%s' started successfully."
+msgstr ""
+
+#: virtinst/virtxml.py:372
+#, python-format
+msgid ""
+"%(xml)s\n"
+"\n"
+"Hotplug this device to the guest '%(domain)s'?"
+msgstr ""
+
+#: virtinst/virtxml.py:373
+msgid "Device hotplug successful."
+msgstr ""
+
+#: virtinst/virtxml.py:374
+#, fuzzy, python-format
+#| msgid "Error adding device: %s"
+msgid "Error attempting device hotplug: %(error)s"
+msgstr "ਯੰਤਰ ਜੋੜਨ ਵਿੱਚ ਗਲਤੀ: %s"
+
+#: virtinst/virtxml.py:376
+#, python-format
+msgid ""
+"%(xml)s\n"
+"\n"
+"Hotunplug this device from the guest '%(domain)s'?"
+msgstr ""
+
+#: virtinst/virtxml.py:377
+msgid "Device hotunplug successful."
+msgstr ""
+
+#: virtinst/virtxml.py:378
+#, fuzzy, python-format
+#| msgid "Error adding device: %s"
+msgid "Error attempting device hotunplug: %(error)s"
+msgstr "ਯੰਤਰ ਜੋੜਨ ਵਿੱਚ ਗਲਤੀ: %s"
+
+#: virtinst/virtxml.py:380
+#, python-format
+msgid ""
+"%(xml)s\n"
+"\n"
+"Update this device for the guest '%(domain)s'?"
+msgstr ""
+
+#: virtinst/virtxml.py:381
+#, fuzzy
+#| msgid "Clone '%s' created successfully."
+msgid "Device update successful."
+msgstr "ਕਲੋਨ '%s' ਕਾਮਯਾਬੀ ਨਾਲ ਬਣਾਇਆ ਗਿਆ"
+
+#: virtinst/virtxml.py:382
+#, fuzzy, python-format
+#| msgid "Error adding device: %s"
+msgid "Error attempting device update: %(error)s"
+msgstr "ਯੰਤਰ ਜੋੜਨ ਵਿੱਚ ਗਲਤੀ: %s"
+
+#: virtinst/virtxml.py:433
+msgid "No XML diff was generated. The requested changes will have no effect."
+msgstr ""
+
+#: virtinst/virtxml.py:452
+msgid "Edit libvirt XML using command line options."
+msgstr ""
+
+#: virtinst/virtxml.py:458
+msgid "Domain name, id, or uuid"
+msgstr ""
+
+#: virtinst/virtxml.py:460
+msgid "XML actions"
+msgstr ""
+
+#: virtinst/virtxml.py:466
+msgid ""
+"Edit VM XML. Examples:\n"
+"--edit --disk ...     (edit first disk device)\n"
+"--edit 2 --disk ...   (edit second disk device)\n"
+"--edit all --disk ... (edit all disk devices)\n"
+"--edit target=hda --disk ... (edit disk 'hda')\n"
+msgstr ""
+
+#: virtinst/virtxml.py:477
+msgid ""
+"Remove specified device. Examples:\n"
+"--remove-device --disk 1 (remove first disk)\n"
+"--remove-device --disk all (remove all disks)\n"
+"--remove-device --disk /some/path"
+msgstr ""
+
+#: virtinst/virtxml.py:486
+msgid ""
+"Add specified device. Example:\n"
+"--add-device --disk ..."
+msgstr ""
+
+#: virtinst/virtxml.py:492
+msgid ""
+"Output built device XML. Domain is optional but recommended to ensure "
+"optimal defaults."
+msgstr ""
+
+#: virtinst/virtxml.py:497
+msgid "Output options"
+msgstr ""
+
+#: virtinst/virtxml.py:502
+msgid ""
+"Apply changes to the running VM.\n"
+"With --add-device, this is a hotplug operation.\n"
+"With --remove-device, this is a hotunplug operation.\n"
+"With --edit, this is an update device operation."
+msgstr ""
+
+#: virtinst/virtxml.py:512
+msgid ""
+"Force defining the domain. Only required if a --print option was specified."
+msgstr ""
+
+#: virtinst/virtxml.py:515
+msgid "Force not defining the domain."
+msgstr ""
+
+#: virtinst/virtxml.py:518
+msgid "Start the domain."
+msgstr ""
+
+#: virtinst/virtxml.py:522
+msgid "Only print the requested change, in diff format"
+msgstr ""
+
+#: virtinst/virtxml.py:527
+msgid "Only print the requested change, in full XML format"
+msgstr ""
+
+#: virtinst/virtxml.py:530
+msgid "Require confirmation before saving any results."
+msgstr ""
+
+#: virtinst/virtxml.py:535
+#, fuzzy
+#| msgid "Connection Details"
+msgid "Conversion options"
+msgstr "ਕੁਨੈਕਸ਼ਨ ਵੇਰਵਾ"
+
+#: virtinst/virtxml.py:541
+msgid "Convert an existing VM from PC/i440FX to Q35."
+msgstr ""
+
+#: virtinst/virtxml.py:550
+msgid ""
+"Convert an existing VM to use VNC graphics. This removes any remnants of "
+"Spice graphics."
+msgstr ""
+
+#: virtinst/virtxml.py:555
+msgid "XML options"
+msgstr ""
+
+#: virtinst/virtxml.py:597
+msgid "Can't use --confirm with stdin input."
+msgstr ""
+
+#: virtinst/virtxml.py:599
+msgid "Can't use --update with stdin input."
+msgstr ""
+
+#: virtinst/virtxml.py:602
+msgid "A domain must be specified"
+msgstr ""
+
+#: virtinst/virtxml.py:647
+msgid "The VM is not running, --update is inapplicable."
+msgstr ""
+
+#: virtinst/virtxml.py:680
+msgid "Changes will take effect after the domain is fully powered off."
+msgstr ""
+
+#: virtinst/virtxml.py:684
+msgid ""
+"XML did not change after domain define. You may have changed a value that "
+"libvirt is setting by default."
+msgstr ""
+
+#: virtinst/virtxml.py:699
+msgid "Aborted at user request"
+msgstr "ਵਰਤੋਂਕਾਰ ਦੀ ਬੇਨਤੀ ਤੇ ਛੱਡ ਦਿੱਤਾ ਗਿਆ"
+
+#: virtinst/xmlapi.py:211
+#, python-format
+msgid ""
+"XML did not have expected root element name '%(expectname)s', found "
+"'%(foundname)s'"
+msgstr ""
+
+#. translators: value is a generic object type name
+#: virtinst/xmlbuilder.py:517
+#, python-format
+msgid "A name must be specified for the %s"
+msgstr ""
+
+#: virtinst/xmlbuilder.py:521
+#, python-format
+msgid "%(objecttype)s name '%(name)s' can not contain '%(char)s' character."
+msgstr ""
+
+#~ msgid "Serial console not available for inactive guest"
+#~ msgstr "ਨਾ-ਸਰਗਰਮ ਗੈੱਸਟਾਂ ਲਈ ਸੀਰੀਅਲ ਕੰਸੋਲ ਉਪਲੱਬਧ ਨਹੀਂ ਹੈ"
+
+#~ msgid ""
+#~ "Snapshots are only supported if all writeable disks images allocated to "
+#~ "the guest are qcow2 format."
+#~ msgstr ""
+#~ "ਸਨੈਪਸ਼ਾਟ ਤਾਂ ਹੀ ਸਮਰਥਿਤ ਹਨ ਜੇ ਪ੍ਰਾਹੁਣੇ ਨੂੰ ਨਿਰਧਾਰਿਤ ਸਾਰੀਆਂ ਲਿਖਣਯੋਗ ਡਿਸਕਾਂ ਦੇ ਪ੍ਰਤੀਬਿੰਬ "
+#~ "qcow2 ਫਾਰਮੈਟ ਵਿੱਚ ਹਨ।"
+
+#~ msgid ""
+#~ "Snapshots require at least one writeable qcow2 disk image allocated to "
+#~ "the guest."
+#~ msgstr ""
+#~ "ਸਨੈਪਸ਼ਾਟ ਨੂੰ ਪ੍ਰਾਹੁਣੇ ਨੂੰ ਨਿਰਧਾਰਿਤ ਘੱਟੋ-ਘੱਟ ਇੱਕ ਲਿਖਣਯੋਗ qcow2 ਡਿਸਕ ਪ੍ਰਤੀਬਿੰਬ ਲੋੜੀਂਦਾ ਹੈ।"
+
+#~ msgid "No graphical console available"
+#~ msgstr "ਕੋਈ ਗਰਾਫੀਕਲ ਕੰਸੋਲ ਉਪਲੱਬਧ ਨਹੀਂ"
+
+#~ msgid "Passthrough device"
+#~ msgstr "ਪਾਸਥਰੂਅ ਯੰਤਰ"
+
+#~ msgid "D_etails"
+#~ msgstr "ਵੇਰਵਾ(_e)"
+
+#~ msgid "No host CPU reported in capabilities"
+#~ msgstr "ਯੋਗਤਾਵਾਂ ਵਿੱਚ ਕੋਈ ਮੇਜਬਾਨ CPU ਸੂਚਿਤ ਨਹੀਂ ਕੀਤਾ ਗਿਆ"
+
+#, fuzzy
+#~| msgid "Generic"
+#~ msgid "Generic OS"
+#~ msgstr "ਆਮ"
+
+#~ msgid "Completed"
+#~ msgstr "ਮੁਕੰਮਲ"
+
+#~ msgid "_Write Policy:"
+#~ msgstr "ਕਿਹੜੀ ਪਾਲਿਸੀ(_W):"
+
+#~ msgid "_Allocation:"
+#~ msgstr "ਜਾਰੀ(_A):"
+
+#~ msgid "Browse..."
+#~ msgstr "ਬਰਾਊਜ਼..."
+
+#~ msgid "available space:"
+#~ msgstr "ਉਪਲੱਬਧ ਥਾਂ:"
+
+#~ msgid "for arch '%s'"
+#~ msgstr "ਢਾਂਚੇ '%s' ਲਈ"
+
+#~ msgid "Cannot mix both --bridge and --network arguments"
+#~ msgstr "ਦੋਹਾਂ --bridge ਅਤੇ --network ਆਰਗੂਮੈਂਟਾਂ ਦਾ ਰਲੇਵਾਂ ਨਹੀਂ ਕਰ ਸਕਦਾ"
+
+#, fuzzy
+#~| msgid "Target name:"
+#~ msgid "char-target-name"
+#~ msgstr "ਟਾਰਗਿਟ ਨਾਂ:"
+
+#~ msgid ""
+#~ "When the guest graphical console has keyboard focus, do not disable "
+#~ "shortcuts for console window menus (Alt+F -> File, etc.) Normally these "
+#~ "are disabled to ensure that typing in the guest does not accidentally "
+#~ "perform an operation in virt-manager's console window."
+#~ msgstr ""
+#~ "ਜਦੋਂ ਗਿਸਟ ਗਰਾਫੀਕਲ ਕੰਸੋਲ ਉੱਪਰ ਕੀਬੋਰਡ ਫੋਕਸ ਹੋਵੇ, ਕੰਸੋਲ ਵਿੰਡੋ ਮੇਨੂ  (Alt+F -> ਫਾਇਲ, ਆਦਿ) ਲਈ "
+#~ "ਸ਼ਾਰਟਕੱਟ ਅਯੋਗ ਨਾ ਕਰੋ। ਆਮ ਕਰਕੇ ਇਹਨਾਂ ਨੂੰ ਜਾਂਚ ਕਰਨ ਲਈ ਅਯੋਗ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਕਿ ਗਿਸਟ ਵਿੱਚ "
+#~ "ਟਾਈਪਿੰਗ virt-manager ਦੀ ਕੰਸੋਲ ਵਿੰਡੋ ਵਿੱਚ ਕੋਈ ਕਾਰਵਾਈ ਨਾਲ ਕਰੇ।"
+
+#~ msgid "_Text Consoles"
+#~ msgstr "ਟੈਕਸਟ ਕੰਸੋਲ(_T)"
+
+#~ msgid "No networking devices"
+#~ msgstr "ਕੋਈ ਨੈੱਟਵਰਕਿੰਗ ਜੰਤਰ ਨਹੀਂ"
+
+#~ msgid "No storage to clone"
+#~ msgstr "ਕਲੋਨ ਕਰਨ ਲਈ ਕੋਈ ਸਟੋਰੇਜ਼ ਨਹੀਂ"
+
+#~ msgid ""
+#~ "<span size='small'>Cloning creates a new, independent copy of the "
+#~ "original disk. Sharing\n"
+#~ "uses the existing disk image for both the original and the new machine.</"
+#~ "span>"
+#~ msgstr ""
+#~ "<span size='small'>ਕਲੋਨਿੰਗ ਨਾਲ ਅਸੀਲ ਡਿਸਕ ਦੀ ਇੱਕ ਨਵੀਂ, ਆਤਮ-ਨਿਰਭਰ ਕਾਪੀ ਬਣਦੀ ਹੈ। "
+#~ "ਸ਼ੇਅਰਿੰਗ\n"
+#~ "ਅਸਲੀ ਅਤੇ ਨਵੀਂ ਮਸ਼ੀਨ ਦੋਨਾਂ ਲਈ ਮੌਜੂਦਾ ਡਿਸਕ ਈਮੇਜ਼ ਵਰਤਦੀ ਹੈ।</span>"
+
+#~ msgid "Change MAC address"
+#~ msgstr "MAC ਐਡਰੈੱਸ ਬਦਲੋ"
+
+#~ msgid "New _MAC:"
+#~ msgstr "ਨਵਾਂ _MAC:"
+
+#~ msgid "MAC:"
+#~ msgstr "MAC:"
+
+#~ msgid "Cannot clone unmanaged remote storage."
+#~ msgstr "ਗ਼ੈਰ-ਇੰਤਜ਼ਾਮ ਰਿਮੋਟ ਸਟੋਰੇਜ਼ ਨੂੰ ਕਲੋਨ ਨਹੀਂ ਕਰ ਸਕਦਾ।"
+
+#~ msgid ""
+#~ "Block devices to clone must be libvirt\n"
+#~ "managed storage volumes."
+#~ msgstr ""
+#~ "ਕਲੋਨ ਕੀਤੇ ਜਾਣ ਵਾਲੇ ਬਲਾਕ ਜੰਤਰ libvirt\n"
+#~ "ਵਲੋਂ ਇੰਤਜ਼ਾਮ ਕੀਤੇ ਸਟੋਰੇਜ਼ ਵਾਲੀਅਮ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ।"
+
+#~ msgid "No write access"
+#~ msgstr "ਕੋਈ ਲਿਖਣ ਅਧਿਕਾਰ ਨਹੀਂ"
+
+#~ msgid "Shareable"
+#~ msgstr "ਸਾਂਝਾ ਕਰਨ ਯੋਗ"
+
+#, fuzzy
+#~| msgid "Usermode"
+#~ msgid "Usermode (%(mac)s)"
+#~ msgstr "ਵਰਤੋਂਕਾਰ-ਮੋਡ"
+
+#, fuzzy
+#~| msgid "%(currentmem)s of %(maxmem)s"
+#~ msgid "%(netmode)s (%(mac)s)"
+#~ msgstr "%(maxmem)s ਵਿੱਚੋਂ %(currentmem)s"
+
+#, fuzzy
+#~| msgid "Virtual Network is not active."
+#~ msgid "Virtual Network %(netdevice)s (%(mac)s)"
+#~ msgstr "ਵਰਚੁਅਲ ਪੈਰਾਮੀਟਰ ਸਰਗਰਮ ਨਹੀਂ ਹੈ।"
+
+#, fuzzy
+#~| msgid "Virtual Network"
+#~ msgid "Virtual Network (%(mac)s)"
+#~ msgstr "ਵਰਚੁਅਲ ਨੈੱਟਵਰਕ"
+
+#~ msgid "Nothing to clone."
+#~ msgstr "ਕਲੋਨ ਕਰਨ ਨੂੰ ਕੁਝ ਵੀ ਨਹੀਂ।"
+
+#~ msgid "Storage cannot be shared or cloned."
+#~ msgstr "ਸਟੋਰੇਜ਼ ਨੂੰ ਸਾਂਝਾ  ਜਾਂ ਕਲੋਨ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।"
+
+#~ msgid "One or more disks cannot be cloned or shared."
+#~ msgstr "ਇੱਕ ਜਾਂ ਜਿਆਦਾ ਡਿਸਕਾਂ ਕਲੋਨ ਜਾਂ ਸ਼ੇਅਰ ਨਹੀਂ ਕੀਤੀਆਂ ਜਾ ਸਕਦੀਆਂ।"
+
+#~ msgid "Error changing MAC address: %s"
+#~ msgstr "MAC ਐਡਰੈੱਸ ਤਬਦੀਲ ਕਰਨ ਵਿੱਚ ਗਲਤੀ: %s"
+
+#~ msgid "Error changing storage path: %s"
+#~ msgstr "ਸਟੋਰੇਜ਼ ਟਿਕਾਣਾ ਬਦਲਣ ਵਿੱਚ ਗਲਤੀ: %s"
+
+#, fuzzy
+#~| msgid "Original guest name or xml is required."
+#~ msgid "Original guest name or XML is required."
+#~ msgstr "ਅਸਲੀ ਪ੍ਰਾਹੁਣਾ ਨਾਂ ਜਾਂ xml ਲੋੜੀਂਦਾ ਹੈ।"
+
+#~ msgid ""
+#~ "More disks to clone than new paths specified. (%(passed)d specified, "
+#~ "%(need)d needed"
+#~ msgstr ""
+#~ "ਕਲੋਨ ਕਰਨ ਲਈ ਦਰਸਾਏ ਨਵੇਂ ਰਾਹਾਂ ਨਾਲੋਂ ਜਿਆਦਾ ਡਿਸਕਾਂ। (%(passed)d ਦਰਸਾਇਆ, %(need)d "
+#~ "ਲੋੜੀਂਦਾ"
+
+#~ msgid ""
+#~ "Do not clone storage, new disk images specified via --file are preserved "
+#~ "unchanged"
+#~ msgstr ""
+#~ "ਭੰਡਾਰਣ ਨੂੰ ਕਲੋਨ ਨਾ ਕਰੋ, --file ਦੁਆਰਾ ਦਰਸਾਈਆਂ ਗਈਆਂ ਇਮੇਜਾਂ ਬਿਨਾਂ ਬਦਲਿਆਂ ਸੰਭਾਲੀਆਂ ਜਾਂਦੀਆਂ ਹਨ"
+
+#~ msgid "RAM:"
+#~ msgstr "RAM:"
+
+#~ msgid "Heads:"
+#~ msgstr "ਹੈੱਡ:"
+
+#~ msgid "No virtual machines"
+#~ msgstr "ਕੋਈ ਵਰਚੁਅਲ ਮਸ਼ੀਨ ਨਹੀਂ"
+
+#~ msgid "MAC address:"
+#~ msgstr "MAC ਐਡਰੈੱਸ:"
+
+#, fuzzy
+#~| msgid "Error opening socket path '%s': %s"
+#~ msgid "Error opening socket path '%(path)s': %(error)s"
+#~ msgstr "ਸਾਕਟ ਟਿਕਾਣਾ ਖੋਲਣ ਵਿੱਚ ਗਲਤੀ '%s': %s"
+
+#~ msgid "Error opening socket path '%s'"
+#~ msgstr "ਸਾਕਟ ਟਿਕਾਣਾ ਖੋਲਣ ਵਿੱਚ ਗਲਤੀ '%s'"
+
+#~ msgid "virt-manager requires libvirt 0.6.0 or later."
+#~ msgstr "virt-manager ਨੂੰ libvirt 0.6.0 ਜਾਂ ਬਾਅਦ ਵਾਲਾ ਲੋੜੀਂਦਾ ਹੈ।"
+
+#~ msgid "B_uild Pool:"
+#~ msgstr "ਬਿਲਡ ਪੂਲ(_u):"
+
+#~ msgid "Static Route:"
+#~ msgstr "ਸਥਾਈ ਰਾਹ:"
+
+#~ msgid "Some changes may require a guest shutdown to take effect."
+#~ msgstr "ਕੁਝ ਤਬਦੀਲੀਆਂ ਲਾਗੂ ਕਰਨ ਲਈ ਗੈਸਟ ਨੂੰ ਮੁੜ-ਚਾਲੂ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।"
+
+#~ msgid "Error adding device: %s"
+#~ msgstr "ਯੰਤਰ ਜੋੜਨ ਵਿੱਚ ਗਲਤੀ: %s"
+
+#~ msgid ""
+#~ "Building a pool of this type will format the source device. Are you sure "
+#~ "you want to 'build' this pool?"
+#~ msgstr ""
+#~ "ਇਸ ਕਿਸਮ ਦਾ ਪੂਲ ਬਣਾਉਣ ਨਾਲ ਸੋਰਸ ਜੰਤਰ ਫਾਰਮੈਟ ਹੋ ਜਾਵੇਗਾ। ਕੀ ਤੁਸੀਂ ਯਕੀਨਨ ਇਸ ਪੂਲ ਨੂੰ "
+#~ "'ਬਣਾਉਣਾ' ਚਾਹੁੰਦੋ ਹੋ?"
+
+#~ msgid "Error setting install media location."
+#~ msgstr "ਇੰਸਟਾਲ ਮੀਡੀਆ ਟਿਕਾਣਾ ਸੈੱਟ ਕਰਨ ਵਿੱਚ ਗਲਤੀ।"
+
+#, fuzzy
+#~| msgid "Network device required for %s install."
+#~ msgid "Network device required for URL install."
+#~ msgstr "ਨੈੱਟਵਰਕ ਯੰਤਰ ਦੀ %s ਇੰਸਟਾਲ ਲਈ ਲੋੜ ਹੈ।"
+
+#, fuzzy
+#~| msgid "USB Redirection"
+#~ msgid "%(device)s %(index)d"
+#~ msgstr "USB ਰੀਡਾਇਰੈਕਸ਼ਨ ਗਲਤੀ"
+
+#~ msgid "Not Enough Free Space"
+#~ msgstr "ਨਾਕਾਫ਼ੀ ਖਾਲੀ ਥਾਂ"
+
+#~ msgid "A filesystem source must be specified"
+#~ msgstr "ਇੱਕ ਫਾਇਲਸਿਸਟਮ ਸਰੋਤ ਦੇਣਾ ਜਰੂਰੀ ਹੈ"
+
+#~ msgid "A filesystem target must be specified"
+#~ msgstr "ਇੱਕ ਫਾਇਲਸਿਸਟਮ ਟਾਰਗਿਟ ਦੇਣਾ ਜਰੂਰੀ ਹੈ"
+
+#~ msgid "Filesystem parameter error"
+#~ msgstr "ਫਾਇਲਸਿਸਟਮ ਪੈਰਾਮੀਟਰ ਗਲਤੀ"
+
+#~ msgid "Local SDL Window"
+#~ msgstr "ਲੋਕਲ SDL ਵਿੰਡੋ"
+
+#~ msgid "Bridge"
+#~ msgstr "ਬਰਿੱਜ"
+
+#~ msgid "No networking"
+#~ msgstr "ਕੋਈ ਨੈੱਟਵਰਕਿੰਗ ਨਹੀਂ"
+
+#~ msgid "Not Connected"
+#~ msgstr "ਜੁੜਿਆ ਨਹੀਂ"
+
+#~ msgid "Migrate"
+#~ msgstr "ਮਾਈਗਰੇਟ"
+
+#~ msgid "Disk \"%s\" is already in use by other guests %s"
+#~ msgstr "ਡਿਸਕ \"%s\" ਪਹਿਲਾਂ ਹੀ ਹੋਰ ਪ੍ਰਾਹੁਣੇ %s ਦੁਆਰਾ ਵਰਤੀ ਜਾ ਰਹੀ ਹੈ"
+
+#~ msgid "%s:%s"
+#~ msgstr "%s:%s"

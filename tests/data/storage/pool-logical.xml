@@ -1,0 +1,6 @@
+<pool type="logical">
+  <name>pool-logical</name>
+  <source>
+    <name>pool-logical</name>
+  </source>
+</pool>

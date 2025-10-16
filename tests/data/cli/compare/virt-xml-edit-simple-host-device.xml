@@ -1,0 +1,10 @@
+         <vendor id="0x04b3"/>
+         <product id="0x4485"/>
+       </source>
++      <driver name="vfio"/>
+     </hostdev>
+     <hostdev mode="subsystem" type="pci" managed="yes">
+       <source>
+
+Domain 'test-for-virtxml' defined successfully.
+Changes will take effect after the domain is fully powered off.

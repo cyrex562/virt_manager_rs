@@ -1,0 +1,1104 @@
+<domain type="kvm" foo="bar">
+  <name>fedora</name>
+  <uuid>00000000-1111-2222-3333-444444444444</uuid>
+  <genid>e9392370-2917-565e-692b-d057f46512d6</genid>
+  <title>my-title</title>
+  <description>my-description</description>
+  <metadata>
+    <libosinfo:libosinfo xmlns:libosinfo="http://libosinfo.org/xmlns/libvirt/domain/1.0">
+      <libosinfo:os id="http://fedoraproject.org/fedora/unknown"/>
+    </libosinfo:libosinfo>
+  </metadata>
+  <iothreads>5</iothreads>
+  <iothreadids>
+    <iothread id="1"/>
+    <iothread id="2" thread_pool_min="8" thread_pool_max="16">
+      <poll max="123" grow="456" shrink="789"/>
+    </iothread>
+  </iothreadids>
+  <defaultiothread thread_pool_min="4" thread_pool_max="32"/>
+  <memory>65536</memory>
+  <currentMemory>65536</currentMemory>
+  <blkiotune>
+    <weight>100</weight>
+    <device>
+      <path>/home/test/1.img</path>
+      <weight>200</weight>
+      <read_bytes_sec>10000</read_bytes_sec>
+      <write_bytes_sec>10000</write_bytes_sec>
+      <read_iops_sec>20000</read_iops_sec>
+      <write_iops_sec>20000</write_iops_sec>
+    </device>
+  </blkiotune>
+  <memtune>
+    <hard_limit>10</hard_limit>
+    <soft_limit>20</soft_limit>
+    <swap_hard_limit>30</swap_hard_limit>
+    <min_guarantee>40</min_guarantee>
+  </memtune>
+  <memoryBacking>
+    <nosharepages/>
+    <locked/>
+    <hugepages>
+      <page size="12" unit="G" nodeset="0,1"/>
+      <page size="1234" unit="MB" nodeset="2"/>
+    </hugepages>
+    <access mode="shared"/>
+    <source type="file"/>
+    <discard/>
+    <allocation mode="immediate" threads="8"/>
+  </memoryBacking>
+  <vcpu placement="static">9</vcpu>
+  <vcpus>
+    <vcpu id="3" enabled="yes" order="3"/>
+    <vcpu id="2" enabled="yes"/>
+    <vcpu id="0" enabled="no"/>
+    <vcpu id="1" enabled="yes" hotpluggable="no"/>
+  </vcpus>
+  <numatune>
+    <memory mode="strict" nodeset="1,2,3,5-7,^6"/>
+    <memnode cellid="1" mode="strict" nodeset="2"/>
+  </numatune>
+  <resource>
+    <partition>/virtualmachines/production</partition>
+    <fibrechannel appid="myapplication"/>
+  </resource>
+  <sysinfo type="smbios">
+    <bios>
+      <entry name="vendor">Acme LLC</entry>
+      <entry name="version">1.2.3</entry>
+      <entry name="date">01/01/1970</entry>
+      <entry name="release">10.22</entry>
+    </bios>
+    <system>
+      <entry name="manufacturer">Acme Inc.</entry>
+      <entry name="product">Computer</entry>
+      <entry name="version">3.2.1</entry>
+      <entry name="serial">123456789</entry>
+      <entry name="uuid">00000000-1111-2222-3333-444444444444</entry>
+      <entry name="sku">abc-123</entry>
+      <entry name="family">Server</entry>
+    </system>
+    <baseBoard>
+      <entry name="manufacturer">Acme Corp.</entry>
+      <entry name="product">Motherboard</entry>
+      <entry name="version">A01</entry>
+      <entry name="serial">1234-5678</entry>
+      <entry name="asset">Tag</entry>
+      <entry name="location">Chassis</entry>
+    </baseBoard>
+    <chassis>
+      <entry name="manufacturer">Chassis Corp.</entry>
+      <entry name="version">4.0</entry>
+      <entry name="serial">1234chassis</entry>
+      <entry name="asset">chasset</entry>
+      <entry name="sku">chassku</entry>
+    </chassis>
+    <oemStrings>
+      <entry>test0</entry>
+      <entry>test1</entry>
+      <entry>complicated parsing, foo=bar</entry>
+    </oemStrings>
+  </sysinfo>
+  <bootloader>/new/bootld</bootloader>
+  <bootloader_args>--append single</bootloader_args>
+  <os firmware="efi">
+    <type arch="x86_64" machine="q35">hvm</type>
+    <firmware>
+      <feature enabled="yes" name="secure-boot"/>
+      <feature enabled="no" name="enrolled-keys"/>
+    </firmware>
+    <loader type="pflash">CODE.fd</loader>
+    <nvram template="VARS.fd" templateFormat="raw"/>
+    <initarg>foo=bar</initarg>
+    <initarg>baz=woo</initarg>
+    <initenv name="MYENV">some value</initenv>
+    <initenv name="FOO">bar</initenv>
+    <initdir>/my/custom/cwd</initdir>
+    <inituser>tester</inituser>
+    <initgroup>1000</initgroup>
+    <cmdline>root=/foo</cmdline>
+    <acpi>
+      <table type="slic">/path/to/slic.dat</table>
+    </acpi>
+    <bootmenu enable="yes" timeout="5000"/>
+    <bios useserial="no" rebootTimeout="60"/>
+    <smbios mode="sysinfo"/>
+  </os>
+  <idmap>
+    <uid start="0" target="1000" count="10"/>
+    <gid start="0" target="1000" count="10"/>
+  </idmap>
+  <features>
+    <apic eoi="on"/>
+    <pae/>
+    <gic version="host"/>
+    <privnet/>
+    <hap/>
+    <viridian/>
+    <pmu state="off"/>
+    <hyperv>
+      <relaxed state="off"/>
+      <vapic state="on"/>
+      <spinlocks state="on" retries="5678"/>
+      <vpindex state="on"/>
+      <runtime state="on"/>
+      <synic state="on"/>
+      <stimer state="on">
+        <direct state="on"/>
+      </stimer>
+      <reset state="on"/>
+      <frequencies state="on"/>
+      <reenlightenment state="on"/>
+      <tlbflush state="on"/>
+      <ipi state="on"/>
+      <evmcs state="on"/>
+      <avic state="on"/>
+    </hyperv>
+    <vmport state="off"/>
+    <kvm>
+      <hidden state="off"/>
+      <hint-dedicated state="on"/>
+      <poll-control state="on"/>
+      <pv-ipi state="on"/>
+    </kvm>
+    <pvspinlock state="off"/>
+    <smm state="off"/>
+    <vmcoreinfo state="on"/>
+    <ioapic driver="qemu"/>
+    <msrs unknown="ignore"/>
+  </features>
+  <cpu mode="custom" match="strict" check="partial">
+    <model fallback="allow" vendor_id="GenuineIntel">foobar</model>
+    <vendor>meee</vendor>
+    <topology sockets="1" dies="1" cores="3" threads="3"/>
+    <cache level="3" mode="emulate"/>
+    <feature policy="require" name="ibpb"/>
+    <feature policy="require" name="md-clear"/>
+    <feature policy="require" name="spec-ctrl"/>
+    <feature policy="require" name="ssbd"/>
+    <feature policy="force" name="x2apic"/>
+    <feature policy="force" name="x2apicagain"/>
+    <feature policy="require" name="reqtest"/>
+    <feature policy="optional" name="opttest"/>
+    <feature policy="disable" name="distest2"/>
+    <feature policy="disable" name="distest"/>
+    <feature policy="forbid" name="foo"/>
+    <feature policy="forbid" name="bar"/>
+    <numa>
+      <cell id="0" cpus="1,2,3" memory="1024">
+        <distances>
+          <sibling id="0" value="10"/>
+          <sibling id="1" value="21"/>
+        </distances>
+      </cell>
+      <cell id="1" cpus="5-8" memory="256">
+        <distances>
+          <sibling id="0" value="21"/>
+          <sibling id="1" value="10"/>
+        </distances>
+      </cell>
+      <cell id="2" cpus="4" memory="256" unit="KiB" memAccess="shared" discard="no">
+        <cache level="1" associativity="direct" policy="writeback">
+          <size value="256" unit="KiB"/>
+          <line value="256" unit="KiB"/>
+        </cache>
+      </cell>
+      <interconnects>
+        <latency initiator="0" target="0" type="access" value="5"/>
+        <latency initiator="0" target="2" cache="1" type="access" value="10" unit="ns"/>
+        <bandwidth initiator="0" target="0" type="access" value="204800"/>
+        <bandwidth initiator="0" target="2" cache="1" type="access" value="409600" unit="KiB"/>
+      </interconnects>
+    </numa>
+    <maxphysaddr mode="emulate" bits="46"/>
+  </cpu>
+  <clock offset="utc">
+    <timer name="pit" tickpolicy="catchup" present="yes"/>
+    <timer name="rtc" tickpolicy="merge" present="yes"/>
+    <timer name="hypervclock" present="no"/>
+    <timer present="no" name="pit" tickpolicy="delay"/>
+    <timer present="no" name="rtc" track="wall"/>
+    <timer present="no" name="tsc" frequency="10"/>
+    <timer name="tsc" mode="emulate"/>
+    <timer name="rtc" tickpolicy="catchup">
+      <catchup threshold="123" slew="120" limit="10000"/>
+    </timer>
+  </clock>
+  <on_poweroff>destroy</on_poweroff>
+  <on_reboot>restart</on_reboot>
+  <on_crash>preserve</on_crash>
+  <pm>
+    <suspend-to-mem enabled="yes"/>
+    <suspend-to-disk enabled="no"/>
+  </pm>
+  <devices>
+    <emulator>/new/emu</emulator>
+    <disk type="block" device="disk">
+      <driver name="qemu" type="raw" cache="writeback" discard="unmap" io="threads" iothread="3" queues="8" queue_size="256"/>
+      <source dev="/pool-dir/UPPER"/>
+      <target dev="vda" bus="virtio"/>
+      <serial>WD-WMAP9A966149</serial>
+      <wwn>123456789abcdefa</wwn>
+      <shareable/>
+      <boot order="2"/>
+    </disk>
+    <disk type="file" device="disk">
+      <driver name="qemu" type="qcow2" detect_zeroes="unmap" error_policy="enospace"/>
+      <source file="/pool-dir/new1.img"/>
+      <target dev="vdb" bus="virtio"/>
+      <address type="drive" controller="0" target="2" unit="0"/>
+      <readonly/>
+    </disk>
+    <disk type="file" device="cdrom">
+      <driver discard="ignore" copy_on_read="on"/>
+      <target dev="sdaa" bus="sata"/>
+      <iotune>
+        <read_bytes_sec>1</read_bytes_sec>
+        <write_bytes_sec>5</write_bytes_sec>
+        <read_iops_sec>2</read_iops_sec>
+        <write_iops_sec>6</write_iops_sec>
+      </iotune>
+      <geometry cyls="16383" heads="16" secs="63" trans="lba"/>
+      <readonly/>
+    </disk>
+    <disk type="file" device="disk">
+      <driver name="qemu" type="qcow2" discard="unmap"/>
+      <source file="/var/lib/libvirt/images/fedora.qcow2"/>
+      <target dev="vdc" bus="virtio"/>
+    </disk>
+    <disk type="block" device="lun" sgio="filtered" rawio="yes">
+      <driver name="qemu" type="raw"/>
+      <source dev="/pool-iscsi/diskvol1"/>
+      <target dev="sdab" bus="scsi"/>
+      <iotune>
+        <total_bytes_sec>10</total_bytes_sec>
+        <total_iops_sec>20</total_iops_sec>
+      </iotune>
+    </disk>
+    <disk type="file" device="disk">
+      <driver name="qemu" type="raw"/>
+      <source file="/pool-dir/iso-vol">
+        <seclabel model="dac">
+          <label>foo,bar,baz</label>
+        </seclabel>
+        <seclabel model="selinux" relabel="no"/>
+      </source>
+      <target dev="vdd" bus="virtio"/>
+      <iotune>
+        <read_bytes_sec>1</read_bytes_sec>
+        <write_bytes_sec>5</write_bytes_sec>
+        <read_iops_sec>2</read_iops_sec>
+        <write_iops_sec>6</write_iops_sec>
+      </iotune>
+    </disk>
+    <disk type="file" device="disk">
+      <driver name="qemu" type="raw"/>
+      <source file="/pool-dir/iso-vol" startupPolicy="optional"/>
+      <target dev="vde" bus="virtio"/>
+      <iotune>
+        <total_bytes_sec>10</total_bytes_sec>
+        <total_iops_sec>20</total_iops_sec>
+      </iotune>
+    </disk>
+    <disk type="volume" device="disk">
+      <driver name="qemu" type="raw"/>
+      <source volume="some-rbd-vol" pool="pool-rbd-ceph"/>
+      <target dev="vdf" bus="virtio"/>
+    </disk>
+    <disk type="network" device="disk">
+      <driver name="qemu" type="raw" discard="unmap" detect_zeroes="unmap" io="native" error_policy="stop"/>
+      <auth username="admin">
+        <secret type="ceph" uuid="f65cc5a8-b77b-4254-9030-d50a528fb456"/>
+      </auth>
+      <source protocol="rbd" name="rbd-sourcename/fedora">
+        <host name="ceph-mon-1.example.com" port="6789"/>
+        <host name="ceph-mon-2.example.com" port="6789"/>
+        <host name="ceph-mon-3.example.com" port="6789"/>
+      </source>
+      <target dev="vdg" bus="virtio"/>
+    </disk>
+    <disk type="network" device="disk">
+      <driver name="qemu"/>
+      <source protocol="http" name="/path/to/my/file">
+        <host name="example.com" port="8000"/>
+      </source>
+      <target dev="vdh" bus="virtio"/>
+    </disk>
+    <disk type="network" device="disk">
+      <driver name="qemu"/>
+      <source protocol="http" name="/path/to/my/file">
+        <host name="exampl2.com" port="8000"/>
+      </source>
+      <target dev="vdi" bus="virtio"/>
+    </disk>
+    <disk type="network" device="disk" snapshot="no">
+      <driver name="qemu"/>
+      <source protocol="nbd">
+        <host transport="unix" socket="/tmp/socket"/>
+      </source>
+      <target dev="vdj" bus="virtio"/>
+    </disk>
+    <disk type="network" device="disk">
+      <driver name="qemu"/>
+      <source protocol="nbd">
+        <host transport="unix" socket="/tmp/socket"/>
+      </source>
+      <target dev="sdz" bus="scsi" rotation_rate="5000"/>
+      <blockio logical_block_size="512" physical_block_size="512"/>
+    </disk>
+    <disk type="network" device="disk">
+      <driver name="qemu"/>
+      <source protocol="gluster" name="test-volume/some/dir/test-gluster.qcow2">
+        <host name="192.168.1.100"/>
+      </source>
+      <target dev="vdk" bus="virtio"/>
+    </disk>
+    <disk type="network" device="disk">
+      <driver name="qemu"/>
+      <source protocol="nbd">
+        <host transport="unix" socket="/var/foo/bar/socket"/>
+      </source>
+      <target dev="sdac" bus="usb" removable="on"/>
+      <address type="usb" bus="0" port="2"/>
+    </disk>
+    <disk type="network" device="disk">
+      <driver name="qemu"/>
+      <source protocol="http" name="my/path" query="query=foo">
+        <host name="1:2:3:4:1:2:3:4" port="5522"/>
+      </source>
+      <target dev="vdl" bus="virtio"/>
+    </disk>
+    <disk type="network" device="disk">
+      <driver name="qemu" type="raw"/>
+      <source protocol="gluster" name="test-volume/some/dir/test-gluster.raw">
+        <host name="192.168.1.100"/>
+      </source>
+      <target dev="vdm" bus="virtio"/>
+    </disk>
+    <disk type="dir" device="floppy" snapshot="no">
+      <driver name="qemu"/>
+      <source dir="/var"/>
+      <target dev="fda" bus="fdc"/>
+    </disk>
+    <disk type="file" device="disk">
+      <driver name="qemu" type="qcow2" discard="unmap"/>
+      <source file="/pool-dir/new2.img"/>
+      <target dev="sdad" bus="usb" removable="on"/>
+    </disk>
+    <disk type="file" device="disk">
+      <driver name="qemu" type="qcow2" discard="unmap"/>
+      <source file="/tmp/brand-new.img"/>
+      <target dev="vdn" bus="virtio"/>
+      <boot order="10" loadparm="5"/>
+    </disk>
+    <disk type="block" device="lun">
+      <driver name="qemu" type="raw"/>
+      <source dev="/dev/pool-logical/diskvol7">
+        <reservations managed="no">
+          <source type="unix" path="/var/run/test/pr-helper0.sock" mode="client"/>
+        </reservations>
+      </source>
+      <target dev="sdae" bus="scsi" rotation_rate="6000"/>
+    </disk>
+    <disk type="network" device="disk">
+      <driver name="qemu" type="raw"/>
+      <source protocol="iscsi" name="iqn.2017-12.com.virttest:emulated-iscsi-noauth.target2-lun-1">
+        <host name="10.66.144.87"/>
+      </source>
+      <target dev="vdo" bus="virtio"/>
+    </disk>
+    <disk type="file" device="disk">
+      <driver name="qemu" type="raw" discard="unmap"/>
+      <source file="/var/lib/libvirt/images/fedora.img"/>
+      <target dev="vdp" bus="virtio"/>
+      <transient shareBacking="yes"/>
+    </disk>
+    <disk type="block" device="disk">
+      <driver name="qemu" type="raw" cache="none" discard="unmap" io="native"/>
+      <source dev="/dev/pool-logical/fedora"/>
+      <target dev="vdq" bus="virtio"/>
+    </disk>
+    <disk type="dir" device="disk">
+      <driver name="qemu" type="qcow2"/>
+      <source dir="/pool-dir/testvol1.img"/>
+      <target dev="vdr" bus="virtio"/>
+    </disk>
+    <disk type="file" device="disk">
+      <driver name="qemu" type="qcow2" discard="unmap"/>
+      <source file="/fooroot.img"/>
+      <target dev="vds" bus="virtio"/>
+      <transient/>
+    </disk>
+    <disk type="dir" device="disk">
+      <driver name="qemu"/>
+      <source dir="/"/>
+      <target dev="vdt" bus="virtio"/>
+    </disk>
+    <disk type="nvme" device="disk">
+      <source type="pci" managed="no" namespace="2">
+        <address domain="1" bus="2" slot="0" function="0"/>
+      </source>
+      <target dev="vdu" bus="virtio"/>
+    </disk>
+    <disk type="file" device="disk">
+      <driver name="qemu" type="qcow2" discard="unmap">
+        <metadata_cache>
+          <max_size unit="KiB">2048</max_size>
+        </metadata_cache>
+      </driver>
+      <source file="/tmp/disk1.qcow2"/>
+      <target dev="vdv" bus="virtio"/>
+    </disk>
+    <disk type="file" device="disk">
+      <driver name="qemu" type="qcow2" discard="unmap" discard_no_unref="on"/>
+      <source file="/tmp/disk2.qcow2"/>
+      <target dev="vdw" bus="virtio"/>
+    </disk>
+    <disk type="file" device="disk">
+      <driver name="qemu" type="qcow2" discard="unmap"/>
+      <source file="/tmp/disk3.qcow2"/>
+      <target dev="vdx" bus="virtio"/>
+      <blockio discard_granularity="4096"/>
+    </disk>
+    <controller type="usb" index="0" model="ich9-ehci1">
+      <address type="pci" domain="0" bus="0" slot="4" function="7"/>
+    </controller>
+    <controller type="usb" index="0" model="ich9-uhci1">
+      <master startport="0"/>
+      <address type="pci" domain="0" bus="0" slot="4" function="0" multifunction="on"/>
+    </controller>
+    <controller type="usb" index="0" model="ich9-uhci2">
+      <master startport="2"/>
+      <address type="pci" domain="0" bus="0" slot="4" function="1"/>
+    </controller>
+    <controller type="usb" index="0" model="ich9-uhci3">
+      <master startport="4"/>
+      <address type="pci" domain="0" bus="0" slot="4" function="2"/>
+    </controller>
+    <controller type="scsi" model="virtio-scsi" vectors="15">
+      <driver queues="4" iothread="2"/>
+    </controller>
+    <controller type="xenbus" maxGrantFrames="64"/>
+    <controller type="pci" index="0" model="pcie-root-port">
+      <target chassis="1" port="1" hotplug="off"/>
+    </controller>
+    <controller type="pci" index="1" model="pci-root">
+      <target index="1"/>
+    </controller>
+    <controller type="pci" index="2" model="pci-bridge">
+      <target chassisNr="1" memReserve="8196"/>
+    </controller>
+    <controller type="pci" index="3" model="pci-expander-bus">
+      <target busNr="252">
+        <node>1</node>
+      </target>
+    </controller>
+    <controller type="usb" model="qemu-xhci" ports="15"/>
+    <controller type="scsi" model="virtio-scsi"/>
+    <controller type="usb" model="ich9-ehci1"/>
+    <controller type="usb" model="ich9-uhci1">
+      <master startport="0"/>
+    </controller>
+    <controller type="usb" model="ich9-uhci2">
+      <master startport="2"/>
+    </controller>
+    <controller type="usb" model="ich9-uhci3">
+      <master startport="4"/>
+    </controller>
+    <filesystem type="mount" accessmode="mapped">
+      <driver ats="on" iommu="off" packed="on" page_per_vq="off"/>
+      <alias name="testfsalias"/>
+      <source dir="/source"/>
+      <target dir="/target"/>
+    </filesystem>
+    <filesystem type="template" accessmode="passthrough">
+      <source name="template_name"/>
+      <target dir="/"/>
+    </filesystem>
+    <filesystem type="file" accessmode="squash">
+      <source file="/tmp/somefile.img"/>
+      <target dir="/mount/point"/>
+      <driver format="qcow2" type="path" wrpolicy="immediate"/>
+    </filesystem>
+    <filesystem type="mount" accessmode="mapped">
+      <target dir="/"/>
+      <source dir="/"/>
+    </filesystem>
+    <filesystem type="template" accessmode="mapped">
+      <target dir="/"/>
+      <source name="foo"/>
+    </filesystem>
+    <filesystem type="file" accessmode="mapped">
+      <target dir="/"/>
+      <source file="foo.img"/>
+    </filesystem>
+    <filesystem type="volume" accessmode="mapped" model="virtio" multidevs="remap">
+      <readonly/>
+      <space_hard_limit>1234</space_hard_limit>
+      <space_soft_limit>500</space_soft_limit>
+      <source pool="pool1" volume="vol" socket="/tmp/foo.sock"/>
+      <target dir="/foo"/>
+      <binary path="/foo/virtiofsd" xattr="off">
+        <cache mode="always"/>
+        <lock posix="off" flock="on"/>
+        <sandbox mode="chroot"/>
+      </binary>
+      <driver name="virtiofs" queue="3"/>
+    </filesystem>
+    <filesystem type="block" accessmode="mapped">
+      <source dev="/dev/foo"/>
+      <target dir="/"/>
+    </filesystem>
+    <filesystem type="ram" accessmode="mapped">
+      <target dir="/"/>
+      <source units="MiB" usage="1024"/>
+    </filesystem>
+    <filesystem type="mount" accessmode="mapped" fmode="0123" dmode="0345">
+      <source dir="/foo/source"/>
+      <target dir="/bar/target"/>
+    </filesystem>
+    <filesystem type="mount">
+      <source dir="/foo1"/>
+      <target dir="/bar1"/>
+      <driver type="virtiofs"/>
+    </filesystem>
+    <interface type="user">
+      <source portgroup="foo"/>
+      <mac address="12:34:56:78:11:22"/>
+      <model type="virtio"/>
+      <rom bar="on" file="/tmp/foo"/>
+      <link state="down"/>
+    </interface>
+    <interface type="bridge">
+      <source bridge="foobar" portgroup="foo"/>
+      <mac address="00:11:22:33:44:55"/>
+      <model type="virtio"/>
+      <filterref filter="foobar"/>
+      <rom bar="off" file="/some/rom"/>
+      <driver name="qemu" queues="3"/>
+    </interface>
+    <interface type="bridge">
+      <source bridge="ovsbr"/>
+      <mac address="00:11:22:33:44:55"/>
+      <target dev="mytargetname"/>
+      <model type="virtio"/>
+      <virtualport type="openvswitch">
+        <parameters profileid="demo" interfaceid="09b11c53-8b5c-4eeb-8f00-d84eaa0aaa3b"/>
+      </virtualport>
+      <filterref filter="filterbar"/>
+      <link state="up"/>
+      <driver name="qemu" queues="3"/>
+    </interface>
+    <interface type="direct" trustGuestRxFilters="yes">
+      <source dev="eth5" mode="vepa"/>
+      <mac address="00:11:22:33:44:55"/>
+      <target dev="mytap12"/>
+      <model type="virtio"/>
+      <virtualport type="802.1Qbg">
+        <parameters managerid="12" typeid="1193046" typeidversion="1" instanceid="09b11c53-8b5c-4eeb-8f00-d84eaa0aaa3b"/>
+      </virtualport>
+      <mtu size="1500"/>
+      <boot order="1"/>
+    </interface>
+    <interface type="user">
+      <mac address="00:11:22:33:44:55"/>
+      <model type="virtio"/>
+      <address type="spapr-vio" reg="0x500"/>
+      <link state="down"/>
+    </interface>
+    <interface type="vhostuser">
+      <source type="unix" path="/tmp/vhost1.sock" mode="server"/>
+      <mac address="00:11:22:33:44:55"/>
+      <model type="virtio"/>
+      <address type="pci" domain="0" bus="0" slot="16" function="0"/>
+    </interface>
+    <interface type="vdpa">
+      <source dev="/dev/vhost-vdpa-0"/>
+      <mac address="12:34:56:78:9a:bc"/>
+      <model type="virtio"/>
+      <driver page_per_vq="on" queues="16"/>
+    </interface>
+    <interface type="user">
+      <mac address="00:11:22:33:44:55"/>
+      <model type="virtio"/>
+      <address type="ccw" cssid="0xfe" ssid="0" devno="01"/>
+      <boot order="15" loadparm="SYSTEM1"/>
+    </interface>
+    <interface type="bridge">
+      <source bridge="testsuitebr0"/>
+      <mac address="00:11:22:33:44:55"/>
+      <model type="vmxnet3"/>
+    </interface>
+    <interface type="user">
+      <backend type="passt" logFile="/tmp/foo.log"/>
+      <mac address="00:11:22:33:44:55"/>
+      <model type="virtio"/>
+      <portForward proto="tcp" address="192.168.10.10" dev="eth0">
+        <range start="4000" end="5000" to="10000" exclude="no"/>
+        <range start="6000"/>
+      </portForward>
+      <portForward proto="tcp">
+        <range start="2022" to="22"/>
+      </portForward>
+    </interface>
+    <interface type="user">
+      <backend type="passt"/>
+      <mac address="00:11:22:33:44:55"/>
+      <model type="virtio"/>
+      <portForward proto="tcp">
+        <range start="8080" to="80"/>
+      </portForward>
+    </interface>
+    <interface type="user">
+      <backend type="passt"/>
+      <mac address="00:11:22:33:44:55"/>
+      <model type="virtio"/>
+      <portForward proto="tcp">
+        <range start="8080"/>
+      </portForward>
+    </interface>
+    <interface type="user">
+      <backend type="passt"/>
+      <mac address="00:11:22:33:44:55"/>
+      <model type="virtio"/>
+      <portForward proto="udp">
+        <range start="7000" end="8000"/>
+      </portForward>
+      <portForward proto="tcp" address="127.0.0.1">
+        <range start="2222" to="22"/>
+      </portForward>
+    </interface>
+    <interface type="user">
+      <backend type="passt"/>
+      <mac address="00:11:22:33:44:55"/>
+      <model type="virtio"/>
+      <portForward proto="tcp" address="2001:db8:ac10:fd01::1:10">
+        <range start="3000" end="4000" to="30"/>
+      </portForward>
+      <portForward proto="tcp" address="127.0.0.1">
+        <range start="5000" end="6000" to="5"/>
+      </portForward>
+    </interface>
+    <interface type="hostdev">
+      <mac address="00:11:22:33:44:55"/>
+      <model type="virtio"/>
+      <source>
+        <address type="pci" domain="0" bus="0" slot="7" function="0"/>
+      </source>
+    </interface>
+    <interface type="hostdev" managed="yes">
+      <mac address="00:11:22:33:44:55"/>
+      <model type="virtio"/>
+      <source>
+        <address type="pci" domain="0" bus="0" slot="9" function="0"/>
+      </source>
+    </interface>
+    <interface type="hostdev" managed="yes">
+      <mac address="00:11:22:33:44:55"/>
+      <model type="virtio"/>
+      <source>
+        <address type="pci" domain="0" bus="0" slot="4" function="0"/>
+      </source>
+    </interface>
+    <smartcard mode="passthrough" type="spicevmc"/>
+    <smartcard mode="host" type="tcp"/>
+    <smartcard mode="passthrough" type="spicevmc"/>
+    <smartcard mode="passthrough" type="tcp">
+      <source mode="bind" host="1.2.3.4" service="5678"/>
+      <protocol type="telnet"/>
+    </smartcard>
+    <smartcard mode="host-certificates" type="spicevmc">
+      <database>/fake/path/to/database</database>
+      <certificate>/path/to/fake/cert0</certificate>
+      <certificate>/path/to/fake/cert1</certificate>
+      <certificate>/path/to/fake/cert2</certificate>
+    </smartcard>
+    <serial type="tcp">
+      <source mode="bind" host="127.0.0.1" service="2222" tls="yes"/>
+      <protocol type="telnet"/>
+      <log file="/tmp/foo.log" append="on"/>
+      <target>
+        <model name="pci-serial"/>
+      </target>
+    </serial>
+    <serial type="nmdm">
+      <source master="/dev/foo1" slave="/dev/foo2"/>
+      <alias name="testalias7"/>
+    </serial>
+    <serial type="spiceport">
+      <source channel="org.qemu.console.serial.0"/>
+    </serial>
+    <parallel type="udp">
+      <source mode="bind" host="127.0.0.1" service="1234"/>
+      <source mode="connect" host="0.0.0.0" service="1234"/>
+    </parallel>
+    <parallel type="udp">
+      <source mode="bind" host="127.0.0.1" service="7777"/>
+      <source mode="connect" host="127.0.0.2" service="8888"/>
+    </parallel>
+    <parallel type="unix">
+      <source mode="bind" path="/tmp/foo-socket">
+        <seclabel model="none" relabel="no"/>
+        <seclabel model="dac" relabel="yes">
+          <label>foobar</label>
+        </seclabel>
+      </source>
+    </parallel>
+    <console type="pty">
+      <target type="virtio"/>
+    </console>
+    <channel type="pty">
+      <target type="guestfwd" address="127.0.0.1" port="10000"/>
+    </channel>
+    <channel type="pty">
+      <target type="guestfwd" address="127.0.0.1" port="1234"/>
+    </channel>
+    <channel type="pty">
+      <target type="virtio" name="org.linux-kvm.port1"/>
+    </channel>
+    <channel type="pty">
+      <target type="virtio" name="org.linux-kvm.port2"/>
+    </channel>
+    <channel type="spicevmc">
+      <target type="virtio" name="com.redhat.spice.0"/>
+    </channel>
+    <channel type="qemu-vdagent">
+      <source>
+        <clipboard copypaste="yes"/>
+        <mouse mode="client"/>
+      </source>
+      <target type="virtio" name="com.redhat.spice.0"/>
+    </channel>
+    <input type="keyboard" bus="usb"/>
+    <input type="tablet"/>
+    <input type="mouse"/>
+    <input type="mouse" bus="virtio" model="virtio-non-transitional"/>
+    <input type="passthrough" bus="virtio">
+      <source evdev="/dev/input/event1"/>
+    </input>
+    <input type="evdev">
+      <source dev="/dev/input/event1234" repeat="on" grab="all" grabToggle="ctrl-ctrl"/>
+    </input>
+    <input type="keyboard" bus="usb">
+      <address type="usb"/>
+      <randomelement/>
+    </input>
+    <tpm model="tpm-crb">
+      <backend type="passthrough" version="2.0" persistent_state="yes">
+        <device path="/dev/tpm0"/>
+        <encryption secret="11111111-2222-3333-4444-5555555555"/>
+        <active_pcr_banks>
+          <sha1/>
+          <sha256/>
+          <sha384/>
+          <sha512/>
+        </active_pcr_banks>
+      </backend>
+    </tpm>
+    <tpm model="tpm-tis">
+      <backend type="emulator" version="2.0" debug="3">
+        <source type="dir" path="/some/dir"/>
+        <profile source="local:mytest" removeDisabled="check"/>
+      </backend>
+    </tpm>
+    <graphics type="sdl" display=":3.4" xauth="/tmp/.Xauthority">
+      <ab>cd</ab>
+    </graphics>
+    <graphics type="spice" port="-1" tlsPort="-1" autoport="yes" ef="hg">
+      <image compression="off"/>
+    </graphics>
+    <graphics type="vnc" port="5950" keymap="ja" listen="1.2.3.4" passwd="foo"/>
+    <graphics type="vnc" port="5950" websocket="15950" keymap="ja" listen="1.2.3.4" passwd="foo"/>
+    <graphics type="vnc" port="5950" websocket="-1" keymap="ja" listen="1.2.3.4" passwd="foo"/>
+    <graphics type="spice" port="5950" tlsPort="5950" keymap="ja" listen="1.2.3.4">
+      <image compression="off"/>
+    </graphics>
+    <graphics type="spice" port="-1" tlsPort="-1" autoport="yes">
+      <image compression="glz"/>
+      <streaming mode="filter"/>
+      <clipboard copypaste="yes"/>
+      <mouse mode="client"/>
+      <filetransfer enable="yes"/>
+      <zlib compression="always"/>
+    </graphics>
+    <graphics type="spice" tlsPort="6000" passwd="testpass" passwdValidTo="2010-04-09T15:51:01" defaultMode="insecure">
+      <gl enable="yes" rendernode="/dev/dri/by-path/pci-0000:00:02.0-render"/>
+      <image compression="glz"/>
+      <streaming mode="filter"/>
+      <clipboard copypaste="yes"/>
+      <mouse mode="client"/>
+      <filetransfer enable="yes"/>
+      <listen type="socket"/>
+    </graphics>
+    <graphics type="spice">
+      <gl enable="yes" rendernode="/dev/dri/by-path/pci-0000:00:02.0-render"/>
+      <image compression="off"/>
+      <listen type="none"/>
+    </graphics>
+    <graphics type="spice">
+      <gl enable="yes" rendernode="/dev/dri/foo2"/>
+      <image compression="off"/>
+      <listen type="none"/>
+    </graphics>
+    <graphics type="spice" port="-1" tlsPort="-1" autoport="yes" connected="disconnect">
+      <image compression="off"/>
+      <listen type="address" address="1.2.3.4"/>
+    </graphics>
+    <graphics type="spice" port="-1" tlsPort="-1" autoport="yes">
+      <image compression="off"/>
+      <listen type="network" network="default"/>
+    </graphics>
+    <graphics type="spice">
+      <image compression="off"/>
+      <listen type="socket" socket="/tmp/foobar"/>
+    </graphics>
+    <sound model="ich9"/>
+    <sound model="ac97"/>
+    <sound model="ich9">
+      <codec type="micro"/>
+      <codec type="duplex"/>
+      <codec type="output"/>
+    </sound>
+    <sound model="usb" multichannel="yes"/>
+    <audio type="spice" id="1"/>
+    <audio type="pulseaudio" id="2"/>
+    <video>
+      <model type="cirrus"/>
+    </video>
+    <video>
+      <model type="qxl" vram="3" heads="4" vgamem="1" ram="2" vram64="65">
+        <acceleration accel3d="yes"/>
+      </model>
+    </video>
+    <video>
+      <model type="qxl" vram="3" heads="4" vgamem="1" ram="2" vram64="65">
+        <acceleration accel3d="yes"/>
+      </model>
+    </video>
+    <video>
+      <model type="virtio" blob="on">
+        <acceleration accel3d="yes"/>
+      </model>
+    </video>
+    <hostdev mode="subsystem" type="pci" managed="yes">
+      <source>
+        <address domain="0" bus="0" slot="25" function="0"/>
+      </source>
+      <rom bar="off"/>
+      <boot order="4"/>
+    </hostdev>
+    <hostdev mode="subsystem" type="usb" managed="yes">
+      <source>
+        <vendor id="0x0781"/>
+        <product id="0x5151"/>
+      </source>
+    </hostdev>
+    <hostdev mode="subsystem" type="usb" managed="yes">
+      <source>
+        <vendor id="0x04b3"/>
+        <product id="0x4485"/>
+      </source>
+    </hostdev>
+    <hostdev mode="subsystem" type="pci" managed="yes">
+      <source>
+        <address domain="0" bus="21" slot="0" function="1"/>
+      </source>
+    </hostdev>
+    <hostdev mode="subsystem" type="pci" managed="yes">
+      <source>
+        <address domain="2" bus="21" slot="0" function="2"/>
+      </source>
+    </hostdev>
+    <hostdev mode="subsystem" type="pci" managed="yes">
+      <source>
+        <address domain="0" bus="21" slot="0" function="3"/>
+      </source>
+      <address type="pci">
+        <zpci uid="0xffff" fid="0xffffffff"/>
+      </address>
+    </hostdev>
+    <hostdev mode="subsystem" type="usb" managed="yes">
+      <source>
+        <vendor id="0x062a"/>
+        <product id="0x0001"/>
+      </source>
+      <driver name="vfio"/>
+    </hostdev>
+    <hostdev mode="subsystem" type="usb" managed="yes">
+      <source>
+        <vendor id="0x0483"/>
+        <product id="0x2016"/>
+      </source>
+    </hostdev>
+    <hostdev mode="subsystem" type="scsi" managed="no">
+      <source>
+        <adapter name="scsi_host0"/>
+        <address bus="0" target="0" unit="0"/>
+      </source>
+      <rom bar="on"/>
+    </hostdev>
+    <hostdev mode="subsystem" type="usb" managed="yes">
+      <source>
+        <vendor id="0x03f0"/>
+        <product id="0x7e04"/>
+        <address bus="1" device="20"/>
+      </source>
+    </hostdev>
+    <hostdev mode="subsystem" type="usb" managed="yes">
+      <source>
+        <vendor id="0x03f0"/>
+        <product id="0x7e04"/>
+        <address bus="1" device="21"/>
+      </source>
+    </hostdev>
+    <hostdev mode="capabilities" type="net" managed="yes">
+      <source>
+        <interface>wlan0</interface>
+      </source>
+    </hostdev>
+    <hostdev mode="capabilities" type="storage" managed="yes">
+      <source>
+        <block>/dev/vdz</block>
+      </source>
+    </hostdev>
+    <hostdev mode="capabilities" type="misc" managed="yes">
+      <source>
+        <char>/dev/pty7</char>
+      </source>
+    </hostdev>
+    <hostdev mode="subsystem" type="usb" managed="yes">
+      <source startupPolicy="optional">
+        <vendor id="0x0781"/>
+        <product id="0x5567"/>
+      </source>
+    </hostdev>
+    <redirdev bus="usb" type="spicevmc"/>
+    <redirdev bus="usb" type="tcp">
+      <source host="localhost" service="4000"/>
+    </redirdev>
+    <redirdev bus="usb" type="tcp">
+      <source host="127.0.0.1" service="4002"/>
+      <boot order="3"/>
+    </redirdev>
+    <redirdev bus="usb" type="spicevmc"/>
+    <redirdev bus="usb" type="unix">
+      <source path="/tmp/foo.socket"/>
+      <log file="/tmp/123.log"/>
+    </redirdev>
+    <watchdog model="ib700" action="pause"/>
+    <memballoon model="virtio" autodeflate="on" freePageReporting="on">
+      <stats period="10"/>
+    </memballoon>
+    <rng model="virtio">
+      <backend model="random">/dev/random</backend>
+    </rng>
+    <rng model="virtio">
+      <backend model="random">/dev/urandom</backend>
+    </rng>
+    <rng model="virtio">
+      <backend model="egd" type="nmdm">
+        <source master="/dev/foo1" slave="/dev/foo2"/>
+      </backend>
+    </rng>
+    <rng model="virtio">
+      <backend model="egd" type="udp">
+        <source mode="bind" host="127.0.0.1" service="8000"/>
+        <source mode="connect" host="foo" service="708"/>
+      </backend>
+      <rate bytes="1234" period="1000"/>
+    </rng>
+    <panic>
+      <address type="isa" iobase="0x500" irq="5"/>
+    </panic>
+    <shmem name="shmem0" role="master">
+      <model type="ivshmem-plain"/>
+      <size unit="M">8</size>
+    </shmem>
+    <shmem name="my_shmem0" role="peer">
+      <model type="ivshmem-plain"/>
+      <size unit="M">4</size>
+    </shmem>
+    <shmem name="shmem_server">
+      <model type="ivshmem-doorbell"/>
+      <size unit="M">2</size>
+      <server path="/tmp/socket-shmemm"/>
+      <msi vectors="32" ioeventfd="on"/>
+    </shmem>
+    <vsock model="virtio">
+      <cid address="17"/>
+    </vsock>
+    <iommu model="intel">
+      <driver aw_bits="48" intremap="off" caching_mode="on" eim="off" iotlb="off"/>
+    </iommu>
+    <pstore backend="acpi-erst">
+      <path>/tmp/guest_acpi_esrt</path>
+      <size>8</size>
+    </pstore>
+  </devices>
+  <launchSecurity type="sev" kernelHashes="yes">
+    <cbitpos>47</cbitpos>
+    <reducedPhysBits>1</reducedPhysBits>
+    <policy>0x0001</policy>
+    <session>BASE64SESSION</session>
+    <dhCert>BASE64CERT</dhCert>
+  </launchSecurity>
+  <seclabel type="static" model="selinux" relabel="yes">
+    <label>system_u:object_r:svirt_image_t:s0:c100,c200</label>
+    <baselabel>baselabel</baselabel>
+  </seclabel>
+  <seclabel type="dynamic" model="dac">
+    <label>012:345</label>
+  </seclabel>
+  <keywrap>
+    <cipher name="aes" state="on"/>
+  </keywrap>
+  <on_lockfailure>ignore</on_lockfailure>
+  <cputune>
+    <shares>2048</shares>
+    <period>1000000</period>
+    <quota>-1</quota>
+    <global_period>1000000</global_period>
+    <global_quota>-1</global_quota>
+    <emulator_period>1000000</emulator_period>
+    <emulator_quota>-1</emulator_quota>
+    <iothread_period>1000000</iothread_period>
+    <iothread_quota>-1</iothread_quota>
+    <vcpupin vcpu="0" cpuset="0-3"/>
+    <emulatorpin cpuset="1,7"/>
+    <iothreadpin iothread="1" cpuset="1,7"/>
+    <emulatorsched scheduler="rr" priority="99"/>
+    <vcpusched vcpus="0-3,^2" scheduler="fifo" priority="95"/>
+    <iothreadsched iothreads="1,2" scheduler="fifo" priority="90"/>
+    <cachetune vcpus="0-3">
+      <cache id="0" level="3" type="both" size="3" unit="MiB"/>
+      <cache id="1" level="3" type="both" size="3" unit="MiB"/>
+      <monitor level="3" vcpus="2"/>
+      <monitor level="3" vcpus="0-3,^2"/>
+    </cachetune>
+    <cachetune vcpus="4-5">
+      <monitor level="3" vcpus="4"/>
+      <monitor level="3" vcpus="5"/>
+    </cachetune>
+    <memorytune vcpus="0-3">
+      <node id="0" bandwidth="60"/>
+    </memorytune>
+  </cputune>
+  <qemu:commandline xmlns:qemu="http://libvirt.org/schemas/domain/qemu/1.0">
+    <qemu:arg value="-display"/>
+    <qemu:arg value="gtk,gl=on"/>
+    <qemu:arg value="-device"/>
+    <qemu:arg value="vfio-pci,addr=05.0,sysfsdev=/sys/class/mdev_bus/0000:00:02.0/f321853c-c584-4a6b-b99a-3eee22a3919c"/>
+    <qemu:arg value="-set"/>
+    <qemu:arg value="device.video0.driver=virtio-vga"/>
+    <qemu:arg value="-foo"/>
+    <qemu:arg value="bar"/>
+    <qemu:env name="DISPLAY" value=":0.1"/>
+  </qemu:commandline>
+  <baz>wib</baz>
+  <deleteme/>
+  <t1>
+    <t2 foo="123"/>
+  </t1>
+  <barenode/>
+</domain>

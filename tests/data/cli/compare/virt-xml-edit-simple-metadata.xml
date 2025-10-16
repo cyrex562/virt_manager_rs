@@ -1,0 +1,26 @@
+ <domain type="test">
+-  <name>test-for-virtxml</name>
+-  <uuid>12345678-12f4-1234-1234-123456789012</uuid>
+-  <description>Test VM for virtxml cli tests
+-  </description>
++  <name>foo-my-new-name</name>
++  <uuid>12345678-12F4-1234-1234-123456789AFA</uuid>
++  <description>hey this is my
++new
++very,very=new desc'</description>
+   <metadata>
+     <libosinfo:libosinfo xmlns:libosinfo="http://libosinfo.org/xmlns/libvirt/domain/1.0">
+-      <libosinfo:os id="http://fedoraproject.org/fedora/27"/>
++      <libosinfo:os id="http://fedoraproject.org/fedora/13"/>
+     </libosinfo:libosinfo>
+   </metadata>
+   <memory unit="KiB">4194304</memory>
+@@
+     <dhCert>AQAAAAAOAAAAQAAAAAOAAAAQAAAAAOAAAAQAAAAAOAAAAQAAAAAOAAA</dhCert>
+     <session>IHAVENOIDEABUTJUSTPROVIDINGASTRING</session>
+   </launchSecurity>
++  <title>This is my,funky=new title</title>
+ </domain>
+
+Domain 'foo-my-new-name' defined successfully.
+Changes will take effect after the domain is fully powered off.

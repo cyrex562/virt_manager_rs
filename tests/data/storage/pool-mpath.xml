@@ -1,0 +1,6 @@
+<pool type="mpath">
+  <name>pool-mpath</name>
+  <target>
+    <path>/dev/mapper</path>
+  </target>
+</pool>

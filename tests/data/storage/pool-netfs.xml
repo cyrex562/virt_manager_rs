@@ -1,0 +1,11 @@
+<pool type="netfs">
+  <name>pool-netfs</name>
+  <source>
+    <format type="auto"/>
+    <host name="some.random.hostname"/>
+    <dir path="/some/source/path"/>
+  </source>
+  <target>
+    <path>/var/lib/libvirt/images/pool-netfs</path>
+  </target>
+</pool>

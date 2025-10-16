@@ -1,0 +1,10 @@
+<pool type="fs">
+  <name>pool-fs</name>
+  <source>
+    <format type="auto"/>
+    <device path="/some/source/path"/>
+  </source>
+  <target>
+    <path>/var/lib/libvirt/images/pool-fs</path>
+  </target>
+</pool>

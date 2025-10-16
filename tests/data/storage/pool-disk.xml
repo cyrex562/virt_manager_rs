@@ -1,0 +1,9 @@
+<pool type="disk">
+  <name>pool-disk</name>
+  <source>
+    <device path="/some/source/path"/>
+  </source>
+  <target>
+    <path>/dev</path>
+  </target>
+</pool>

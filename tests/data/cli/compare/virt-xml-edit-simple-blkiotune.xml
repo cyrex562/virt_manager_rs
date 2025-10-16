@@ -1,0 +1,16 @@
+   <memory unit="KiB">4194304</memory>
+   <currentMemory unit="KiB">4194304</currentMemory>
+   <blkiotune>
+-    <weight>100</weight>
++    <weight>500</weight>
+     <device>
+-      <path>/dev/sdd</path>
+-      <weight>200</weight>
++      <path>/dev/sdf</path>
++      <weight>600</weight>
+     </device>
+   </blkiotune>
+   <memoryBacking>
+
+Domain 'test-for-virtxml' defined successfully.
+Changes will take effect after the domain is fully powered off.

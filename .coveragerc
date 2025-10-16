@@ -1,0 +1,14 @@
+[run]
+source=virtinst/
+
+[report]
+skip_covered = yes
+#omit=virtinst/_progresspriv.py
+
+exclude_lines =
+    # Have to re-enable the standard pragma
+    pragma: no cover
+
+    # Don't complain if tests don't hit defensive assertion code:
+    raise NotImplementedError
+    .*DevError.*

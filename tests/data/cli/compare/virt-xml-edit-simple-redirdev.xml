@@ -1,0 +1,13 @@
+       </source>
+       <address type="ccw" cssid="0xfe" ssid="0x0" devno="0x0002"/>
+     </hostdev>
+-    <redirdev bus="usb" type="tcp">
+-      <source mode="connect" host="localhost" service="4000"/>
++    <redirdev bus="usb" type="spicevmc">
++      <source mode="connect" host="example.com" service="12345"/>
+       <protocol type="raw"/>
+     </redirdev>
+     <redirfilter>
+
+Domain 'test-for-virtxml' defined successfully.
+Changes will take effect after the domain is fully powered off.

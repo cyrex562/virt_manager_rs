@@ -1,0 +1,63 @@
+<domain type="qemu">
+  <name>ubuntu13.10</name>
+  <uuid>00000000-1111-2222-3333-444444444444</uuid>
+  <metadata>
+    <libosinfo:libosinfo xmlns:libosinfo="http://libosinfo.org/xmlns/libvirt/domain/1.0">
+      <libosinfo:os id="http://ubuntu.com/ubuntu/13.10"/>
+    </libosinfo:libosinfo>
+  </metadata>
+  <memory>65536</memory>
+  <currentMemory>65536</currentMemory>
+  <vcpu>2</vcpu>
+  <os firmware="efi">
+    <type arch="x86_64" machine="pc-i440fx-6.1">hvm</type>
+    <boot dev="cdrom"/>
+  </os>
+  <features>
+    <acpi/>
+    <apic/>
+  </features>
+  <cpu mode="custom" match="exact">
+    <model>Penryn</model>
+    <feature policy="require" name="ibpb"/>
+    <feature policy="require" name="md-clear"/>
+    <feature policy="require" name="spec-ctrl"/>
+    <feature policy="require" name="ssbd"/>
+  </cpu>
+  <clock offset="utc">
+    <timer name="rtc" tickpolicy="catchup"/>
+    <timer name="pit" tickpolicy="delay"/>
+    <timer name="hpet" present="no"/>
+  </clock>
+  <pm>
+    <suspend-to-mem enabled="no"/>
+    <suspend-to-disk enabled="no"/>
+  </pm>
+  <devices>
+    <emulator>/usr/bin/qemu-system-x86_64</emulator>
+    <controller type="usb" model="ich9-ehci1"/>
+    <controller type="usb" model="ich9-uhci1">
+      <master startport="0"/>
+    </controller>
+    <controller type="usb" model="ich9-uhci2">
+      <master startport="2"/>
+    </controller>
+    <controller type="usb" model="ich9-uhci3">
+      <master startport="4"/>
+    </controller>
+    <interface type="bridge">
+      <source bridge="testsuitebr0"/>
+      <mac address="00:11:22:33:44:55"/>
+      <model type="virtio"/>
+    </interface>
+    <console type="pty"/>
+    <input type="tablet"/>
+    <tpm model="tpm-crb">
+      <backend type="emulator"/>
+    </tpm>
+    <graphics type="vnc" port="-1"/>
+    <video>
+      <model type="bochs"/>
+    </video>
+  </devices>
+</domain>
