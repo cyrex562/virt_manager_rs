@@ -4,9 +4,12 @@ version = "0.1.0"
 edition = "2024"
 
 [lib]
-crate-type = ["staticlib"]
+crate-type = ["rlib", "staticlib"]
 
 [dependencies]
 iced = { version = "0.13", features = ["tokio"] }
 log = "0.4"
 tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+quick-xml = { version = "0.31", features = ["serialize"] }
+tempfile = "3"
